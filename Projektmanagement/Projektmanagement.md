@@ -1,9 +1,9 @@
 <style>
     h1{
     color:red;
-    }
-    </style}
-
+    </style>
+    
+    
 # Projektmanagement
 **Projekte erfolgreich abwickeln**
 ## Was sind Merkmale eines Projektes?
