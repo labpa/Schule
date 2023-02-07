@@ -270,5 +270,3 @@ Denial of Service
 ### Brute-Force
 
 ### Bot-Netz
-
-
