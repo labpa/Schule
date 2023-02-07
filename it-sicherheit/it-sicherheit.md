@@ -1,4 +1,19 @@
 # IT-Sicherheit
+- [Grundlagen IT-Sicherheit](##  'Grundlagen IT-Sicherheit')
+	- [Was sind Informationen und Daten?](#thema1)
+	- [Cybercrime](#thema2)
+	- [Sicherheitspakete](#thema3)
+    - [Bedrohungen](#thema1)
+	- [Technische Schutzmaßnahmen](#thema2)
+- [Angreifer und ihre Motivation](#hauptteil)
+	- [Motivation für Angriffe](#thema1)
+	- [Potenzielle Angreifer im Intenet](#thema2)
+- [Häufigste Angriffe](#thema3)	
+    - [DOS und DDOS-Attacken](#schluss)
+    - [Malware, Virus Wurm und Trojaner](#test)
+    - [Spoofing]()
+    
+
 ## Grundlagen IT-Sicherheit
 **Mehrere Daten sind Informationen. Mehrere Informationen sind Wissen.**
 
@@ -170,12 +185,29 @@ Umfangreiche Möglichkeiten des Internets bieten hohe Potenziale für Spione und
 
 ### Malware - Virus, Wurm, Trojaner
 #### **Mal**icious Soft**ware**
-Bösartige Software - Software, die absichtlich entwickelt wurde, um Schäden an Computern, Netzwerken, Anwendungen, Diensten, ... anzurichten
++ Bösartige Software - Software, die absichtlich entwickelt wurde, um Schäden an Computern, Netzwerken, Anwendungen, Diensten, ... anzurichten
 + **Virus**  
 zerstörerisches Miniprogramm, das von den "indifizierten" Anwendungen oder Daten übertragen wird
 
 + **Wurm**  
 bösartige Software, die sich automatisch über offene Netzwerkverbindungen verbreitet.
+
+##### **Ziele:**
+
++ Einschränkung der Arbeitskapazität des Systems
++ Zerstörung oder Manipulation von Daten
++ Diebstahl von Passwörtern
++ Spionage und Sabotage
++ Erpressung
++ Fernsteuerung
++ ...
+##### Der weg zum Computer
+Malware- als eine der zentralen Waffen von Cyber-Kriminellen. Jedes Gerät und jedes Computersystem kann ein potenzielles Ziel für Malware sein. Kann sowohl Endanwender als auch Dienstanbieter infizieren. Potenziell sind Heimcomputer verwundbarer für Malware-Angriffe über das Internet. Malware sind besonders leicht für Angriffe nutzen. 
++ Cyber-Kriminelle entwickeln zunächst die Malware, um die Computersysteme der Opfer zu infizieren
++ Dann injizieren Cyberkriminelle die Malware in ein Medium, wie z.B. eine Anwendung oder E-Mail und senden die an potenzielle Opfer.
++ Sobald das Opfer auf den Datenträger zugreift, wird die Malware auf dem Computersystemen des Benutzers installiert.
+
+
 
 ### Spoofing und Phising
 #### Spoofing
@@ -217,6 +249,19 @@ Unter Abhören versteht man das unbefugte Schnüffeln-"Abhören" von Datenpakete
     + Passwort knacken
     + Passwort erraten
 
+
+### ARP-Spoofing
+**???**
+
+
+### Cache-poisoning / DNS-Spoofing
+DNS-Spoofing und Cache Poisoning sind IT-Sicherheitsangriffe auf das Domain Name System, um die Zuordnung zwischen einem Domainnamen und der zugehörigen IP-Adresse zu fälschen. Der Zweck ist es, Datenverkehr unbemerkt zu einem anderen Computer zu lenken, zum Beispiel um einen Phishing- oder Pharming-Angriff durchzuführen.
+**???**
+
+### DHCP Security Probleme
+**???**
+Falsche Netzwerkkonfigurationen werden verteilt.
+Denial of Service
 
 ### Port-Scanning
 ### Social Engineering
