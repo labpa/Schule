@@ -168,6 +168,54 @@ Umfangreiche Möglichkeiten des Internets bieten hohe Potenziale für Spione und
 #### Distributed Denial-of-Service
 + Denial-of-Service-Angriff, der von vielen verschiedenen Stationen im Internet, z.B. über ein Botnetz ausgeführt wird
 
+### Malware - Virus, Wurm, Trojaner
+#### **Mal**icious Soft**ware**
+Bösartige Software - Software, die absichtlich entwickelt wurde, um Schäden an Computern, Netzwerken, Anwendungen, Diensten, ... anzurichten
++ **Virus**  
+zerstörerisches Miniprogramm, das von den "indifizierten" Anwendungen oder Daten übertragen wird
+
++ **Wurm**  
+bösartige Software, die sich automatisch über offene Netzwerkverbindungen verbreitet.
+
+### Spoofing und Phising
+#### Spoofing
+Angreifer sendet Nachrichten mit einer gefälschten Absendeadresse, z.B. gefälschte IP-Adressen oder E-Mail-Adressen.
++ Zum Beispiel:
+    + CEO Betrug
+    + Der gefälschte CEO weist die Buchhaltung an, eine Zahlung an ein unbekanntes Bankkonto zu senden.
+Spoofing wird oft verwendet in Verbindung mit:
+#### Phishing
+"Social Engineering"-Methode, bei der Benutzer aufgefordert werden, ihre sensiblen Informationen wie z.B. Passwörter preiszugeben  
+
+Angreifer verwenden gefälschte E-Mails, Websites, Telefonanrufe,...
+
+### Defacement
+Angriffe auf eine Website oder einen Webserver mit der Absicht seine Inhalte zu verändern (De-face = das Gesicht verändern)
++ Verwendet für...
+    + Eigenwerbung von Hackergruppen, Blamagen von seriösen Diensten, ...
+    + Angriff auf die Verfügbarkeit von Diensten
+    + **Phishing von Benutzerdaten:**
+        + Benutzer erkennen nicht, dass es sich bei der Website um einen nichtz autorisierte Fälschung ist
+        + Angreifer können sensible persönliche Daten erlangen, wie Passwörter, Kreditkartennummern, ...
+
+### Sniffing and Eavesdropping
+#### Sniffing
+Sniffing ist eine Methode zur Netzwerkdiagnose durch "Abhören" des gesamten Netzwerkverkehrs. Administratoren können es nutzen, um Fehler im Netzwerkverkehr zu erkennen, z.B. mit Hilfe von Netzwerk-Sniffing-Software :**Wireshark**
+#### Eavesdropping (Lauschen)
+Unter Abhören versteht man das unbefugte Schnüffeln-"Abhören" von Datenpaketen auf ihrem Weg durch das Netzwerk.
++ Angreifer verbindet sich mit dem Netzwerk des Opfers um die IP-Pakete zu sammeln und zu analysieren, um persönliche Daten oder andere vertrauliche private Informationen zu erfassen.
++ Direktes Mitlesen von unverschlüsseltem Datenverkehr
++ Verschlüsselter Datenverkehr kann aufgezeichnet und später entschlüsselt werden
+
+### Weitere Angriffe auf Computersysteme
++ Nicht autorisierter physischer Zugriff auf das Computersystem
+    + Diebstahl von Laptops, Smartphones, ...
+    + Einbruch in Serverräumen
++ Social Engineering-Angriffe
+    + ... nicht nur um Passwörter wie in dem Beispiel von Phishing zu stehlen
++ Angriff zum Entschlüsseln persönlicher Daten
+    + Passwort knacken
+    + Passwort erraten
 
 
 ### Port-Scanning
@@ -175,7 +223,7 @@ Umfangreiche Möglichkeiten des Internets bieten hohe Potenziale für Spione und
 ### Ransomware
 ### KeyLogger
 ### Brute-Force
-### Virus
+
 ### Bot-Netz
 
 
