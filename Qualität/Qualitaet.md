@@ -2,7 +2,10 @@
 ## Qualität
 Qualität ist die Beschaffenheit einer Leistung hinsichtlich ihrer Übereinstimmung mit den gestellten Anforderungen von Kunden, vom Markt, vom Gesetzgeber und vom Unternehmer.
 ### Bedeutung der Qualität
+<br>
+
 ![Alt text](img/bedeutungQualitaet.png)
+
 Als Verbraucher haben wir aufgrung eigener Erfahrungen eine Vorstellung von Qualität. Ihre Bedeutung ist für jeden Einzelnen unterschiedlich ausgeprägt.
 
 Trotzdem stellt sich für jeden von uns ein wichtiges Kriterium bei dem Kauf bzw. bei der Verwendung eines Produktes oder der Inanspruchnahme einer Dienstleistung dar.
@@ -20,6 +23,7 @@ Das erforderte Produkt, die den Kunden anforderungen entsprechen, eine hohe Wirt
 <br>
 
 ![Alt text](img/eigenschaften.png)
+
 + Qualität ist nichts Absolutes
 + Qualität ist keine physikalische Größe
 + Qualität ist kein binärer Begriff
