@@ -17,11 +17,17 @@ Das erforderte Produkt, die den Kunden anforderungen entsprechen, eine hohe Wirt
     + Veränderungen der Technologien, Forschung und Wissenschaft, Industrie und Infrastrukturen
     + Know-how wird transparenter und zugänglicher
 ### Qualität und ihre Eigenschaften
+<br>
+
 ![Alt text](img/eigenschaften.png)
 + Qualität ist nichts Absolutes
 + Qualität ist keine physikalische Größe
 + Qualität ist kein binärer Begriff
+
+
 ![Alt text](img/einfluss.png)
+
+
 ### Normen
 Um eindeutige Aussagen über nahezu jegliche vom Menschen geplante Tätigkeiten und daraus resultierende Ergebnisse zu erzielen, werden Begriffe mit eindeutigen Benennungen und Beschreibungen benötigt.
 
@@ -118,16 +124,15 @@ Abhängig von:
 
 
 ##### Typische Fragen
-+ Wozu dient ein Audit?
++ Wozu dient ein Audit?  
 In einem Untersuchungsverfahren in dem Anforderungen abgeglichen werden, inwieweit diese erfüllt werden.
 Ziel für Auditoren ist schließlich die Überprüfung der Einhaltung der zugrunde liegenden Norm Anforderungen.
-+ Welche Auditarten kennen Sie?
++ Welche Auditarten kennen Sie?  
 Voraudit, Systemaudit, Prozessaudit, Produktaudit, Compliance Audit
-+ Ist das ISO-Zertifikat unbegrenzt gültig?
++ Ist das ISO-Zertifikat unbegrenzt gültig?  
 Nein. Es ist 3 Jahre gültig
-+ Auf welcher Idee basiert TQM?
++ Auf welcher Idee basiert TQM?  
 Qualität orientiert sich am Kunden. Qualität wird mit Mitarbeitern aller Bereiche und Ebenen erzielt. Qualität umfasst mehrere Dimensionen, die durch Kriterien operationalisiert werden müssen. Qualität ist kein Ziel, sondern ein Prozess, der nie zu Ende ist.
-+ Sind Normen rechtlich bindend?
++ Sind Normen rechtlich bindend?  
 Die Anwendung von Normen ist grundsätzlich freiwillig. Normen sind nicht bindend, das unterscheidet sie von Gesetzen. Rechtsverbindlichkeit erlangen Normen, wenn Gesetze oder Rechtsverordnungen wie zum Beispiel EU-Richtlinien auf sie verweisen.
-+ Erläutern Sie die Ziele der Normung
-
++ Erläutern Sie die Ziele der Normung  
