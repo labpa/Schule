@@ -132,8 +132,8 @@ Abhängig von:
 ![Alt text](img/kano.PNG)
 
 
-
-
+### Audit Ablaufplan
+![Alt text](img/ablaufplan.PNG)
 
 
 ##### Typische Fragen
@@ -149,3 +149,5 @@ Qualität orientiert sich am Kunden. Qualität wird mit Mitarbeitern aller Berei
 + Sind Normen rechtlich bindend?  
 Die Anwendung von Normen ist grundsätzlich freiwillig. Normen sind nicht bindend, das unterscheidet sie von Gesetzen. Rechtsverbindlichkeit erlangen Normen, wenn Gesetze oder Rechtsverordnungen wie zum Beispiel EU-Richtlinien auf sie verweisen.
 + Erläutern Sie die Ziele der Normung  
+
+<sup>test</sup>sasas
