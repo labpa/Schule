@@ -1,19 +1,4 @@
 # IT-Sicherheit
-- [Grundlagen IT-Sicherheit](##  'Grundlagen IT-Sicherheit')
-	- [Was sind Informationen und Daten?](#thema1)
-	- [Cybercrime](#thema2)
-	- [Sicherheitspakete](#thema3)
-    - [Bedrohungen](#thema1)
-	- [Technische Schutzmaßnahmen](#thema2)
-- [Angreifer und ihre Motivation](#hauptteil)
-	- [Motivation für Angriffe](#thema1)
-	- [Potenzielle Angreifer im Intenet](#thema2)
-- [Häufigste Angriffe](#thema3)	
-    - [DOS und DDOS-Attacken](#schluss)
-    - [Malware, Virus Wurm und Trojaner](#test)
-    - [Spoofing]()
-    
-
 ## Grundlagen IT-Sicherheit
 **Mehrere Daten sind Informationen. Mehrere Informationen sind Wissen.**
 
@@ -183,90 +168,297 @@ Umfangreiche Möglichkeiten des Internets bieten hohe Potenziale für Spione und
 #### Distributed Denial-of-Service
 + Denial-of-Service-Angriff, der von vielen verschiedenen Stationen im Internet, z.B. über ein Botnetz ausgeführt wird
 
-### Malware - Virus, Wurm, Trojaner
-#### **Mal**icious Soft**ware**
-+ Bösartige Software - Software, die absichtlich entwickelt wurde, um Schäden an Computern, Netzwerken, Anwendungen, Diensten, ... anzurichten
-+ **Virus**  
-zerstörerisches Miniprogramm, das von den "indifizierten" Anwendungen oder Daten übertragen wird
-
-+ **Wurm**  
-bösartige Software, die sich automatisch über offene Netzwerkverbindungen verbreitet.
-
-##### **Ziele:**
-
-+ Einschränkung der Arbeitskapazität des Systems
-+ Zerstörung oder Manipulation von Daten
-+ Diebstahl von Passwörtern
-+ Spionage und Sabotage
-+ Erpressung
-+ Fernsteuerung
-+ ...
-##### Der weg zum Computer
-Malware- als eine der zentralen Waffen von Cyber-Kriminellen. Jedes Gerät und jedes Computersystem kann ein potenzielles Ziel für Malware sein. Kann sowohl Endanwender als auch Dienstanbieter infizieren. Potenziell sind Heimcomputer verwundbarer für Malware-Angriffe über das Internet. Malware sind besonders leicht für Angriffe nutzen. 
-+ Cyber-Kriminelle entwickeln zunächst die Malware, um die Computersysteme der Opfer zu infizieren
-+ Dann injizieren Cyberkriminelle die Malware in ein Medium, wie z.B. eine Anwendung oder E-Mail und senden die an potenzielle Opfer.
-+ Sobald das Opfer auf den Datenträger zugreift, wird die Malware auf dem Computersystemen des Benutzers installiert.
-
-
-
-### Spoofing und Phising
-#### Spoofing
-Angreifer sendet Nachrichten mit einer gefälschten Absendeadresse, z.B. gefälschte IP-Adressen oder E-Mail-Adressen.
-+ Zum Beispiel:
-    + CEO Betrug
-    + Der gefälschte CEO weist die Buchhaltung an, eine Zahlung an ein unbekanntes Bankkonto zu senden.
-Spoofing wird oft verwendet in Verbindung mit:
-#### Phishing
-"Social Engineering"-Methode, bei der Benutzer aufgefordert werden, ihre sensiblen Informationen wie z.B. Passwörter preiszugeben  
-
-Angreifer verwenden gefälschte E-Mails, Websites, Telefonanrufe,...
-
-### Defacement
-Angriffe auf eine Website oder einen Webserver mit der Absicht seine Inhalte zu verändern (De-face = das Gesicht verändern)
-+ Verwendet für...
-    + Eigenwerbung von Hackergruppen, Blamagen von seriösen Diensten, ...
-    + Angriff auf die Verfügbarkeit von Diensten
-    + **Phishing von Benutzerdaten:**
-        + Benutzer erkennen nicht, dass es sich bei der Website um einen nichtz autorisierte Fälschung ist
-        + Angreifer können sensible persönliche Daten erlangen, wie Passwörter, Kreditkartennummern, ...
-
-### Sniffing and Eavesdropping
-#### Sniffing
-Sniffing ist eine Methode zur Netzwerkdiagnose durch "Abhören" des gesamten Netzwerkverkehrs. Administratoren können es nutzen, um Fehler im Netzwerkverkehr zu erkennen, z.B. mit Hilfe von Netzwerk-Sniffing-Software :**Wireshark**
-#### Eavesdropping (Lauschen)
-Unter Abhören versteht man das unbefugte Schnüffeln-"Abhören" von Datenpaketen auf ihrem Weg durch das Netzwerk.
-+ Angreifer verbindet sich mit dem Netzwerk des Opfers um die IP-Pakete zu sammeln und zu analysieren, um persönliche Daten oder andere vertrauliche private Informationen zu erfassen.
-+ Direktes Mitlesen von unverschlüsseltem Datenverkehr
-+ Verschlüsselter Datenverkehr kann aufgezeichnet und später entschlüsselt werden
-
-### Weitere Angriffe auf Computersysteme
-+ Nicht autorisierter physischer Zugriff auf das Computersystem
-    + Diebstahl von Laptops, Smartphones, ...
-    + Einbruch in Serverräumen
-+ Social Engineering-Angriffe
-    + ... nicht nur um Passwörter wie in dem Beispiel von Phishing zu stehlen
-+ Angriff zum Entschlüsseln persönlicher Daten
-    + Passwort knacken
-    + Passwort erraten
-
-
-### ARP-Spoofing
-**???**
-
-
-### Cache-poisoning / DNS-Spoofing
-DNS-Spoofing und Cache Poisoning sind IT-Sicherheitsangriffe auf das Domain Name System, um die Zuordnung zwischen einem Domainnamen und der zugehörigen IP-Adresse zu fälschen. Der Zweck ist es, Datenverkehr unbemerkt zu einem anderen Computer zu lenken, zum Beispiel um einen Phishing- oder Pharming-Angriff durchzuführen.
-**???**
-
-### DHCP Security Probleme
-**???**
-Falsche Netzwerkkonfigurationen werden verteilt.
-Denial of Service
 
 ### Port-Scanning
 ### Social Engineering
-### Ransomware
-### KeyLogger
-### Brute-Force
+Angreifer versuchen sich als andere Personen oder Systeme auszugeben (Website oder Anwendung), um Benutzer dazu zu bringen, **geheime persönliche Informationen** weiterzugeben.
++ Beispiel:
+    + Benutzer erhält einen Anruf von einer unbekannten Nummer
+    + Angreifer gibt an ein Mitarbeiter der Bank des Benutzers zu sein und Hilfe zu benötigen um potenziell betrügerische Banküberweisungen zu überprüfen
+**erzeugt eine Stress-Situation für den Benutzer**  
++ Der Angreifer bittet dann den Benutzer seine privaten Bankdaten anzugeben um die gefälschen Überweisungen zu "verifizieren"
++ Angreifer kann dann die Daten des Benutzers nutzen um sich bei der Bank zu authentifizieren
 
+
+### Brute-Force
 ### Bot-Netz
+
+
+### Spear-Phishing
+Traditionelles, weit verbreitetes Phishing ist nicht mehr effektiv, um persönliche oder vertrauliche Informationen des Opfers zu gelangen. Angreifer wenden sich daher dem personalisierten Phishing oder Spear-Phishing zu.
++ Angreifer sammeln sehr detallierte Informationen über ihre Opfer, um sie später dazu zu benutzen ihr Vertrauen zu gewinnen.
+    + Sammeln die Referenzen einer Person (z.B. Freund, Familienmitglied, Kollege), die das Opfer kennt und denen es vertraut aus Sozialen Medien oder aus dem Internet.
+    + Das Opfer glaubt das die E-Mail von vertrauten Person stammt, weil die Nachricht Informationen enthält die nur diese Person kennt.
++ Spear-Phishing-Angriffe haben viel höhere Erfolgswarscheinlichkeit, erfodern aber mehr Arbeit für den Angreifer.
++ Personalisiertes Phishing ist daher sehr gefährlich und wird auf das Ziel direkt angewendet.
+    + wichtige Personen, z.B. CEOS, Politiker, ...
+    + sensible Bereiche, z.B. Militär, Wirtschaft,...
++ **Hinwei:s** Viele andere Angriffe im Internet basieren auf frühere personalisierte Phishing Angriffe.
+
+### Malware
++ **Malware** - bösartige Software
++ wird über das Internet von Hackern und Cyber-Kriminellen auf das Gerät eines ahnungslosen Benutzers eingeschleust, um im Interesse der Cyber-Kriminellen zu handeln.
++ Ziele:
+    + Einschränkung der Arbeitskapazität des Systems
+    + Zerstörung oder Manipulation von Daten
+    + Diebstahl von Passwörtern
+    + Spionage und Sabotage
+    + Erpressung
+    + Fernsteuerung
+#### Malware-Arten
++ Es gibt viele verschiedene Arten von Malware mit sehr unterschiedlichen Angriffsvektoren
++ Meist werden mehrere Schadfunktionen innerhalb einer Malware kombiniert
+    + Trojan
+    + Virus
+    + Worms
+    + Adware
+
+#### Der Weg zum Computer
++ Jedes Gerät und jeses Computersystem kann ein potenzielles Ziel für Malware sein.
++ Kann sowohl Endanwender als auch Dienstanbieter infizieren
+    + Potenziell sind Heimcomputer verwundbarer für Malware-Angriffe über das Internet
++ Malware sind besonders leicht für Angriffe zu nutzen.
++ Cyber-Kriminelle entwickeln zunächst die Malware, um die Computersysteme der Opfer zu infizieren
++ Dann injizieren Cyberkriminelle die Malware in ein Medium, wie z.B. eine Anwendung oder E-Mail und senden sie an potenzielle Opfer
++ Sobald das Opfer auf den Datenträger zugreift, wird die Malware auf dem Computersystem des Benutzers installiert.
+
+Im Allgemeinen kann Malware auf Computersystemen installiert werden durch verschiedene Angriffsvektoren:
++ Menschliche Faktoren
+Oft reicht die Unachtsamkeit des Opfers aus, um Malware auf dem Computersystem des Opfers zu installieren.
+
+Malware kann auch durch Social Engineering in das Computersystem injiziert werden.
++ Beispiele:
+    + Öffnen einer E-MAil mit bösartigem Anhang
+    + Herunterladen und Öffnen von infizierten Dateien aus dem Internet
+    + Herunterladen und Installieren von "hilfreicher" Software
+    + Anschließen eines fremden USB-Sticks
+    + Nutzung eines öffentlichen WLANs
+
++ Technische Faktoren / Ausfälle
+
+#### Der Mensch als Sicherheitsrisiko
+Der Menschliche Faktor steht für alle menschlichen Aspekte, die Sicherheitsrisiken im System schaffen. Es können zwei Kategorien des menschlichen Faktors unterschieden werden:
++ **Aktiv:** Risiko wird verursacht durch unwissentliches oder wissentliches Ausführen einer bestimmten  Tätigkeit.
++ **Passiv:** Das Risiko wird duch das Unterlassen einer bestimmten Tätigkeit verursacht, die hätte durchgeführt werden müssen.
+
+##### Passive Menschliche Faktoren
+Selbst wenn ein Unternehmen gute Sicherheitsrichtlinien vorgibt, kann es Mitarbeiter geben, die sich einfach nicht um die Richtlinien kümmern und sie nicht befolgen.
++ Sie halten sich nicht an Richtlinien/Normen
++  Könnten Sicherheitsprobleme verursachen, weill die nicht tun, was sie tun sollen.
++ Eine Lösung für dieses Problem sind spezielle Informationsveranstaltungen oder Workshops
+    + Sensibilisierung der Mitarbeiter für das Thema
+    + Darstellung der Folgen von mangelnder Vorsicht
+
+#### Virus
+Ein Virus ist eine Schadsoftware, die sich an ein Programm oder Datei ("Host") anheftet und sich auf andere Programme/Dateien weiter verarbeitet
++ Wenn der identifizierte Host geöffnet oder ausgeführt wird, wird das Zielsystem infiziert.
++ Der Schweregrad reicht von der Verursachung lästiger Effekte bis hin zur Schädigung von Daten, Software oder sogar Hardware.
++ Oft keine klare Definition
+    + umgangssprachlicher Begriff für Maleware
+    + Oberbegriff für alle Schadprogramme in einem Wirtsprogramm
+
+#### Wurm
+Ein Wurm ist eine Malware, die ihre Kopien über das Netzwerk oder Internet selbstständig verbreiten kann.
++ Start der Infekrion durch Ausnutzung von Schwachstellen auf dem Zielsystem oder das Ziel dazu bringt, die Malware auszuführen.
++ Funktioniert eigenständig, braucht keinen Wirt oder einen Menschen um sich zu replizieren und zu verbreiten.
++ Oft verbreiten sich Würmer schneller als Viren, z.B. Code-Red 2001
++ **Beispiel:**  
+    +   ILOVEYOU - Wurm, der Social-Engineering-Techniken verwendet um Benutzer über eine E-Mail zu infizieren.  
+    + Betreff der E-Mail :"ILOVEYOU" (Ich liebe dich)  
+    + Anhang eines angeblichen Liebesbriefes ("Love-Letter-For_You.txt.vbs")
+    + Enthält ein Visual Basic Script (.vbs) das schädlichen Programmcode ausführt, wenn der Anhang geöffnet wird.
+    + Dateierweiterungen wurden nicht angezeigt -> Ziel wird nicht vermuten, dass der Anhang bösartig ist.
++ E-Mail-Adressbuch des Opfers wird verwendet, um den Wurm per E-Mail zu verbreiten
+#### Trojaner
+Trojaner sind Malware, die sich als echte und nützliche Anwendung tarnt und das Ziel dazu bringt sie zu installieren.
++ Enthält versteckte, dem Ziel unbekannte schädliche Funktionen z.B. das Herunterladen von anderen Schadprogrammen.
++ Bösartige Funktion wird parallel zu erwartenden Funktionen ausgeführt.
++ Vervielfältigt sich nicht und identifiziert keine anderen Daten
+
+Trojaner haben verschiedene Ziele wie die Installation eines
++ **Backdoor:** Öffnet eine Hintertür im System des Opfers, um den Angreifer Fernsteuerzugriff auf das System des Opfers
++ **Spyware:** Überwacht und sendet Informationen über das System des Opfers, indem Aufzeichnung von Tastatureingaben, Zugriff auf Mikrofon oder Webcam, etc.
++ **Botnet:** Fügt das System des Opfers in ein Netzwerk von gekaperten und ferngesteuerten System hinzu, umCyberangriffe zu starten.
++ **Downloader:** Installiert andere Malware auf dem identifizierten System, z.B. Ransomware oder Würmer
+
+Schutzprozess
+
+### Rootkits und Backdoors
++ System hat eine "Hintertür", die es den Angreifern ermöglicht unbemerkt auf den Computer zuzugreiufen
++ Angreifer mit Administrationsrechten können die Hintertür nutzen, um Ihren Computer fernzusteuern z.B. Malware zu installieren, persönliche Daten zu stehlen oder Tastatureingabe aufzuzeichnen.
++ Antiviren-Scanner können dies nicht erkennen.
+
+#### Rootkit
++ **Rootkit** - Komposition aus "root" (Administrationsrechte) und "Kit" (Softwarekomponente zur Entwicklung beliebiger Tools)
++ Software, die einem Angreifer/unbefugten Benutzer Administrationsrechte für ein Zielsystem ermöglichen
++ Erfordert, dass das Ziel das Rootkit installiert um zu funktionieren.
++ Ist so konzipiert, dass es im System versteckt und unerkannt bleibt.
++ Können Tools enthalten, die es Cyberkriminellen ermöglichen
+    + Aktionen als Administrator auszuführen
+    + die Sicherheit zu deaktivieren
+    + Hintertüren auf dem System zu installieren
+
+#### Backdoor
++ **Backdoor** - beschreibt jede Methode, um sich heimlich Zugang zu den Systemen zu verschaffen.
++ Umgehung von Sicherheitsmaßnahmen im System, z.B. Virenscanner, Firewall, ...
++ Erlangung höherer Zugriffsrechte, z.B. Root-Rechte
+
+Backdoors können durch verschiedene Methoden erstellt werden.
++ Ausnutzung von Programmierfehlern (Bugs) oder Sicherheitslücken im System
++ Absichtlich erstellte, z.B. zur Wartung und Fehlersuche im System
++ Installieren durch Schadsoftware (Malware) z.B. Trojaner oder Wurm
+
+#### Rootkit und Backdoor Schutzmaßnahmen
++ Verwenden Sie den Computer nur mit einem Konto, das keine Adminstrationsrechte hat
++ Allgemeine Sicherheitsmaßnahmen
+    + Original-Software sorgfältig prüfen und installieren
+    + installieren Sie regelmäßig Sicherheits-und Software-Updates
+    + ändern Sie alle Standard-Passwörter
+
+### Adware und Spyware
+#### Adware
+**Adware**- Malware, die zusätzlich zu ihrer eigentlichen Funktionalität **Werbung (Ads)** anzeigt.
++ Wird meist in Webbrowsern installiert und tarnt sich als echtes oder legitimes Programm/Plug-in
++ Zeigt trügerische, blinkende Pop-up-Werbung auf jeder Website für die Benutzer
++ Kann Benutzer dazu verleiten:
+    + Malware oder unerwünschte Software zu installieren
+    + auf eine gefälschte Phishing-Website zu gelangen
++ In den meisten Fällen harmlos und leicht zu entfernen, aber es könnte sehr lästig für die Benutzer sein.
+#### Spyware
+**Spyware** - Malware, die vertrauliche Informationen der Opfer aufzeichnet und stiehlt.
++ Kann bei der Installation einer scheinbar legitimen Software oder durch Ausnutzung von Sicherheitslücken im System installiert werden.
++ Läuft unbemerkt im Hintergrund und sammelt Informationen über die Benutzer
+    + Emails
+    + Bankdaten
+    + Benutzername und Kennwort
++ Gesammelte Daten über die Opfer können missbraucht oder ohne deren Zustimmung an Dritte verkauft werden, z.B. im Darknet oder an Datenverkäufer
+
+### Scareware und Rogueware 
+Scareware auch Rogueware genannt- Malware (Taktik), die Benutzer erschreckt, mit dem Ziel, dass die Malware installieren, um vorgetäuschte Probleme auf ihren System zu lösen
++ Verwendet Social-Engineering-Angriffsmethode, indem sie gefälschte Meldungen, z.B. "Virus entdeckt" oder "Fehlermeldungen" angezeigt. Benutzer laden dann Software herunter oder kaufen sie, um diese "Probleme" zu lösen.
++ Ist in Wirklichkeit eine Malware, die persönliche Benutzerdaten stehlen oder die Kontrolle über das System des Benutzers übernehmen kann.
+
+
+### Ransomware
+Ransomware - Malware, die den Opfern den Zugriff auf ihren Computer verweigert oder wichtige Daten auf den Systemen verschlüsselt. Der Name leutet sich von ransom (Erpressung) und ware (Software) ab.
++ Nach der Infektion fordern Erpresser ein Lösegeld um das System freizuschalten oder die Dateien zu entschlüsseln.
+    + zahlen mit Kryptowährungen (Bitcoin, MoneyPak, ...) oder anderen Online-Zahlungsmethoden
+    + Aber keine Garantie, dass die Opfer nach der Zahlung wieder voll auf ihre Systeme zugreifen können.
++ Wie wird Ransomware auf dem System des Opfers installiert?
+    + Durch das Öffnen von bösartigen E-Mai-Anhängen
+    + Durch die Installation von gefälschter Software mit Malware
+    + Durch den Zugriff auf bösartige Webseiten
++ Wie sich Ransomware bemerkbar macht
+    + Blockiert Bildschirm
+    + Warnungen und Pop-up-Meldungen von Erpresserbriefen
+    + System funktioniert nicht mehr
++ Einige Eansomeware-Varianten "schlafen" zunächst unbemerkt auf dem System und werden später von den Angreifern "angeschaltet"
+
+### Keylogger
+Keylogger - Werkzeug zum Aufzeichnen oder Erfassen der gedrückten Tasten auf einer Tastatur (tastenanschlag).
++ Ein legales Werkzeug, das für rechtliche Zwecke verwendet werden kann.
+    + Untersuchung des Tippverhaltens
+    + Überwachung der Fernarbeit von Mitarbeitern
+
+
+## Schutzmaßnahmen
+### Schutzmaßnahmen gegen Malware
+#### Programm-Updates
+Programm-Updates schließen Systemschwachstellen und beseitigen Sicherheitsrisiken
++ Verwendung älterer Software-Versionen = Sicherheitsrisiko
++ Gefahr des Missbrauchs von öffentlich bekannten Sicherheitslücken
+
+Updates installieren, sobald sie verfügbar sind.
++ Hersteller finden nicht alle Fehler in der Testphase
++ Viele Sicherheitslücken in Programmen werden oft erst während der Nutzung entdeckt
+    + Auch durch Angriffe oder Analyse durch externe Experten
++ Bekannte Sicherheitslücken können in der Regel geschlossen werden durch kleinere Update-Pakete
++ Derzeit stellen die meisten Programme automatisch Informationen über verfügbare Updates bereit.
++ Es gibt Hilfsprogramme, die automatisch nach Updates der installierten Software suchen.
++ Auch gute Antivirenprogramme prüfen, ob die installierte Software aktuell ist.
+
+**Aber bei allen Updates:**  
++ Die Vertrauenswürdigkeit der Quelle von Updates muss immer geprüft werden, um sicherzusatellen, dass die Updates echt sind. Andernfalls können Updates zu einer Sicherheitslücke werden, die zur Installation von Malware oder über Cyber-Attacke ausgenutzt werden können.
+
+#### Anti-Viren-Software
+Anti-Viren-Software auch Anti-Malware-Software genant bietet Methoden zur Erkennung von im Computersystem installierte Malware.
++ Erkennt Viren, Würmer, Trojaner, Sypware, Scareware und andere Malware-Typen.
++ Es überwacht auch Internetverbindungen und warnt vor den Zugriff auf unsichere Webseiten.
++ Das Programm sollte ein obligatorischer Bestandteil eines jeden Systems sein, um die Sicherheit des Computersystems zu gewährleisten.
+
+#### Backups
+Viele Malware-Angriffe im Internet führen zu Datenverlust oder Beschädigung. 
++ Im Falle eines Datenverlustes durch Schadsoftware oder Beschädigung des Betriebssystems können die Daten mit zuvor erstellten Sicherungskopien wiederhergestellt werden.
++ Wichtige und persönliche Daten müssen regelmäßig gesichert werden.
++ Viele Systeme bieten eine automatische Datensicherung in vordefinierten Intervallen.
++ Speicherung der (verschlüsselten) Sicherung auf externen Medien oder in der Cloud.
++ Achtung! Wenn es einem Angreifer gelingt sich Zugang zum Computer zu verschaffen, könnte der Benutzer den Zugriff auf die Backups verlieren.
+
+#### Firewalls
+Firewalls überwachen Netzwerk-Verbindungen und den entsprechenden Datenverkehr.
++ Können unautorisierte Verbindungsversuche verhindern
++ Zusätzlicher Schutz vor Netzwerkangriffen, wie z.B. Angriffe von Backdoors und Botnets.
++ Lokale Firewall funktioniert nur auf dem Rechner, auf dem sie installiert ist.
++ Netzwerk-Firewall überprüft den gesamten Netzwerkverkehr und wird in der Regel auf Verbindungsknoten zwischen dem lokalen Netzwerk und dem Internet installiert.
+
+#### "Gesunder" Verdacht - Immer vorsichtig sein.
+Der Verdacht ist der effektivste Schutz, der von den Anwerndern gegen Malware-Infektionen angewendet werden kann.
++ Die besten Schutzmechanismen sind nicht mehr wirksam, wenn der Benutzer nicht vertrauenswürdige Inhalte öffnet.
++ Prüfen Sie bei der Installation neuer Software immer Hersteller und Herkunft der Software.
++ Überprüfen Sie die Signatur der zu installierenden Software / Updates (kann automatisch durchgeführt werden)
++ Wenn eine Warnung erscheint, ist eine manuelle Überprüfung notwendig.
++ Nur Software installieren, die wirklich benötigt wird.
+    + Installieren Sie keine unnötigen Anwendungen, Zusatzfunktionen oder optionale Plugins. Sie bieten einen unnötigen Zugangspunkt für Angreifer.
++ Aktive Inhalte (Flash,Java,Active X) im Webbrowser standardmäßig deaktivieren, da sie eine Reihe von verschiedenen Angriffs- und Einbruchsmöglichkeiten bieten.
++ E-Mail Anhänge nur öffnen wenn:
+    + der Absender bekannt ist und der Text dem Absender zugeordnet werden kann.
+    + eine E-Mail mit Anhängen erwartet wird.
++ Ruhe Bewahren bei (oft gefälschten) Online-Abmahnungen und Aufforderungen zur Zahlung von Bußgeldern.
++ Überprüfung von Installierter Software und entfernen unbenutzter Programme.
+
+#### Schutz von Mobilen Geräten
++ Anwendungen nur aus vertrauenswürdigen Quellen beziehen
+    + vorzugsweise nur aus offiziellen App Stores
+    + Vorsichtig sein bei (neuen) Apps mit keinen oder wenigen Bewertungen
++ Apps und Betriebssystem des mobilen Geräts immer auf dem neusten Stand halten.
+    rechtzeitige Installation von Updates
++ Backups erstellen
+    + System kann aus altem Backup wiederhergestellt werden im Falle einer Infektion.
++ Apps immer nur minimale Berechtigung gewähren
+    + Kann beim ersten Start oder in den Einstellungen eingerichtet werden.
+    + Berechtigungen entsprechend den Funktionen der App auswählen.
+        + Beispiel: Die Taschenlampen-App benötigt keinen Zugriff auf die Kontaktliste
+
+### Passwort
+#### Das Sichere Passwort
++ Wie werden Passwörter geknackt?
+    + Die wenigsten Passwörter werden wirklich geklaut.
+    + Die meisten Passwörter werden einfach erraten.
++ Ein Computer kann mehrere tausend Vergleiche pro Sekunde durchführen, somit sind alle kurzen Passwörter, selbst wenn sie aus zufälligen Zeichen bestehen nicht sicher!
+
+#### Passwortverfahren
++ Probleme für Anwender: regelmäßige Passwortänderung.
++ Passwörter: *Quadratur des Kreises*
+    + Passwörter dürfen nicht zu leicht zu knacken sein.
+    + Passwörter muss man sich leicht merken.
+
+#### Häufige Probleme bei Passwörtern
++ schwache Passwortregeln
++ schlechte Passworterneuerungsverfahren
++ schlechter Schutz gegen Brut-Force-Angriffe
++ unveränderbare Passwörter
++ unsichere Speicherung der Passwörter
++ unsicherer Transport der Passwörter
+
+#### Das sichere Passwort
+Passwörter sollten aus folgenden Elementen bestehen:
++ Großbuchstaben (ABCDEF...)
++ Kleinbuchstaben (abcdef...)
++ Sonderzeichen (!"§$%&)
++ Zahlen (1234567...)
+Passwörter, die nicht mindestens 3 Sorten von Zeichen enthalten und kürzer als 8 Zeichen sind, sind in wenigen Minuten, wenn nicht Sekunden geknackt.
+
++ **Unsicher** sind Passwörter besonders, wenn sie persönliche Informationen enthalten wie:
+    + Name, Geburtsdaten, o Ä von Freunden, Familie oder Haustieren
++ Die Passwörter können dann mit sogenannten **Wörterbuchangriffen** herausgefunden werden. Dabei wird eine Liste von Wörtern, die der Hacker aus dem persönlichen Umfeld der Zielperson entnommen hat, in eine Liste gepackt und durcheinander oder zusammengesetzt ausprobiert. Dabei kann der Hacker sein Programm so schreiben, dass beliebige Manipulationen an den möglichen Passwörtern vorgenommen werden können.
+
