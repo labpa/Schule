@@ -57,3 +57,21 @@ Kommunikation ist ein bewusstes Handeln, also eine "intentionale Informationswei
     + "Soziales Handeln aber soll ein solches Handeln heißen, welches seinem von dem oder den Handelnden gemeinten Sinn nach auf das Verhalten anderer bezogen wird und daran in seinem Ablauf orientiert ist." (Max Weber: Wirtschaft und Gesellschaft. 5. Auflage., Tübingen: 1980,11)  
 
     ![Alt text](./img/sozialekommunikation.png)
+
+## Zeichenvermittelte Kommunikation
++ Zeichen = ein Muster aus Materie oder Energie, das für jemand in irgendeiner Hinsicht oder Funktion für etwas (anderes) steht (und absichtlich verwendet wird)
++ Signal = materieller Träger eines Zeichens
++ Bedeutung = geistiges Gehalt eines Zeichens
++ Medium = ein Übermittlungsweg oder ein Übermittlungssystem für Signale
+
+## Publizistische Kommunikation
+Publizistische Kommunikation ist das öffentliche Miteinander - in - Beziehung-Treten von Menschen mittels originären Kommunikationsformen und/oder technischer Medien zur Herstellung von Verständigung über Aktuelles in Zeit und Gesellschaft
++ **Originär:** öffentliche Rede, öffentlicher Vortrag
++ **Technisch vermittelt:** über Massenmedien ablaufende Kommunikationsprozesse -> *Massenkommunikation*
+
+## Massenkommunikation
++ Jene Form der Kommunikation, bei der Aussagen:
+    + öffentlich
+    + durch technische Verbreitungsmittel (indirekt)
+    + und einseitig
+    + an ein disperes Publikum vermittelt werden.
