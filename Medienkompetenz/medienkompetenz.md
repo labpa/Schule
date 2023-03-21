@@ -133,4 +133,4 @@ Es gibt kaum einen anderen Begriff, der so viel Literatur nur zum Begriff selbst
 4. Bedeutungen, die mit Publikum, Publizität und Publizieren zusammenhängen
 + Beispiele:
     + Etwas an die Öffentlichkeit bringen
-    + Publizistik, publizistische Medien
+    + Publizistik, publizistische Medien❤🎶🌹💋💕😊🎂🎶
