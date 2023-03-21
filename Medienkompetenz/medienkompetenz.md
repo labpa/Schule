@@ -150,4 +150,10 @@ Es gibt kaum einen anderen Begriff, der so viel Literatur nur zum Begriff selbst
 + Medienkonzerne -> Pressekonzentration
 
 ### Pressekonzentration
++ ein in Ländern mit freier Marktwirtschaft stattfindender Prozess, in dessen Verlauf die Zahl der publizistischen Einheiten (Vollredaktionen; Redaktionen, die den Mantel, d. h. den aktuellen politischen Teil einer Tageszeitung, selbst herstellen) durch Aufäufe, Fusionen oder Beteiligungen kontinuierlich abnimmt.
++ **Gefahr:**  Verringerung des wirtschaftlichen Wettbewerbs und vergrößerte Marktmacht, die sich im publizistischen Sektor als Meinungsmacht manifestiert.
+    + Beeinträchtigung von Meinungsvielfalt und Pressefreiheit sowie die Erschwerung des Marktzutritts für neue oder kleinere Unternehmen
++ **Vorteile:** Rationalisierung von Herstellung und Vertrieb sowie Qualitätsverbesserung der Produkte durch journalistische Leistungssteigerung.
+
+## Journalismus
 
