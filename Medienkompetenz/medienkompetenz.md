@@ -102,3 +102,35 @@ Eine räumliche und/oder zeitlich verstreute Vielzahl von Menschen, die sich unt
 |indirekt|direkt|
 
 ## Öffentlichkeit und öffentliche Meinung
+Es gibt kaum einen anderen Begriff, der so viel Literatur nur zum Begriff selbst hervorgerufen hat, wie öffentliche Meinung.
+
+### Habermas: Vier Bedeutungen von Öffentlichkeit (1962)
+1. allgemeine Zugänglichkeit (Gegensatz: privat)
++ Öffentlich nennen wir Veranstaltungen, wenn sie, im Gegensatz zur geschlossenen Gesellschaft, allen zugänglich sind.
++ Beispiele:
+    + öffentliche Plätze
+    + öffentliche Häuser
+    + öffentlicher Gehweg
+    + öffentliche Gerichtsverhandlung
+    + öffentliche Verkehrsmittel
++ **rechtlicher Aspekt von öffentlich/Öffentlichkeit**
+
+2. auf die Allgemeinheit bezogen, dem Gemeinwohl dienend (Gegensatz: Partikularinteressen dienend)
++ Beispiele:
+    + öffentlich im Sinne von "öffentlichen Gebäuden„ (nicht unbedingt allen zugänglich, sondern beherbergen Einrichtungen des Staates und sind daher öffentlich)
+    + öffentliche Hand
+    + öffentlich-rechtlicher Rundfunk
+    + öffentliches Recht
+    + öffentliche Gewalt
+    + öffentliche Aufgabe der Presse (Landespressegesetze)
++ **politologischer Aspekt**
+
+3. öffentlich im Sinne der Repräsentation, Reputation, der Anerkennung
++ Beispiele:
+    +  öffentlicher Empfang (NICHT jedermann zugänglich, NICHT auf Gemeinwohl bezogen, aber man macht sich öffentlich einen Namen)
+    + in der Öffentlichkeit stehen
+
+4. Bedeutungen, die mit Publikum, Publizität und Publizieren zusammenhängen
++ Beispiele:
+    + Etwas an die Öffentlichkeit bringen
+    + Publizistik, publizistische Medien
