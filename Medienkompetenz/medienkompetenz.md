@@ -54,6 +54,6 @@ Kommunikation ist ein bewusstes Handeln, also eine "intentionale Informationswei
 ## Sozialwissenschaftlicher Kommunikationsbegrif
 + Kommunikation = eine Form der sozialen Interaktion.
 + Interaktion = soziales Handeln
-    + "Soziales Handeln aber soll ein solches Handeln heißen, welches seinem von dem oder den Handelnden gemeinten Sinn nach auf das Verhalten anderer bezogen wird und daran in seinem Ablauf orientiert ist." (Max Weber: Wirtschaft und Gesellschaft. 5. Auflage., Tübingen: 1980,11)
-    
-    ![Alt text](../img/sozialekommunikation.png)
+    + "Soziales Handeln aber soll ein solches Handeln heißen, welches seinem von dem oder den Handelnden gemeinten Sinn nach auf das Verhalten anderer bezogen wird und daran in seinem Ablauf orientiert ist." (Max Weber: Wirtschaft und Gesellschaft. 5. Auflage., Tübingen: 1980,11)  
+
+    ![Alt text](./img/sozialekommunikation.png)
