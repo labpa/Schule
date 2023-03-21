@@ -133,4 +133,21 @@ Es gibt kaum einen anderen Begriff, der so viel Literatur nur zum Begriff selbst
 4. Bedeutungen, die mit Publikum, Publizität und Publizieren zusammenhängen
 + Beispiele:
     + Etwas an die Öffentlichkeit bringen
-    + Publizistik, publizistische Medien❤🎶🌹💋💕😊🎂🎶
+    + Publizistik, publizistische Medien
+
+### Ursachen für Meinungswandel
++ Strukturelle Veränderung der Gesellschaft (z.B. mehr ältere Menschen, Bildungsgrad etc.) = Kohorten-Effekt
++ Schlüsselereignisse (Krieg, Terroranschläge)
++ Veränderung der Realität (Sicherheit, Wirtschaft)
++ zyklische Trends (Jahreszeiten, "Weihnachts-Phänomen")
++ Kanäle der Einflüsse:
+    + Primererfahrung
+    + Personelle Kommunikation
+    + Meistens Medien (fehlende Primärerfahrung) -> Agenda-setting, Priming ... (Wirkungsforschung)
+
+### Wer macht öffentliche Meinung?
++ Meinungsfreiheit ist eine wichtige Voraussetzung für Demokratie. Das heißt, alle müssen die Möglichkeit haben, eine Meinung auch entsprechend zu dürfen und die Medien, also etwa Fernsehen, Radio und Zeitungen odr auch das Internet, sind so ein Sprachrohr, das sich an viele Menschen wendet.
++ Medienkonzerne -> Pressekonzentration
+
+### Pressekonzentration
+🍗(●'◡'●)
