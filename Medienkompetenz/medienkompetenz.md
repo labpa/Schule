@@ -36,9 +36,24 @@ Seite aufzurufen ist eine bewusst getroffene Entscheidung.
 ## Chaos Report
 ## Teufelsquadrat
 
+## Kommunikation
+Kommunikation ist eine symbolisch vermittelte Interaktion bzw. ein Prozess wechselseitiger Bedeutungsvermittlung. Dies gescheiht zumeist mit sprachlichen Symbolen, kann aber auch nonverbal erfolgen (z.B. über Blicke oder Gesten)
 
-<style>
-    h1{
-        color:red;
-    }
-</style>
+Kommunikation ist ein bewusstes Handeln, also eine "intentionale Informationsweitergabe, d.h. ein Signal muß zum Zweck der Mitteilung oder Verständigung absichtlich produziert und gesendet werden" (Bentele/Beck 1994:20).
+
+## Abgrenzungsdimensionen
++ Einbezogene Subjekte und Objekte?
+    + Nur menschliche oder auch tierische oder Maschinen-Kommunikation?
++ Intentionen des Handelnden?
+    + Muss der Handelnde einen subjektiven Sinn, eine Absicht haben, damit eine Aktion eine Kommunikation ist?
++ Ist Verständigung Voraussetzung?
+    + Reicht Intention, sich verständigen zu wollen oder muss diese tatsächlich Zustandekommen?
++ Ist **Reziprozität** (Wechselseitigkeit) Voraussetzung?
+    + Ist etwas erst kann Kommunikation, wenn ein Rollentausch stattfinden kann bzw. stattfindet?
+
+## Sozialwissenschaftlicher Kommunikationsbegrif
++ Kommunikation = eine Form der sozialen Interaktion.
++ Interaktion = soziales Handeln
+    + "Soziales Handeln aber soll ein solches Handeln heißen, welches seinem von dem oder den Handelnden gemeinten Sinn nach auf das Verhalten anderer bezogen wird und daran in seinem Ablauf orientiert ist." (Max Weber: Wirtschaft und Gesellschaft. 5. Auflage., Tübingen: 1980,11)
+    
+    ![Alt text](../img/sozialekommunikation.png)
