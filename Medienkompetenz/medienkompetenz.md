@@ -156,4 +156,19 @@ Es gibt kaum einen anderen Begriff, der so viel Literatur nur zum Begriff selbst
 + **Vorteile:** Rationalisierung von Herstellung und Vertrieb sowie Qualitätsverbesserung der Produkte durch journalistische Leistungssteigerung.
 
 ## Journalismus
+### Steigende Bedeutung des Journalismus in der Gesellschaft
++ Moderne Gesellschaften = Informationsgesellschaft.
++ Freizeitgesellschaft, in der Medienkonsum eine immer größere Rolle spielt.
++ Bedeutung der Massenmedien als Quelle für die Realitätserfahrung nimmt zu.
++ Bedeutung der Massenmedien als Meinungsbildungsfaktor steigt.
++ Verflechtung zwischen Medien und politischem System nimmt zu.
++ Kommerzialisierung der Medien nimmt zu.
+
+### Herausforderung an den Journalismus
++ rückläufiges Interesse der Bevölkerung, vor allem junger Menschen an klassischen Medieninhalten wie Nachrichten.
++ Verlust an Reputation und Glaubwürdigkeit
++ zunehmender wirtschaftlicher Druck, der einerseits aus einer gestiegenen intra- und intermediärer Konkurenz und andererseits aus Veränderungen in Form und Kultur der Unternehmensführung resultiert.
++ Verlust an professioneller Identität und damit einer schleichenden De-Professionalisierung durch semi- und para- journalistische Tätigkeiten (Blogger, PR).
++  Zunehmende Komplexität der Gegenstände, mit denen sich Journalisten auseinandersetzen müssen.
+
 
