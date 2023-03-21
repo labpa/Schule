@@ -75,3 +75,30 @@ Publizistische Kommunikation ist das öffentliche Miteinander - in - Beziehung-T
     + durch technische Verbreitungsmittel (indirekt)
     + und einseitig
     + an ein disperes Publikum vermittelt werden.
+
+## Vier Gruppen von Medien nach Harry Pross
+### Primärmedien
++ Medien des menschlichen Elementarkontaktes = Menschenmedien  
++ Opferrituale, Tanz, Sänger, Hofnarren, Erzähler, Ausrufer, Heute nur noch im Theater
+### Sekundarmedien
++ Erfordern auf Produktionsseite ein Gerät = Schreib- und Druckmedien
++ Zeitungen, Zeitschriften, Brief, Flugblatt, Buch, Plakat
+### Tertiärmedien
++ Erfordern auch auf Rezeptionsseite ein Gerät = elektronische Medien
++ Fotografie, Hörfunk, Schallplatten/Tonträger, Film, Video und Fernsehen aber auch Telefon mit Fax und Handy, heute meist digitalisiert
+### Quartärmedien
++ digitale Medien
++ Computer, Multimedia, E-Mail, World Wide Web, Chat, Intranet
+
+**disperses Publikum**  
+Eine räumliche und/oder zeitlich verstreute Vielzahl von Menschen, die sich unter verschiedenen Bedingungen und in verschiedenen Situationen den Inhalten von Massenkommunikation zuwenden.
+
+## Massenkommunikation vs. interpersonale Kommunikation
+|Massenkommunikation|interpersonale Kommunikation|
+|---|---|
+|einseitig|zweiseitig|
+|disperses Publikum|persönliche Beziehung|
+|öffentlich|privat|
+|indirekt|direkt|
+
+## Öffentlichkeit und öffentliche Meinung
