@@ -150,4 +150,4 @@ Es gibt kaum einen anderen Begriff, der so viel Literatur nur zum Begriff selbst
 + Medienkonzerne -> Pressekonzentration
 
 ### Pressekonzentration
-🍗(●'◡'●)
+
