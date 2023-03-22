@@ -1,0 +1,1 @@
+# Logische Funktionen
