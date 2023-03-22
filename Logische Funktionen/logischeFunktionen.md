@@ -60,3 +60,23 @@ function nand(a, b) {
   return !(a && b)
 }
 ```
+
+## NOR / NICHT-ODER / NODER
+Das NOR ist ein aus ODER und NICHT zusammengeschaltetes Element. Es arbeitet wie ein ODER, dessen Aussage negiert ist.  
+Der Ausgang Q ist immer dann 1, wenn die Eingänge A und B gleich 0 sind.
+### NICHT-ODER Wahrheitstabelle
+|A|B|Q|
+|---|---|---|
+|0|0|1|
+|0|1|0|
+|1|0|0|
+|1|1|1|
+### NOR JavaScript
+```JS
+function nor(a, b){
+    return !(a||b)
+}
+```
+## NOR / NICHT-ODER / NODER
+
+
