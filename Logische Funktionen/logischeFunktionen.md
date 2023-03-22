@@ -12,7 +12,9 @@ Das UND wird als Konjunktion bezeichnet und im englischen als AND benannt.
 |1|0|0|
 |1|1|1|
 ### AND JavaScript
+```JS
 &&
+```
 
 ## ODER / OR / Disjunktion
 Das ODER ist eine Grundverknüpfung, die nach dem Prinzip arbeitet, wenn der eine oder der andere Zustand oder die eine oder die andere Aussage zutrifft, dann ist das Ergebnis wahr: Wenn A oder B, dann ...  
@@ -26,7 +28,9 @@ Das ODER wird als Disjunktion bezeichnet und im Englischen als OR benannt.
 |1|0|1|
 |1|1|1|
 ### OR JavaScript
+```JS
 ||
+```
 
 ## NICHT / NOT / Negation
 Das NICHT ist eine Grundverknüpfung, die nach dem Prinzip arbeitet, wenn ein Zustand oder eine Aussage wahr ist, dann ist das Ergebnis unwahr. Oder umgekehrt, wenn ein 
@@ -40,6 +44,6 @@ Zustand oder eine Aussage unwahr ist, dann ist das Ergebnis wahr. Das NICHT wird
 ### NOT JavaScript
 ```JS
 !
-
 ```
+
 
