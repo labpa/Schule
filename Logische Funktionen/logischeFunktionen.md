@@ -34,6 +34,7 @@ Zustand oder eine Aussage unwahr ist, dann ist das Ergebnis wahr. Das NICHT wird
 
 ### NICHT-Funktion Wahrheitstabelle
 |A|Q|
+|---|---|
 |1|0|
 |0|1|
 ### NOT JavaScript
