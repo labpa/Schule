@@ -41,8 +41,8 @@ A = 10; B = 11; C = 12; D = 13; E = 14; E = 15;
 Binär steht für ein Zahlensystem bei dem es nur zwei Ziffern gibt. Die 0 und die 1. Der Begriff bezieht sich auf ein beliebiges Codier- und Decodiersystem, bei dem er nur zwei mögliche Zustände gibt.
 
 ## Umrechnung Binär -> Hexadezimal
-+ Methode: 4er Gruppen von Binärzahlen bilden+
-+ Die umzuwandelnde Binärzahl wird von rechts nachg links in 4er Bündel von Binärziffern gruppiert. Anschließend werden die Bündel in  die entsprechenden Hexadezimalziffern umgewandelt
++ Methode: 4er Gruppen von Binärzahlen bilden.
++ Die umzuwandelnde Binärzahl wird von rechts nachg links in 4er Bündel von Binärziffern gruppiert. Anschließend werden die Bündel in  die entsprechenden Hexadezimalziffern umgewandelt.
 ### Hilfstabelle: 4er-Bündel von Binärziffern und Hexadezimalziffern
 |Dez|Hex|
 |---|---|
@@ -64,3 +64,7 @@ Binär steht für ein Zahlensystem bei dem es nur zwei Ziffern gibt. Die 0 und d
 |1111|F|
 
 ## Überlauf und "Carry Flag"
+Bei der Addition kann es zum Überlauf kommen, falls für das Ergebnis ein begrenzter Speicherplatz zur Verfügung steht.  
+Der Prozessor merkt sich sieses Ereignis durch Setzen eines speziellen Status-Bits ("Carry Flag"). Dieses Bit kann im weiteren Programmverkauf abgefragt werden, falls auf den Überlauf reagiert werden muss.  
+
+
