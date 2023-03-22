@@ -74,7 +74,7 @@ Der Ausgang Q ist immer dann 1, wenn die Eingänge A und B gleich 0 sind.
 ### NOR JavaScript
 ```JS
 function nor(a, b){
-    return !(a||b)
+    return !(a || b)
 }
 ```
 ## NOR / NICHT-ODER / NODER
