@@ -172,3 +172,7 @@ Es gibt kaum einen anderen Begriff, der so viel Literatur nur zum Begriff selbst
 +  Zunehmende Komplexität der Gegenstände, mit denen sich Journalisten auseinandersetzen müssen.
 
 
+
+# WICHTIG! für Hardware
++ Speicherpyramide
++ (Berürfnispyramide der User Experience)
