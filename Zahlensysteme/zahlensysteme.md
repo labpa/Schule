@@ -23,6 +23,18 @@ A = 10; B = 11; C = 12; D = 13; E = 14; E = 15;
 |14|224|
 |15|240|
 |16|256|
+### Hilfstabelle: Sechzehnerpotenzen
+|n|16^n|
+|0|1|
+|1|16|
+|2|256|
+|3|4 096|
+|4|65 536|
+|5|1 048 576|
+|6|16 777 216|
+|7|268 435 456|
+|8|4 294 967 296|
 
 ## Binärzahlen
 Binär steht für ein Zahlensystem bei dem es nur zwei Ziffern gibt. Die 0 und die 1. Der Begriff bezieht sich auf ein beliebiges Codier- und Decodiersystem, bei dem er nur zwei mögliche Zustände gibt.
+
