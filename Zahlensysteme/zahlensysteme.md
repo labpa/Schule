@@ -5,11 +5,6 @@ Hexadezimal hat die Basis 16.
 Ziffern: 0; 1; 2; 3; 4; 5; 6; 7; 8; 9; A; B; C; D; E; F
 A = 10; B = 11; C = 12; D = 13; E = 14; E = 15; 
 ### Hilfstabelle: Vielfache von 16
-|test|test|
-|---|---|
-|asaS|Sas|
-
-
 |n|n|
 |---|---|
 |1|16|  
@@ -31,6 +26,7 @@ A = 10; B = 11; C = 12; D = 13; E = 14; E = 15;
 
 ### Hilfstabelle: Sechzehnerpotenzen
 |n|16^n|
+|---|---|
 |0|1|
 |1|16|
 |2|256|
