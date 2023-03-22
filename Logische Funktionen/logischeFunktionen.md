@@ -57,7 +57,7 @@ Der Ausgang Q ist gleich 1, wenn Ausgang A oder B gleich 0 sind.
 ### NAND JavaScript
 ```JS
 function nand(a, b) {
-  return !(a && b)
+  return !(a && b);
 }
 ```
 
@@ -74,9 +74,26 @@ Der Ausgang Q ist immer dann 1, wenn die Eingänge A und B gleich 0 sind.
 ### NOR JavaScript
 ```JS
 function nor(a, b){
-    return !(a || b)
+    return !(a || b);
 }
 ```
-## NOR / NICHT-ODER / NODER
+## XNOR / Exklusiv-NICHT-ODER / Äquivalenz
+Für die logische Verknüpfung XNOR gilt, dass der Ausgang Q immer dann 1 ist, wenn die Eingänge A und B gleich sind. Also wenn beide gleich 1 oder gleich 0 sind.
+Es gelten folgende Regeln:  
++ Der Ausgang Q ist 0, wenn alle Eingänge unterscheidlich sind.
++ Der Ausgang Q ist 1, wenn alle Eingänge gleich sind.
+### Exklusiv-NICHT-ODER Wahrheitstabelle
+|A|B|Q|
+|---|---|---|
+|0|0|1|
+|0|1|0|
+|1|0|0|
+|1|1|1|
+### XNOR JavaScript
+```JS
+function xnor(a,b){
+    return a === b; 
+}
+```
 
 
