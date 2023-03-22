@@ -5,11 +5,15 @@ Hexadezimal hat die Basis 16.
 Ziffern: 0; 1; 2; 3; 4; 5; 6; 7; 8; 9; A; B; C; D; E; F
 A = 10; B = 11; C = 12; D = 13; E = 14; E = 15; 
 ### Hilfstabelle: Vielfache von 16
+|test|test|
+|---|---|
+|asaS|Sas|
+
 
 |n|n|
 |---|---|
-|1|16|
-|2|32|
+|1|16|  
+|2|32|   
 |3|48|
 |4|64|
 |5|80|
@@ -40,3 +44,4 @@ A = 10; B = 11; C = 12; D = 13; E = 14; E = 15;
 ## Binärzahlen
 Binär steht für ein Zahlensystem bei dem es nur zwei Ziffern gibt. Die 0 und die 1. Der Begriff bezieht sich auf ein beliebiges Codier- und Decodiersystem, bei dem er nur zwei mögliche Zustände gibt.
 
+tretret
