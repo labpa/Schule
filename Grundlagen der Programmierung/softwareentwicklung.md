@@ -9,8 +9,7 @@ Vorteile:
 + Wiederverwendbarkeit
 + Sicherheit und Zuverlässigkeit
 
-+ Abstraktionsprinzip - eine Auswahl relevanter Informationen aus einer größeren Menge von verfügbaren Informationen.
-
+Abstraktionsprinzip - eine Auswahl relevanter Informationen aus einer größeren Menge von verfügbaren Informationen.
 + Unwesentliche Informationen für die gegebene Aufgabenstellung ausschließen-
 
 ## Methoden
