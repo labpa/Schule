@@ -28,6 +28,8 @@ Schrittweise Verfeinerung:
 
 ## Software-Lebenszyklus
 Professionelle Software wird immer komplexer - um besser planen und kontrollieren zu können, ist eine strukturierte Vorgehensweise notwendig. Der Software-Lebenszyklus wird in Phasen eingeteilt. In jeder Phase werden bestimmte Aufgaben erledigt, getestet und dokumentiert. Fehler bei der Entwicklung werden frühzeitig erkannt.
+
+
 ![Alt text](./img/lebenszyklus.png)
 
 ### Analysephase - Was soll die Software tun?
