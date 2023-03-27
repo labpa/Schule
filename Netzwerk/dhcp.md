@@ -35,7 +35,7 @@ SN 255.255.0.0
 |Ohne Leasereservierung kann es zu unübersichtlichkeit kommen (ggf. schwerer zu Identifizieren)|Zeitaufwendig (auch Finanziel -> Arbeitszeit)|
 
 ## DHCP-Starvation-Angriff
-### Funktion
+### Erklärung
 Bei einer DHCP Starvation Attacke (Angriff durch Aushungern) handelt es sich um ein Angriff gegen ein Computer-Netzwerk
 
 Dieser Angriff nutzt aus, dass die früher unveränderbar an die Hardware gebundene MAC-Adresse bei vielen Netzwerkschnittstellen frei konfigurierbar ist. Bei einer DHCP Starvation Attack wird unter Verwendung einer Vielzahl gefälschter MAC-Adressen jeweils eine automatische oder dynamische IP-Adresse beim DHCP-Server angefordert. Dies geschieht so lange, bis der verfügbare Adressraum des DHCP-Servers aufgebraucht ist und dieser keine Adressen mehr bereitstellen kann. Die Anmeldung weiterer Netzwerkclients ist dann nicht mehr möglich
@@ -45,3 +45,10 @@ Die Störwirkung ist auf eine Broadcast-Domäne begrenzt.
 ### Abwehrmaßnahmen 
 Zugriffsschutz / Port Security. Bei einem Switch wird anhand der Mac Adresse festgelegt den Switch/Port verwenden darf.   
 DHCP antwortet nur geräten die bereits im Netzwerk identifiziert sind. Public Key / Kerberos
+
+## DHCP-Spoofing
+### Erklärung
+
+### Abwehrmaßnahmen
+DHCP-Snooping
+![Alt text](./img/dhcp-snooping.png)
