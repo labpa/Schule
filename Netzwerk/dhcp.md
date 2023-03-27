@@ -4,7 +4,11 @@
 Es werden IP-Adresse, Routeradresse und die Subnetzmaske dynamisch vergeben.  
 Arbeitet nach dem D.O.R.A - Prinzip   
 D = Discover O = Offer R = Request A = Acknowledge
+
+
 ![Alt text](./img/dhcp-DORA.png)
+
+
 
 Konfliktlösung -> 3x APR-Request (auf eigene IP-Adresse)
 + Dynamisch / Statisch
