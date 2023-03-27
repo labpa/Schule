@@ -53,3 +53,9 @@ DHCP antwortet nur geräten die bereits im Netzwerk identifiziert sind. Public K
 DHCP-Snooping
 
 ![Alt text](./img/dhcp-snooping.png)
+
+## DHCP-Failover
+Fällt ein DHCP Server (DCP01) aus oder hat eine auslastung von >90% gehen die Anfragen direkt an DCP02 
+
+![Alt text](./img/dhcp-failover.png)
+
