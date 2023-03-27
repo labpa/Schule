@@ -51,4 +51,5 @@ DHCP antwortet nur geräten die bereits im Netzwerk identifiziert sind. Public K
 
 ### Abwehrmaßnahmen
 DHCP-Snooping
+
 ![Alt text](./img/dhcp-snooping.png)
