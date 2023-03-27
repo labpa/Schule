@@ -19,15 +19,13 @@ Konfliktlösung -> 3x APR-Request (auf eigene IP-Adresse)
 Allgemeine SE D.R. 0.0.0.0  
 SN 255.255.0.0
 
-|Dynamisch Vorteile|Statisch Vorteile|
+|**Dynamisch Vorteile**|**Statisch Vorteile**|
 |---|---|
 |Server macht keine Tippfehler|Netzidentität bleibt erhalten|
 |Konfliktlösung -> doppelte Vergabe wird reduziert|Verbinden möglich trotz Probleme bei der Namensauflösung|
 |schneller + effizienter|Administratoren haben die volle Kontrolle|
 ||Netzwerkressourcen sind kinstanter abzubilden|
-
-|Dynamische Nachteile|Statische Nachteile|
-|---|---|
+|**Dynamische Nachteile**|**Statische Nachteile**|
 |Fremde Geräte einfacher einzusteuern|Dem Admin dürfen keine Fehler passieren (ggf. mehr kontrollieren)|
 |Server bietet Technikfehler|Keine automatische Überprüfung ob Adressen doppelt vergebn wurden|
 |Ohne Leasereservierung kann es zu unübersichtlichkeit kommen (ggf. schwerer zu Identifizieren)|Zeitaufwendig (auch Finanziel -> Arbeitszeit)|
