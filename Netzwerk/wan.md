@@ -1,27 +1,28 @@
 # **Weitverkehrsnetze (Öffentliche Netzt)**
-
-# WAN Wide Area Network
+## WAN Wide Area Network
 
 DDE -- DÜE -- Übertragungsweg -- DÜE -- DDE 
 
 DDE = Dynamic Data Exchange (dynamischer Datenaustausch)
 DSL Modem etc. 
-![Alt text](img/wan2.png)
+
+![Alt text](img/wan2.png)  
+
 Tafelbild
 
 
-## Arten von Netzen 
+### Arten von Netzen 
 + PSEN
 + ISDN
 + Kabelfernsehnetz / Unterseekabel
 + Mobilfunk / Satelliten-Netz
----
-## Intranet
+
+#### Intranet  
 Intranet ist ein Internes Netz, ein Netzwerk das nur innerhalb eines Unternehmens genutzt wird. MitarbeiterInnen können auf internet Seiten zugreifen.
 Nur Leute in der eigenen Organisation 
 Intranet --> intern.robotron --> Private IP-Adressen 
  
-## Extranet
+#### Extranet
 Erweiterung des Intranets. Zugang für KundInnen, Zulieferer oder Partner die auf spezielle Interne Informationen zugreifen dürfen.
 
 ||Lokales Netz|Weitverkehrsnetz|
@@ -30,35 +31,33 @@ Erweiterung des Intranets. Zugang für KundInnen, Zulieferer oder Partner die au
 |Übertragungsraten|100 MBit/s bis 10 GBit/s|2 MBits/s --> 100 GBit/s|
 |Eigentum|im Besitz des Benutzers|Im Besitz öffentlicher oder privater Betriebe|
 
-##   Dienste
-
+## Dienste
 + Internetdienste --> Server-Applikationen
 
-QoS --> Qualitäf of Service
+QoS -> Qualitäf of Service  
+
 + Dauer des Verbindungsaufbaus
 + Ausfallwarscheinlichkeit
 + Durchsatzrate
 + Priorisierung von Protokollen
 
 ## Kernnetz
-
 PDH Plesiochrone Digitale Hierarchie
 Multiplexing verfahren für reine Bitströme 
 
-ITU-G 7XX
-E0 64 k Bits
-E1 2048 M Bits
-E2 8448 M Bit/s
-E3 34 368 M Bit/s
-E4 139 264 M Bit/s
-E5 564 992 M Bit/s
+ITU-G 7XX  
+E0 64 k Bits  
+E1 2048 M Bits  
+E2 8448 M Bit/s  
+E3 34 368 M Bit/s  
+E4 139 264 M Bit/s  
+E5 564 992 M Bit/s  
 
 ## Verbindungsarten
 + Festverbindung
     + Standleitung / Mietleitung
 
 ## Vermittlungsprinzip
-
 |Paketvermittlung|Leitungsvermittlung|
 |---|---|
 |- Keine dezidierte Verbindung|- Physikalische oder virtuelle verbindung|
@@ -75,7 +74,7 @@ E5 564 992 M Bit/s
 |Zwischenspeicherung|Ja|Nein|
 |Abrechnung|Datenmenge|Zeiteinheit|
 
-# Netzneutralität
+## Netzneutralität
 + gleiche behandlung von Datenpaketen 
 ---
 
@@ -105,5 +104,8 @@ Bei ADSL handelt es sich um ein Übertragungsverfahren für einen Breitband-Inte
 
 ## SDSL Symmetric Digital Subscriber Line
 
-#SSTP
+## SSTP
+
+## VDSL
+
 
