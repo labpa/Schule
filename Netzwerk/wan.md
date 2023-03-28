@@ -107,4 +107,6 @@ Bei ADSL handelt es sich um ein Übertragungsverfahren für einen Breitband-Inte
 
 ## VDSL
 
-
+## Aufbau Mobilfunknetz
+Funkzellen sollten eine permanente Überlagerung haben.
+![Alt text](./img/abdeckung.png)
