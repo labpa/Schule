@@ -28,7 +28,7 @@ SN 255.255.0.0
 |Server macht keine Tippfehler|Netzidentität bleibt erhalten|
 |Konfliktlösung -> doppelte Vergabe wird reduziert|Verbinden möglich trotz Probleme bei der Namensauflösung|
 |schneller + effizienter|Administratoren haben die volle Kontrolle|
-||Netzwerkressourcen sind kinstanter abzubilden|
+||Netzwerkressourcen sind konstanter abzubilden|
 |**Dynamische Nachteile**|**Statische Nachteile**|
 |Fremde Geräte einfacher einzusteuern|Dem Admin dürfen keine Fehler passieren (ggf. mehr kontrollieren)|
 |Server bietet Technikfehler|Keine automatische Überprüfung ob Adressen doppelt vergebn wurden|
