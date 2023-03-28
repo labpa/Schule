@@ -76,7 +76,6 @@ E5 564 992 M Bit/s
 
 ## Netzneutralität
 + gleiche behandlung von Datenpaketen 
----
 
 + Simplex Verbindung die immer in eine richtung geht
 
@@ -87,7 +86,7 @@ Die Übertragung der Kommunikation erfolgt über zwei getrennte, eigenständige 
 
 + Multiplexing: Multiplexing bedeutet, mehrere Signale oder Informationsströme auf einer Leitung gleichzeitig in Form eines einzigen, komplexen Signals zu übertragen und dann auf der Empfangsseite wieder in separate Signale zu zerlegen.
 
-+ Multiple Access: Vielfachzugriff (von engl. multiple access) bezeichnet in der Nachrichtentechnik eine Reihe von Verfahren zur Aufteilung der Übertragungskapazität eines Übermittlungssystems unter die daran angeschlossenen Stationen. B
++ Multiple Access: Vielfachzugriff (von engl. multiple access) bezeichnet in der Nachrichtentechnik eine Reihe von Verfahren zur Aufteilung der Übertragungskapazität eines Übermittlungssystems unter die daran angeschlossenen Stationen.
 
 + Modulation: Der Begriff Modulation (lat. modulatio = Takt, Rhythmus) beschreibt einen Vorgang in der Nachrichtentechnik, bei dem ein zu übertragendes Nutzsignal (beispielsweise Musik, Sprache, Daten) einen sogenannten Träger verändert (moduliert). Dadurch wird eine hochfrequente Übertragung des niederfrequenten Nutzsignals ermöglicht. Das Sendesignal belegt im Bereich der Trägerfrequenz eine vom Nutzsignal abhängige Bandbreite. Die Nachricht wird empfangsseitig durch einen Demodulator wieder zurückgewonnen.
 
