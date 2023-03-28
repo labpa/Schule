@@ -111,3 +111,10 @@ Bei ADSL handelt es sich um ein Übertragungsverfahren für einen Breitband-Inte
 Funkzellen sollten eine permanente Überlagerung haben.
 
 ![Alt text](./img/abdeckung.png)
+
+## DVB-C
+DVB-C und DVB-C2 beschreiben nicht eine Form der Videokodierung oder welche Inhalte übertragen werden, sondern die physikalische Bitübertragungsschicht, um Inhaltsdaten wie Videodaten in Kabelfernsehnetzen, unter der Beachtung der physikalischen Eigenschaften von Kabelnetzen, zu übertragen. Dabei werden in einem DVB-C-Kanal mehrere Fernsehprogramme, bei Bedarf Radioprogramme, in Form eines Multiplexverfahrens (Mux) zusammengefasst. 
+
+Im Gegensatz zu terrestrischer Funkausstrahlung wie bei DVB-T kommt es in Kabelnetzen prinzipbedingt nicht zu Abschattungen und Mehrwegeausbreitungen des Funksignals. Diese Störeinflüsse auf Funkkanälen werden unter dem Begriff Fading zusammengefasst. Da Beeinträchtigungen durch Fading in Kabelnetzen wegfallen, können bei DVB-C im Vergleich zu DVB-T und DVB-S abweichende Übertragungstechniken mit einfacheren Modulationstechniken – im Vergleich zu DVB-T – und eine vergleichsweise höhere spektrale Effizienz – im Vergleich zu DVB-S – eingesetzt werden.
+
+Koaxialkabel Halfduplex
