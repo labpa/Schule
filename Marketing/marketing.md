@@ -180,7 +180,7 @@ Aus der Volkswirtschaftslehre lernt man, wie es zur Nachfrage kommt, das Marketi
 + gibt es dafür schon Lösungen?
 
 ### Maslowsche Bedürfnishierarchie
-Die Maslowsche Bedürfnishierarchie, bekannt als Bedürfnispyramide, ist ein sozialpsychologisches Modell des US-Amerikanischen Psychologen Abraham Maslow (1908-1970). Es beschreibt auf vereinfachende Art und Weise menschliche Bedürfnisse und Motivationen und versucht diese zu erklären.
+Die Maslowsche Bedürfnishierarchie, bekannt als Bedürfnispyramide, ist ein sozialpsychologisches Modell des US-Amerikanischen Psychologen Abraham Maslow (1908-1970). Es beschreibt auf vereinfachende Art und Weise menschliche Bedürfnisse und Motivationen und versucht diese zu erklären.  
 Von Oben nach Unten:
 
 5. Selbstverwirklichung  
@@ -199,7 +199,7 @@ Körperliche und Seelische Sicherheit, materielle Grundsicherung, Arbeit
 Zum Erhalt des Menschlichen Lebens erforderlich
 
 ### Das AIDA Modell
-Das AIDA-Modell (auch: AIDA-Formel oder AIDA-Prinzip) bezeichnet ein Modell zur Beschreibung der Werbewirkung im MArketing. AIDA steht dabei als Akronym für die Begriffe:  
+Das AIDA-Modell (auch: AIDA-Formel oder AIDA-Prinzip) bezeichnet ein Modell zur Beschreibung der Werbewirkung im MArketing. AIDA steht dabei als Akronym für die Begriffe:   
 **A**ttention (Aufmerksamkeit)  
 **I**nterest (Interesse)  
 **D**edire (Verlangen)  
