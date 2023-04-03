@@ -265,11 +265,38 @@ Für die Marketing-Planung gibt es ein bewährtes Vorgehen. Wenn man sich an die
 -> Bei der Werbung geht es darum, möglichst effizient Ihre Zielgruppe zu erreichen und zu Kunden zu machen. Dementsprechend haben Sie im Businessplan auch Angaben zu Ihrer Zielgruppe gemacht. Folglich sollten Sie bei der Werbung genau hinschauen, welcher Teil der Reichweite eines Werbekanals tatsächlich Ihrer Zielgruppe entspricht, damit Sie Streuverluste möglichst reduzieren.
 
 ### Zielgruppe finden
+Die eigene Zielgruppe zu definieren ist ein absolutes "Must have". Wie identifizieren Sie ihre Zielgruppe?
+
+Zielgruppendefinition: eine Art Trichter, mit dem Sie - von oben nach unten - immer mehr Bedingungen einbauen. Ziel dieses Trichters ist es, dass Sie einje große, heterogene Gruppe immer weiter einzugrenzen, bis Sie am Ende eine homogene Zielgruppe vor sich haben. Sobald Sie gewissenhaft Ihre Zielgruppe definieren, haben Sie ein genaues Bild ihrer potenziellen Kunden. 
 
 |Demographische Merkmale|Sozioökonomische Merkmale|Psychografische Merkmale|Kaufverhalten|
 |---|---|---|---|
 |alter|Bildungsstand|Motivation|Preissensibilität|
-|Geschlecht|Beruf|MEinung|Kundenzufriedenheit|
+|Geschlecht|Beruf|Meinung|Kundenzufriedenheit|
 |Familienstand|Einkommen|Wünsche|Kaufreichweite|
 |Wohnort||Werte||
 |||Lebensstil||
+
+Strategisches Marketing bedeutet, dass alle werbenden Maßnahmen eines Unternehmens langfristig ausgerichtet sind. Ein Unternehmen entscheidet sich z.B. für das strategische MArketing, wenn es eine Marke aufbauen möchte oder ein besseres Unternehmensimage erzielen möchte. Die strategische Planung beginnt mit der strategischen Analyse, aufbauend auf der Formulierung der strategischen Ziele werden die passenden Marketingstrategien entwickelt.
+
+Neim strategischen Marketing berücksichtigt ein Unternehmen die folgenden Aspekte:
++ Marketingziele
++ Marktsegmente
++ Wettbewerbsstrategie
++ Wachstumsstrategie
+
+## Marketinginstrumente
+Die vier wesentlichen Marketinginstrumente kann man nach dem klasischen Modell der 4Ps als Marketingmix zusammenfassen. Mit den Instrumenten des Marketing-Mix gehen Sie die zwei Hauptaufgaben des Marketings umfassend an: Zum einen die Vermarktung Ihrer Produkte bzw. die Bekanntmachung Ihres Unternehmens, zum anderen die Ausrichtung Ihrer Firma an den Marktbedürfnissen.
++ Produktpolitik (**P**roduct):   
+Produkte an den Kundenwünschen ausrichten
++ Preispolitik (**P**rice):  
+Produkte mit einem Preis verstehen, zu dem Kunden diese auch kaufen.
++ Distributionspolitik (**P**lace):
+
+### Die 5 Phasen des Produktlebenszyklus
+Beim Produktlebenszyklus wird die "Lebensdauer" eines Produktes am Markt in mehreren Phasen unterteilt. Insgesamt werden 5 Phasen des Produktlebenszyklus definiert:
++ Forschung und Entwicklung
++ Einführung
++ Wachstum
++ Reife
++ Abnahme bzw. Schrumpfung
