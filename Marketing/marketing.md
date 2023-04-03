@@ -184,12 +184,16 @@ Die Maslowsche Bedürfnishierarchie, bekannt als Bedürfnispyramide, ist ein soz
 Von Oben nach Unten:
 5. Selbstverwirklichung  
 Unruhe und Unzufriedenheit erwachen: Talente, Potenziale und Kreativität entfalten.
+
 4. Individualbedürfnisse  
 Vertrauen, Wertschätzung, Selbststbestätigung, Erfolg, Freiheit und Anabhängigkeit
+
 3. soziale Bedürfnisse  
 Familie, Freundschaft, Zugehörigkeitsgefühl, Kommunikation
+
 2. Sicherheitsbedürfnisse  
 Körperliche und Seelische Sicherheit, materielle Grundsicherung, Arbeit
+
 1. Physiologische Bedürfnisse  
 Zum Erhalt des Menschlichen Lebens erforderlich
 
