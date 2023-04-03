@@ -20,7 +20,6 @@ Eine Marktprognose ist in der Wirtschaft und im MArketing die Voraussage über d
 5. Trends
 
 ## Mikro-Umfeld / Makro-Umfeld
-Das Mikro-Umfeld sind jene Faktoren, die unmittelbar auf die Marketingidee Einfluss haben, das Makro-Umfeld muss man globaler denken. 
 
 |Faktoren im Mikro-Umfeld|Faktoren im Makro-Umfeld|
 |---|---|
@@ -32,21 +31,32 @@ Das Mikro-Umfeld sind jene Faktoren, die unmittelbar auf die Marketingidee Einfl
 |Logistik|| 
 |Marketingmittler||
 
-### Kunden = Nachfrager
+### Mikro-Umfeld
+Das Mikro-Umfeld sind jene Faktoren, die unmittelbar auf die Marketingidee Einfluss haben, das Makro-Umfeld muss man globaler denken. 
+#### Kunden = Nachfrager
 Wenn die Kundinnen und Kunden von einem Tag auf den anderen keine Lust mehr auf Autos haben, kann man das beste Auto bauen -  man hat ein Problem. Daher sind die Kunden die wesentlichen Faktoren, die sich auf das Marketing auswirken. Nicht wenige Großunternehmen haben auch schon schwere Niederlagen erlebt, weil die neue Schokolade einfach durchgefallen ist- obwohl alle anderen Sorten geliebt werden.
 + unterschiedliche Kundenreaktionen
 + Kundenwünsche können sich ändern
 + gute Analyse der Kundenwünsche ist hilfreich
-### Lieferanten
+
+#### Lieferanten
 Ohne Lieferanten keine Ware. Gute Zusammenarbeit mit der Logistik ist sehr wichtig
 + verlässliche Lieferanten sind die Basis zum Erfolg
 + langfristige Zusammenarbeit beidseitig erwünscht
 + Lieferprobleme setzen Marketing unter Druck
-### Märkte und Konkurenz
-### Dienstleister
-### Logistik
 
-## SWOT Analyse
+#### Märkte und Konkurenz
+
+#### Dienstleister
+
+#### Logistik
+
+#### SWOT Analyse
+**S**trengths - Stärken    
+**W**eaknedd - Schwächen  
+**O**pportunities - Chanchen  
+**T**hreats - Risiken
+
 Eine valide Einschätzung der stärken, schwäschen, risiken und Chanchen macht es möglich, erfolgreiche Strategiern und Zukunftsperspektiven zu entwickeln. Welche Stärke ist notwendig, um eine konkrete, sich bietende Chanche zu nutzen. Das nennt man auch eine Matching-Strategie (eine passende Kombination von Stärken und Chanchen nutzen). Voraussetzung dafür ist allerdings die Fähigkeit, eine solche Chanche zu erkennen.
 + Was funktioniert gegenwärtig sehr gut?
 + Was sind zukünftige Chanchen und Möglichkeiten
@@ -61,3 +71,53 @@ Eine valide Einschätzung der stärken, schwäschen, risiken und Chanchen macht 
 |Deregulierung|Kundenerwartungen|Innovationskraft|Betriebsklima|
 |Globalisierung|Neue Wettbewerber|Know-how|Konflikte|
 |Digitalisierung|Wirtschafts- und Finanzkrisen|Qualifiziertes Personal|Liquidität|
+
+Mithilfe der SWOT-Analyse arbeiten Sie konkret Stärken und Schwächen sowie Chanchen und Risiken heraus und stellen diese übersichtlich in einer Tabelle dar.
+
+Die Ergebnisse dieser Arbeit sind Grundlagen für einen Business und Marketingplan, durch den die SWOT-Analyse erst ihren Sinn bekommt. 
+
+### Makro-Umfeld
+Wesentlich mehr Eckpunkte gibt es im Mikro-Umfeld, das unmittelbar auf das Marketingsystem wirkt. Es gibt aber auch wichtige Eckpfeiler im Makro-Umfeld und einige davon sind nicht zu kontrollieren und können auch für große Überraschungen sorgen.
+
+#### Staat
+Noch eher planbar ist der Staat. Der Staat gehört eigentlich zum Mikro-Umfeld und zu den Märkten bzw. auch zu den Marketingmittlern.
+
+Aber der Staat sorgt auch für die **gesetzlichen Rahmenbedingungen** und strengere Vorschriften in Sachen Umwelt - das kann große Veränderungen für das Marketing bedeuten
++ neue Gesetze beeinflussen das Marketing
++ Zölle können zu Verteuerung führen
+
+#### Börsen
++ rasche Veränderungen durch Börsenkurse
++ nachhaltige Konsequenzen bei Währungswechsel
+#### Finanzpolitik
++ Zollentscheidungen
++ Strafzölle
++ Leitzinsen der Währung
+### Technologie
++ Umstellung auf Onlineverkauf
++ Unternehmensseiten mit Handy nutzbar
++ neue Verfahren in der Industrie
+
+## Faktoren
+1. Kundentypen, Kundenstruktur (Auch wegen Kundenwunsch und -bedarf wichtig)
++ Privat oder geschäftlich
++ Bedeutung / Umsatz
++ Dauer
++ Treue
+-> Kundenstruktur, Key-Account
+
+1. Kundenbedürfnisse
+Kundenorientierung = Befriedigung der Bedürfnisse / Bewusste, latente -> konkret ist es dann Nachfrage
+
+3. Wertevorstellung, Kaufmotiv
++ Wirtschaftlich oder ökonomisch?
++ NAchhaltigkeit/ökologisch
++ Nicht rational = andere Kaufmotive (v.a. privat). Wie Gewohnheit, Impulskauf, soziales Umfeld, Prestige u.a.
+
+### Kulturelle Faktoren
+
+### Soziale Faktoren
+
+### Persönliche Faktoren
+
+### Psychologische Faktoren
