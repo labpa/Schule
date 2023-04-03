@@ -185,23 +185,82 @@ Von Oben nach Unten:
 
 5. Selbstverwirklichung  
 Unruhe und Unzufriedenheit erwachen: Talente, Potenziale und Kreativität entfalten.
-
 4. Individualbedürfnisse  
 Vertrauen, Wertschätzung, Selbststbestätigung, Erfolg, Freiheit und Anabhängigkeit
-
 3. soziale Bedürfnisse  
 Familie, Freundschaft, Zugehörigkeitsgefühl, Kommunikation
-
 2. Sicherheitsbedürfnisse  
 Körperliche und Seelische Sicherheit, materielle Grundsicherung, Arbeit
-
 1. Physiologische Bedürfnisse  
 Zum Erhalt des Menschlichen Lebens erforderlich
 
 ### Das AIDA Modell
-Das AIDA-Modell (auch: AIDA-Formel oder AIDA-Prinzip) bezeichnet ein Modell zur Beschreibung der Werbewirkung im MArketing. AIDA steht dabei als Akronym für die Begriffe:   
+Das AIDA-Modell (auch: AIDA-Formel oder AIDA-Prinzip) bezeichnet ein Modell zur Beschreibung der Werbewirkung im Marketing. AIDA steht dabei als Akronym für die Begriffe:   
 **A**ttention (Aufmerksamkeit)  
 **I**nterest (Interesse)  
 **D**edire (Verlangen)  
 **A**ction (Handlung)
 
+### Fünf Effekte von Werbung
+Es müssen fünf Voraussetzungen gegeben sein, damit ein Rezipient letztlich zum Konsumenten wird:
+1. ein Kategoriebedürfnis muss vorhanden sein.
+2. Rezipient muss die beworbene Marke kennen.
+3. Rezipient muss positive Einstellung dem Produkt gegenüber entwickeln.
+4. Rezipien muss Kaufabsicht bilden
+5. eine Kauferleichterung verschaffen
+
+Auf den ersten Blick ähnelt dieses Modell dem alten AIDA-Modell. Allerdings muss nicht jede Werbung tatsächlich diese Effekte beinhalten. Beispielsweise kann ein bestimmtes Bedürfnis bereits vorhanden sein und auch das Wissen um die Marke und deren Einordnung in eine Produktkategorie kann bereits vorhanden sein. 
+
+Bequem bedeutet meist:  
++ Eine maßgeschneiderte Angebotswahl vorzufinden
++ Einfach Produkte suchen zu können
++ Das Produktangebot leicht zu verstehen
++ Simple Bestell- & Transaktionsprozesse nutzen zu können
++ Schnelle Lieferoptionen zu haben
++ Qualitative Sales & After Sales Support zu bekommen
+
+Konsumenten kaufen da, wo sie sich mit ihren Bedürfnissen verstanden fühlen.
+
+### Was sind die Ziele von Marketing
+Das MArketingkonzept ist für jedes Unternehmen das Herzstück des Marketings. Es ist das zentrale Element im Marketing. Daraus werden der Marketingplan erstellt, die einzelnen Maßnahmen abgeleitet und miteinander verzahnt. Viele Marketingaktivitäten würden ansonsten planlos und wilkürlich durchgeführt werden.
+
+1. Situationsanalyse - Status-Quo
++ Umfeldanalyse
++ Wettbewerbsanalyse
++ Zielgruppen-/Kundenanalyse
++ SWOT-Analyse
+2. Marketingziele
++ Strategisch
++ Finanziell
++ Marktorientiert
++ Kundenbezogen
+3. Marketing-Strategie
++ Qualitätsführerschaft
++ Preisführerschaft
++ Nischenstrategie
+4. Marketinginstrumente
++ Produkt
++ Preis 
++ Vertriebskanäle
++ Kommunikation
+5. Marketing-Mix
++ Arbeitsschritte
++ Termine
++ Verantwortlichkeiten
++ Budgets
+6. Marketing-Controlling
++ In time
++ In budget
++ Kennzahlen
+
+### Marketing-Planung
+Für die Marketing-Planung gibt es ein bewährtes Vorgehen. Wenn man sich an dieses hält, vermeidet man im späteren Verlauf ungeklärte Fragen. Dadurch vermeidet man Marketingaktionen, die eventuell nicht zu der Gesamtstrategie des Unternehmens passen.
++ **Analyse** der aktuellen Lage des Unternehmens und des Umfeldes
++ Festlegung der **Strategien**, wie die Ziele erreicht werden sollen.
++ Festlegung der **Ziele**, die durch das Marketing erreicht werden sollen
++ Planung der **Ausgaben**, die für das Marketing getätigt werden sollen
++ Definition der genauen **Maßnahmen** durch den Marketing-Mix
++ **Kontrolle**, ob die Ziele erreicht wurden und die Ausgaben dabei nicht zu hoch waren 
+-> Bei der Werbung geht es darum, möglichst effizient Ihre Zielgruppe zu erreichen und zu Kunden zu machen. Dementsprechend haben Sie im Businessplan auch Angaben zu Ihrer Zielgruppe gemacht. Folglich sollten Sie bei der Werbung genau hinschauen, welcher Teil der Reichweite eines Werbekanals tatsächlich Ihrer Zielgruppe entspricht, damit Sie Streuverluste möglichst reduzieren.
+
+### Zielgruppe finden
