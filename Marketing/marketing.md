@@ -260,7 +260,16 @@ Für die Marketing-Planung gibt es ein bewährtes Vorgehen. Wenn man sich an die
 + Festlegung der **Ziele**, die durch das Marketing erreicht werden sollen
 + Planung der **Ausgaben**, die für das Marketing getätigt werden sollen
 + Definition der genauen **Maßnahmen** durch den Marketing-Mix
-+ **Kontrolle**, ob die Ziele erreicht wurden und die Ausgaben dabei nicht zu hoch waren 
++ **Kontrolle**, ob die Ziele erreicht wurden und die Ausgaben dabei nicht zu hoch waren
+
 -> Bei der Werbung geht es darum, möglichst effizient Ihre Zielgruppe zu erreichen und zu Kunden zu machen. Dementsprechend haben Sie im Businessplan auch Angaben zu Ihrer Zielgruppe gemacht. Folglich sollten Sie bei der Werbung genau hinschauen, welcher Teil der Reichweite eines Werbekanals tatsächlich Ihrer Zielgruppe entspricht, damit Sie Streuverluste möglichst reduzieren.
 
 ### Zielgruppe finden
+
+|Demographische Merkmale|Sozioökonomische Merkmale|Psychografische Merkmale|Kaufverhalten|
+|---|---|---|---|
+|alter|Bildungsstand|Motivation|Preissensibilität|
+|Geschlecht|Beruf|MEinung|Kundenzufriedenheit|
+|Familienstand|Einkommen|Wünsche|Kaufreichweite|
+|Wohnort||Werte||
+|||Lebensstil||
