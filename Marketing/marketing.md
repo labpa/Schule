@@ -106,18 +106,77 @@ Aber der Staat sorgt auch für die **gesetzlichen Rahmenbedingungen** und streng
 + Treue
 -> Kundenstruktur, Key-Account
 
-1. Kundenbedürfnisse
++ **Dominante Kunden**  
+Der dominante Kundentyp möchte bei jedem Gespräch die Führung übernehmen. Dieser Kundentyp möchte eine Auswahl an Angeboten, aber er möchte aktiv entscheiden können. Zu den dominanten Kunden zählen der "Besserwisser", der "Verhandler" und der "Gestresste".
+
++ **Initiative Kunden**  
+Initiative Kunden ist die persönliche Ebene sehr wichtig. Sie möchten auf einer emotionalen Ebene über Produkte sprechen, schweifen oft vom Thema ab und antworten sehr ausführlich. Es fällt ihnen jedoch schwer sich zu entscheiden. Zu sieder Kundengruppe zählen der "Interessierte", der "Vielredner" und der "Miesepeter".
+
++ **Stetige Kunden**  
+Sie möchten vor allem Gemeinsamkeiten finden, Vergleiche sehen und lassen sich von Empfehlungen anderer Kunden begeistern. Sie brauchen für Ihre Entscheidung oft mehr ZEit und möchten sich mit anderen Personen beraten. Direkte Fragen eignen sich nicht für diesen Typus. Zu diesem Typen zählen der "Unsichere", der "Zurückhaltende", und der "Zustimmer".
+
++ **Gewissenhafte Kunden**  
+Die Gewissenhaften möchten vor alle eine Kompetente Beratung, denn sie haben sich auf das Gespräch vorbereitet. Sie können alle Fragen mehr als ausreichend beantworten und bewerten nach Fakten: Beim Abschluss werden nochmal alle Details geprüft. Zu den gewissenhaften Kunden zählen der "Zurückhaltende", der "Skeptiker" oder der "Miesepeter".
+
+2. Kundenbedürfnisse
 Kundenorientierung = Befriedigung der Bedürfnisse / Bewusste, latente -> konkret ist es dann Nachfrage
+
+Ganz wichtig ist auch die Frage danach, welchen Nutzen ein Produkt dem Kunden brintgt. Eine Bedarfsermittlung hat das Ziel, dass Sie herausfinden, wie bzw. ob Sie mit dem Anfragenden Geschäfte machen können.  
+
+-> Basis einer guten Bedarfsermittlung sind gute Fragen.
+
 
 3. Wertevorstellung, Kaufmotiv
 + Wirtschaftlich oder ökonomisch?
 + NAchhaltigkeit/ökologisch
 + Nicht rational = andere Kaufmotive (v.a. privat). Wie Gewohnheit, Impulskauf, soziales Umfeld, Prestige u.a.
 
+Das Kaufmotiv bestimmt zum einen, warum der Verbraucher den Kauf überhaupt tätigt, zum anderen warum sich der Verbraucher, falls er bei seinem Kauf die Wahl zwischen mehreren Produktenhat, das Produkt eines bestimmten Herstellers oder Händlers oder einer Marke gegenüber dem Produkt eines anderen Herstellers oder Händlers bzw. einer anderen Marke bevorzugt. (Produkt- und Markenpreferent)
+
+Kaufmotive können positiv oder negativ besetzt sein.
+
 ### Kulturelle Faktoren
 
 ### Soziale Faktoren
 
 ### Persönliche Faktoren
-
+Persönliche Faktoren wie Alter, Beruf oder Gewohnheit beeinflussen die Kaufentscheidung. Der Lebensstil klärt z.B. ob generell Markenprodukte oder eher No-Name-Produkte gekauft werden
 ### Psychologische Faktoren
+
+### Marktforschungsinstitute
+Marktforschungsinstitute analysieren die Eigenheit, Nutzungsgewohnheit und Bedürfnisse der Zielgruppen.
+
+## Marketing
+Der Begriff Marketing bezeichnet zum einen den Unternehmensbereich, dessen Aufgabe es ist, Produkte und Dienstleistungen zu vermarkten; zum anderen beschreibt dieser Begriff ein Konzept der ganzheitlichen, marktorierntierten Unternehmensführung zur Befriedigung der Bedürfnisse und Erwartungen von Kunden und anderen Interessengruppen (Steakholder).
+### Ausrichtung von MArketing
+Abhängig vom Unternehmen und der Branche hat man verschiedene Ausrichtungen, wie und warum mann das Marketing überhaupt beginnt, wobei es Hauptziele gibt, aus denen man für sich einen Schwerpunkt heraussuchen kann, aber oftmals wird auch eine Kombination angestrebt.
+### Was sind die Ziele des Marketings?
+Klassische Ziele im Marketing sind
++ maximaler Konsum
++ maximale Verbraucherzufriedenheit
++ maximale Auswahl
++ maximale Lebensqualität
+Die Ziele im Marketing haben sich stark verändert, weil der maximale Konsum kaum mehr erreichbar ist.
+#### maximaler Konsum
+Die Idee hinter dem maximalen Konsum ist die Motivation der Menschen, sich viele Dinge kaufen zu können. Dieser Ansatz funktioniert in einer Gesellschaft, in der man nichts hat. Aber in einer funktinonierenden modernen Gesellschaft ist der Bedarf schon häufig abgedeckt, sodass der Wunsch nach immer mehr Produkten kaum mehr vorhanden ist.
+#### maximale Verbraucherzufriedenheit
+Man verkauft nicht irgendwas und hofft auf Umsatz, sondern überlegt sich, welche 
+#### maximale Lebensqualität
+#### maximale Auswahl
+
+### Marketing auf Basis der Volkswirtschaft
+Viele Themen überschneiden sich in wirtschaftlichen Zusammenhängen. Sehr oft trifft man um Marketing auf Reaktionen, die die Volkswirtschaftslehre ausgearbeitet hat. Besonders deutlich wird die Überschneidung, wenn es um die Frage von Bedürfnis und Kaufkraft sowie Nachfrage geht, denn das gibt es in der Volkswirtschaftslehre als Größe, die im Marketing genau so wie im Handel oder auch in der Betriebswirtschaftslehre wichtig sind.
+
+Die Volkswirtschaftslehre kenne folgende Phasen:
++ Bedürfnis
++ Kaufkraft
++ Bedarf
++ Nachfrage
+
+Aus der Volkswirtschaftslehre lernt man, wie es zur Nachfrage kommt, das Marketing legt eine weitere Phase darüber mit Fragen wie:
++ was sind die Bedürfnisse?
++ wie sollen sie befriedigt werden?
++ wie sehen die Erwartungen aus?
++ gibt es dafür schon Lösungen?
+
+
