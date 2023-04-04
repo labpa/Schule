@@ -1,6 +1,6 @@
 # Marketing
 ## Marktwirtschaft
-Eine Marktwirtschaft besteht aus einer Vielzahl von Märkten, innerhalb derer Anbieter und Nachfrager sich gegenseitig beeinflussen. Der Staat setzt in der MArktwirtschaft nur Rahmenbedingungen fest, greift selbst aber auch nicht in das Marktgeschehen ein. 
+Eine Marktwirtschaft besteht aus einer Vielzahl von Märkten, innerhalb derer Anbieter und Nachfrager sich gegenseitig beeinflussen. Der Staat setzt in der Marktwirtschaft nur Rahmenbedingungen fest, greift selbst aber auch nicht in das Marktgeschehen ein. 
 
 Es gibt Prinzipiell drei mögliche Kategorien von Verhaltensweisen der Anbieter und der NAchfrager, die jeweils auch als Konkurrenten untereinander auftreten können:
 + **zu agieren**, d.h. bestimmte Marktparameter Preis, Qualität, Service etc. zu setzen und sich Wettbewerbsvorteile zu verschaffen.
@@ -346,3 +346,38 @@ Jedes unternehmen hat eine Unternehmensidentität. Auch wenn bisher keine bewuss
 Leider weist dieses "Nebenprodukt" viele Schwachstellen auf:
 + 
 
+### 5 Sinne 
+
+1. Corporate Sight   
+Drei Viertel der Sinneseindrücke nimmt ein Kunde oder Mitarbeiter über die Augen auf.
++ Lichteffekte einsetzen  
+Mit Licht die Produkte in Fokus rücken.
++ Ausstellungskästen  
+bieten Platz für Produkte. Fotos etc.
++ Anstrahlen lassen  
+Fassade des Unternehmens anleuchten. Logo beleuchten
++ Tageslichtlampen für die Mitarbeiter  
+Steigert das Wohlbefinden der Mitarbeiter.
+
+2. Corporate Smell  
+Erzeugen eines Unternehmensdurf
++ Zerstäuber zaubern Düfte in die Luft
++ Wiender Kaffeehäuser verstreuen Kaffee
+
+3. Corporate Sound  
+Firmen Jingle, Eigene Lieder die einer Marke zu zuordnen sind.
++ Ein Lied komponieren lassen.
++ Akustik-Logo schaffen.
++ Akustische Szene einsetzen.
+
+4. Corporate Taste  
+Den Geschmack als Sinn zu befriedigen, ist wohl für einige Unternehmen die größte Herausforderung. Denn wer nicht in der Lebensmittelbranche tätig ist, kann kaum etwas zum Probieren anbieten.
++ Leckerlies reichen.
++ Verköstigungs-Event planen.
++ Werbeartikel, die den Gaumen verwöhnen.
+
+5. Corporate Touch
+Etwas ertasten. Etwas berühren. Durch den Corporate Touch erfährt der Kunde viel über die Beschaffenheit eines Produktes.
++ Broschüren, Kataloge, Visitenkarten
++ Werbeartikel für den Sinn "Tasten"
++ Die Einrichtung. Möbelstück, Fußbodenbelag,...
