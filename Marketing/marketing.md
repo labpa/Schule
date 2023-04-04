@@ -411,3 +411,18 @@ Typische Kommunikationsinstrumente in diesem Bereich sind:
 + Aktionärsbrief
 ### Stufen des Marketingkonzepts
 ![Alt text](./img/marketingkonzept.png)
+
+### Werbebudget
+#### % Methode
+#### Bedarfsmethode
+#### Konkurrenzorientierten Methoden
+#### Zielorientierte Methode
+Bei der Zielorientierten Methode orientieren Sie sich an eigenen gesetzten Werbezielen und berechnen die finanziellen Mittel, die zu deren Erreichung notwendig sind. Ziele die Sie erreichen wollen, können sein:
++ eine bestimmte Umsatzhöhe
++ eine bestimmte Umsatzsteigerung
++ eine bestimmte Ertragshöhe
++ die Ansprache einer neuen Zielgruppe
++ die Einführung eines neuen Services oder eines neuen Produktes ider die Steigerung Ihres Bekanntheitsgrades.
+#### Pro-Kopf Methode
+
+### Geeignete Werbemittel
