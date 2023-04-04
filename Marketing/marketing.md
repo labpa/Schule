@@ -381,3 +381,33 @@ Etwas ertasten. Etwas berühren. Durch den Corporate Touch erfährt der Kunde vi
 + Broschüren, Kataloge, Visitenkarten
 + Werbeartikel für den Sinn "Tasten"
 + Die Einrichtung. Möbelstück, Fußbodenbelag,...
+
+#### Corporates Communications Bereich 1: Interne Kommunikation
+Corporate Communications umfasst alle Instrumente der Kommunikation, die im Innen und Außen die Unternehmensidentität darstellt -  und zwar im Besonderen 4 Bereiche der Unternehmenskommunikation.
+
+Die Interne Kommunikation ist umfassend.
++ E-Mails und Briefe, Intranet
++ Berichte, Protokolle, Memos und Rundschreiben
++ Checklisten, Formulare, Arbeitsbögen, Arbeitsanweisungen
++ Beurteilungsbögen, Jahresberichte
++ Arbeitsplatzbeschreibungen/Job-Description
++ Aushänge, Plakate, Schwarzes Brett
++ Broschüren, Flyer, Prospekte, Newsletter, Mitarbeiterzeitschriften
++ Meetings, Kurzbesprechungen, Tagungen
+
+#### Corporates Communications Bereich 2: Externe Kommunikation - Kunden
+Die Kundenansprache entscheidet, ob der Kunde etwas kauft oder nicht. Aus diesem Grund wird das Marketing die Communications zum Kunden gezielt planen, steuern und organisieren.
+
+
+#### Corporates Communications Bereich 3: Externe Kommunikation - Presse, Werbung und Content
+
+#### Corporates Communications Bereich 4: Externe Kommunikation - Geschäftspartner, Investoren und Aktionäre
+
+Typische Kommunikationsinstrumente in diesem Bereich sind:
++ Quartalsberichte
++ Geschäftsberichte, Umweltberichte
++ Image-Broschüren
++ Direktmailings
++ Aktionärsbrief
+
+![Alt text](./img/marketingkonzept.png)
