@@ -338,3 +338,11 @@ Wollen Sie sich in einem neuen Markt einbringen oder ein neues Produkt oder eine
 Wollen Sie bestehenende Kunden über Veränderungen und Verbesserungen informieren?
 
 Möchten Sie ein Image bewusst fördern oder einen bisherigen negativen Ruf ändern?
+
+### CI Corporate Identity - Unternehmensidentität
+Jedes unternehmen hat eine Unternehmensidentität. Auch wenn bisher keine bewusste Corporate Identity Entwicklung stattgefunden hat, existiert eine Unternehmensidentität.
+*Denn so wie sich die Mitarbeiter, Führungskräfte und Geschäftsleitung tagtäglich organisieren, verhalten, arbeiten und miteinander umgehen, so entwickelt sich ganz selbstverständlich - fast nebenbei - eine Unternehmenskultur, die die Corporate Identity maßgeblich prägt.*  
+
+Leider weist dieses "Nebenprodukt" viele Schwachstellen auf:
++ 
+
