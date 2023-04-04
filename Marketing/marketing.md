@@ -409,5 +409,5 @@ Typische Kommunikationsinstrumente in diesem Bereich sind:
 + Image-Broschüren
 + Direktmailings
 + Aktionärsbrief
-
+### Stufen des Marketingkonzepts
 ![Alt text](./img/marketingkonzept.png)
