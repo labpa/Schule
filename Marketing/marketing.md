@@ -300,3 +300,41 @@ Beim Produktlebenszyklus wird die "Lebensdauer" eines Produktes am Markt in mehr
 + Wachstum
 + Reife
 + Abnahme bzw. Schrumpfung
+
+## USP - Unique Selling Proposition
+
+### Umsatz steigern
+1. Maßnahme Pro-Kopf-Umsatz steigern
+    1. Zusatzverkäufe durch Cross- und Upselling
+    2. Preise erhöhen für mehr Umsatz
+    3. Vergleichswerte für den Ankereffekt
+2. Maßnahme: Neukundenaquise
+3. Maßnahme: Besucherfrequenz der Kund:Innen erhöhen
+4. Maßnahme: Höhere Abschlussraten
+
+### Kommunikationspolitik
+Es ist ein Bereich, mit dem die meisten Marketing tatsächlich verbinden. Hier geht es darum dem Kunden über die unterschiedlichsten Wege zu vermitteln, wie gut das eigene Produkt ist und ihn damit dazu zu bewegen das Produkt tatsächlich zu kaufen. Dieser Bereich beschäftigt sich vor allem mit den Fragen: 
+
++ Wie kann ich das Bedürfnis des Kunden nach meinem Produkt erwecken?
++ Wie können Kunden darüber informiert werden, dass es mein Produkt gibt?
++ Wie kann ich meinen Kunden ständig über die Entwicklung meines Produktes auf dem LAufenden zu halten?
++ ...
+
+Es geht hier um den Kommunikationsmix, der aus den folgenden Bereichen besteht, aus denen Sie Ihre Aktionen zusammenstellen:
++ Werbung (Online- und Offline-Werbung)
++ Öffentlichkeitsarbeit
++ Messen und Veranstaltungen
++ Weiterbildung und Unterstützung der Verkäufer
++ Direkte Werbung (Brief, Telefon usw.)
++ Persönlicher Verkauf
+
+![Alt text](./img/kummunikations-instrumente.png)
+
+Werbeziele (SOLL-Zustand):
+Was möchten Sie mit Ihrem Werbekonzept erzielen?
+
+Wollen Sie sich in einem neuen Markt einbringen oder ein neues Produkt oder eine neue Serviceleistung einführen?
+
+Wollen Sie bestehenende Kunden über Veränderungen und Verbesserungen informieren?
+
+Möchten Sie ein Image bewusst fördern oder einen bisherigen negativen Ruf ändern?
