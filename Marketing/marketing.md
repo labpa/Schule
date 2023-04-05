@@ -472,3 +472,45 @@ Anbieter und Nachfrager stehen in unmittelbarem Dialog miteinander, bei dem es z
 
 #### Dialogmarketing
 Dialogmarketing ist eine Form des Direktmarketings, die sich - entgegen unspezifischer Werbung mit großen Streuverlusten - gezielt und persönlich an die (potenziellen) Kunden richtet.
+
+### Public Relations
+PR ist für das Management von Kommunikationsprozessen zwischen einer Organisation und ihren Zielgruppen zuständig. Das können in erster Linie Kunden, aber auch Mitarbeiter, Lieferanten oder Journalisten sein. PR sollte dafür genutzt werden, das Ansehen einer MArke zu verändern, neue Zielgruppen zu erreichen, Meinungen zu bilden oder die Aufmerksamkeit auf ein bestimmtes Thema zu fokusieren.
+
+PR= strategische Kommunikation einer Organisation mit der eigenen Zielgruppe. Somit ist PR für das Management von Kommunikationsprozessen twischen einer Organisation und ihren Zielgruppen zuständig.
+
+PR-Konzept: Je komplexer und ambitionierter das Ziel der Online-PR ist und je langfristiger die Planung angelegt werden sollen, desto wichtiger ist ein PR-Konzept. 
+
+## Neuartige Werbekonzepte
+### Guerilla-Marketing
+### Affiliate MArketing
+Im Grunde genommen ist Affiliate Marketing Empfehlungsmarketing. Dies liegt daran, dass ein Affilität auf der eigenen Webseite einen sogenannten Affilität Link publiziert. Dieser verweis direkt zum Merchant (z.B. ein Online-Shop).  
+Es existieren grundsätzlich vier Akteure:
++ Affilate
++ Merchant
++ User Netzwerk
++ Affiliate Netzwerk
+
+#### Ambush-Marketing
+#### Ambient-Marketing
+#### Content-Marketing
+#### Event-Marketing
+#### Sensations Marketing
+#### Telefon-Marketing
+#### Permisson-Marketing
+
+#### Influencer-Marketing
+Das Wort bedeutet Einflussnehmer. Damit sind im Kontext von Marketing Personen gemeint, die eine große Reichweite durch Ihre Social Media-Plattformen aufgebaut haben und diese für werblicke Zwecke nutzen. Besonders verbreitet ist das Influencer-Marketing bei YouTube, Facebook, SnapChat sowie Instagram und Tiktok. Aber auch bei Blogs wird von Influencern gesprochen.  
+Folgende Gründe sprechen für Influencer-Marketing:
++ ist schon mit einem kleinen Budget möglich
++ Influencer produzieren den Inhalt selbst -> weniger Arbeit für mich.
++ Influencer bewerben Produkte die zu Ihrem Kanal passen. Streuverlust ist gering.
+
+Kritikpunkte:
++ Schleichwerbung
++ verärgerte Fans
+
+Das Problem ist die Abgrenzung zwischen Werbung und eigener Meinung.
+
+## Unlautere Werbung
+
+## Marktforschung
