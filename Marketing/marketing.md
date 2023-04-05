@@ -425,4 +425,50 @@ Bei der Zielorientierten Methode orientieren Sie sich an eigenen gesetzten Werbe
 + die Einführung eines neuen Services oder eines neuen Produktes ider die Steigerung Ihres Bekanntheitsgrades.
 #### Pro-Kopf Methode
 
-### Geeignete Werbemittel
+## Geeignete Werbemittel
+#### Plakatwerbung
+#### Printwerbung
+#### Radiowerbung
+#### Veranstaltungen und Messen
+#### Medien- und Programmsponsoring
+Medien- und Programmsponsoring ist eine Sonderform der Mediawerbung. Sie unterstützt eine Vielzahl von Medien (Print, Tv, Hörfunk, Internet). Im Bereich des Mediums Internet sprichtt man oftmals von Online- oder Websponsoring.
+
+**Vorteile und Ziele von Sponsoring:**
++ Ansprache bestimmter Zielgruppen
++ Aktivierung neuer Zielgruppen
++ Höhere Kontaktqualität
++ Gezielte Kontaktpflege
++ Imagetransfer
++ Auftritt ohne viel Konkurenz
+
+**Mögliche negative Auswirkungen des Sponsoring:**
++ Preis-Leistungs-Verhältnis
++ Möglicher Imageschaden (Imagetransfer)
++ Unerwünschter Imagewandel
++ Verlust der eigenen Identität
++ Vermutung von Einflussnahme (Parteiensponsoring)
++ Probleme mit Datenschutzregularien
+
+#### Online-Werbung
+Das Internet ermöglicht es, auf vergleichsweise kostengünstige Art und Weise den Bekantheitsgrad zu steigern.
++ Mögliche arten der Onlinewerbung:
+    + Bannerwerbung im Internet und Google Ads
+    + Affiliatenmarketing
+    + Suchmaschinenmarketing
+
+Zusätzlich Beiträge auf Facebook, Twitter, YouTube oder Instagram. -> Kooperationen
+
+#### Direct Marketing
+Unter Direktmarketing werden verschiedene Wege der Werbung bezeichnet, die zum direkten Kundenkontakt führen. Dazu zählen bspw. Telefonmarketing, der Newsletter oder Werbung per SMS. Als Direktmarketing bzw. Direktvermarktung (auch Direct-Response-Werbung) wird innerhalb der Marktkommunikation des Marketings jede Werbemaßnahme bezeichnet, die eine direkte Ansprache des möglichen Kunden mit der Aufforderung zur Antwort enthält. Die nachfolgende Stufe im MArketing ist der Direktverkauf.
+
+Formen des Direktmarketings
+1. Passives Direktmarketing  
+Die Aufmerksamkeit soll auf die Produkte und Leistungen eines Unternehmens gelenkt werden, ohne jedoch mit dem Empfänger unmittelbar in direkten Kontakt zu treten. Adressierter Werbebrief, Informationsmail über Produktneuheiten.
+2. Redaktionsorientiertes Direktmarketing  
+Durch Aufwertung der Medien und Einbindung von Redaktionsmöglichkeiten soll der direkte Dialog zwischen Sender und Empfänger initiiert werden. Mailing mit Kundengeschenken, Katalog mit Bestellschein, Angebotsmail mit Gutschein
+3. Interaktionsorientiertes Direktmarketing  
+Anbieter und Nachfrager stehen in unmittelbarem Dialog miteinander, bei dem es zum direkte, gegenseitigen Informationsfluss kommt. Telefonische Terminvereinbarung, persönliches Gespräch
+##### Direktmarketing mit E-Mails
+
+#### Dialogmarketing
+Dialogmarketing ist eine Form des Direktmarketings, die sich - entgegen unspezifischer Werbung mit großen Streuverlusten - gezielt und persönlich an die (potenziellen) Kunden richtet.
