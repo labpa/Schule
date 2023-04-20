@@ -71,4 +71,4 @@ Klasse IV: verheiratete, bei ungefähr gleichem Verdient
 
 Klasse IV mit Faktor unter 0: verheiratete
 
-Klasse VI: keine Lohnsteuerklasse vorlegen
+Klasse VI: keine Lohnsteuerklasse vorlegen  
