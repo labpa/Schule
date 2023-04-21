@@ -29,4 +29,4 @@ Die HAuptaufgabe eines OS (Operating Systems) oder im deutschen Betriebssystems 
 
 
 
-fff
+## NTFS - New Technology File System
