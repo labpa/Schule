@@ -1,0 +1,83 @@
+<mxfile host="65bd71144e">
+    <diagram id="JWonPx9WOCnliX4S0s_3" name="Seite-1">
+        <mxGraphModel dx="905" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Ausdefinition des Projektziels" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="40" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Projektstrukturplan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="120" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0.332;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="160" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0.664;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="560" y="220"/>
+                            <mxPoint x="560" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Ablaufplanung" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="200" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Ressourcen- und Kapazitätsplanung" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="280" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Terminplanung" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="280" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Kostenplanung" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="360" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="320" y="300" as="sourcePoint"/>
+                        <mxPoint x="370" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.336;exitY=1.019;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="290" y="290" as="sourcePoint"/>
+                        <mxPoint x="340" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="160" y="380"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.668;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8" target="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="290" as="sourcePoint"/>
+                        <mxPoint x="460" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="560" y="380"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Reihenfolge der Arbeitspakete" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="140" width="170" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
