@@ -21,3 +21,15 @@ Beispiele:
 ## Überblick der Planungsschritte
 ![Alt text](./img/planungsschritte.png)
 
+## Sequentielle Vorgehensmodelle 
++ Phasen werden in eine Sequenz geordnet, die durchlaufen wird.
++ Voraussetzung für den Übergang einer neuen Phase:
+    + Definierter Abschluss der Vorgängerphasen
+    + Für den Abschluss einer Phase werden im Vorfeld kriterien festgelegt.
++ Ergebnis jeder Phase : Dokumente
+    + Anforderungsdokumente
+    + Entwurfsdokumente
++ Ausgewählte Vertreter:
+    + Phasenmodell (erlaubt keine Schritte zurück in bereits durchlaufene Phasen)
+    + Wasserfallmodell / Schleifenmodell
+    + V-Modell
