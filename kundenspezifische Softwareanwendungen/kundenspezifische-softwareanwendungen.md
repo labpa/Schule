@@ -33,3 +33,13 @@ Beispiele:
     + Phasenmodell (erlaubt keine Schritte zurück in bereits durchlaufene Phasen)
     + Wasserfallmodell / Schleifenmodell
     + V-Modell
+
+## Prototypen
+
+### Link Tools
+
+https://www.protopie.io/
+
+https://marvelapp.com/
+
+https://www.framer.com/
