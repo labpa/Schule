@@ -33,7 +33,15 @@
 |char variable;<br>Eingabe variable;|char variable;<br>char.TryParse(Console.ReadLine(), out variable);|
 |string text;<br> Eingabe text;|string text;<br> text = Console.ReadLine();|
 
+## Operatoren in C#
+|Operator|Description|
+|---|---|
+|&&|Logical AND|
+|!|Logical NOT|
+|&|Binary AND|
+|||
 
+## Schleifen
 
 
 
