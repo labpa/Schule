@@ -51,3 +51,12 @@ Wiederholungen (while, do...while, for)
 Array (foreach)
 
 Aufrufen von Unterprogrammen
+
+
+## Vererbung
+Warum Vererbung?  
+1. Überschreiben von Methoden aus Oberklasen --> 
+
+### Bererbung Anwenden
+
+### Vererbung, Überschreiben von Methoden und Polymorphismus 
