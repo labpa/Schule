@@ -13,11 +13,11 @@ c#-Programm
     + Tabelle:      Essen 
 
 ### Datenbank erstellen
-1. Starten in der Shell: mysql -u root 
+1. Starten in der Shell: ```SQL mysql -u root```
 
 2. 
-+ Erstellen der Datenbank: create database 
-+ Datenbank benutzen:         lieferdienst; use lieferdienst;
++ Erstellen der Datenbank:   ```SQL create database```
++ Datenbank benutzen:       ```SQL lieferdienst; use lieferdienst;```
 
 ```SQL
 MariaDB [lieferdienst]> create table essen (
