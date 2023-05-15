@@ -27,14 +27,18 @@ mysql -u root
 ```SQL 
 use lieferdienst;
 ```
-
++ Tabelle erstellen:
 ```SQL
 MariaDB [lieferdienst]> create table essen (
     -> eid int auto_increment primary key,
     -> bezeichnung varchar(50),
     -> preis decimal(5,2));
 ```
-Screenshoot 
++ Screenshoot 
+
+```SQL
+describe essen;
+```
 
 ![Alt text](./img/mysql.PNG)
 
