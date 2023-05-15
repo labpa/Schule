@@ -411,7 +411,7 @@ WPF-App(.NET Framework) --> Name: Wpf_Lieferdienst
 
 MainWindow.xaml
 
-```XAML
+```html
     <Grid>
         <!-- mein Fenster wird in 2 spalten unterteilt -->
         <Grid.ColumnDefinitions>
