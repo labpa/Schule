@@ -18,8 +18,8 @@ c#-Programm
 mysql -u root
 ```
 
-2. 
-+ Erstellen der Datenbank:  
+2. Datenbank erstellen:
++ Create Datenbank:  
  ```SQL 
  create database
  ```
