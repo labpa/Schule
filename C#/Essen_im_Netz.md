@@ -60,6 +60,34 @@ MariaDB [lieferdienst]> grant select on lieferdienst.essen to ronny@localhost;
 MariaDB [lieferdienst]> insert into essen (bezeichnung, preis) values ("Kartoffelbrei mit zwiebeln", 12.99);
 ERROR 1142 (42000): INSERT command denied to user 'ronny'@'localhost' for table 'essen'
 ```
+### Neue Spalte nachträglich hinzufügen 
++ Spalte bemerkung hinzufügen
+```SQL
+ALTER TABLE essen ADD bemerkung VARCHAR(250);
+```
+
++ Spalte bemerkung befüllen
+```SQL
+UPDATE essen SET bemerkung='kann Spuren von Menschen enthalten' WHERE eid = 3;
+```
+
++ Anpassung in PHP --> 
+```PHP
+	//Erstellen SQL
+	$sql = "select eid, bezeichnung, preis, bemerkung from essen";
+```
+
++ Anpassung in der MainWindow.xaml 
+```
+<Label Content="{Binding bemerkung}" Foreground="Green" FontFamily="Verdana" FontSize="14" FontStyle="Italic"/>
+```
+
++ Anpassunng in Essen.cs
+```
+public string bemerkung { get; set; }
+```
+
+
 
 ## Server
 1. Apache starten
