@@ -54,8 +54,8 @@ MariaDB [lieferdienst]> grant select on lieferdienst.essen to ronny@localhost;
 Query OK, 0 rows affected (0.006 sec)
 ```
 + kontrollieren 
-    + root abmelden: ```SQL exit; ```
-    + ronny anmelden: ``` SQL mysql -u ronny -p ```
+    + root abmelden: ``` exit; ```
+    + ronny anmelden: ``` mysql -u ronny -p ```
 
 + Ronny versucht etwas in die Tabelle einzufügen
 ```SQL
