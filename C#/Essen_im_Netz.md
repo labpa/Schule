@@ -25,7 +25,7 @@ mysql -u root
  ```
 + Datenbank benutzen:       
 ```SQL 
-lieferdienst; use lieferdienst;
+use lieferdienst;
 ```
 
 ```SQL
