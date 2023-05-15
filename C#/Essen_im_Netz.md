@@ -88,4 +88,14 @@ In Notepad++ wird ein neues PHP dokument mit folgendem Inhalt erstellt:
 ```
 Das PHP Dokument wird als essen.php unter C:\xampp\htdocs\Prog abgespeichert.
 
-##
+## Ausgabe Browser
+Zur Kontrolle im Browser folgenden link eingeben:
+http://localhost/prog/essen.php
+
+Ausgabe:
+```PHP
+Array ( [eid] => 1 [bezeichnung] => Pizza Funghi [preis] => 8.89 )
+Array ( [eid] => 2 [bezeichnung] => Bulette [preis] => 4.99 )
+Array ( [eid] => 3 [bezeichnung] => Gem?sepfanne [preis] => 6.99 )
+Array ( [eid] => 4 [bezeichnung] => Creme brulee [preis] => 5.59 )
+```
