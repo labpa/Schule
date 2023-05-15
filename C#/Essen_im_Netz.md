@@ -1,9 +1,10 @@
 # Essen im Netz
 
-## Gegeben
-MySQL-Server
-c#-Programm
-
+## Anforderung
+MySQL-Server  
+WebServer mit php-Skript  
+C#-Programm  
+![Alt text](./img/Projekt_Essen_im_Netz.png)
 ## Ausgabe einer Liste mit Essen vom Server
 
 ## MySql
@@ -402,7 +403,7 @@ Layout: xaml (extensible application markup Language)
 Funktion: C#
 
 
-![Alt text](./anwendung.png)
+![Alt text](./img/anwendung.png)
 
 
 ## Neues Projekt
