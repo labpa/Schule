@@ -6,16 +6,18 @@ c#-Programm
 
 ## Ausgabe einer Liste mit Essen vom Server
 
+## MySql
+
 + MySql-Server:
     + Datenbank:    Lieferdienst
     + Tabelle:      Essen 
 
+### Datenbank erstellen
 1. Starten in der Shell: mysql -u root 
 
 2. 
 + Erstellen der Datenbank: create database 
 + Datenbank benutzen:         lieferdienst; use lieferdienst;
-
 
 ```SQL
 MariaDB [lieferdienst]> create table essen (
@@ -86,16 +88,82 @@ In Notepad++ wird ein neues PHP dokument mit folgendem Inhalt erstellt:
 	//Schließen Verbindung
 	$db->close();
 ```
+
+Zweite Variante:
+```php
+<?php
+	//Verbindung zur Datenbank
+	$db = new mysqli("localhost", "ronny", "1234", "lieferdienst");
+	
+	//Erstellen SQL
+	$sql = "select eid, bezeichnung, preis from essen";
+	
+	//wir senden die sql an den DB-Server
+	//wir erhalten Zeiger an Anfang der Tabelle (vor der 1. Zeile)
+	$tabelle = $db->query($sql);
+	
+	//wir holen die 1. Zeile in der Tabelle
+	//fetch_assoc: assoziatives Array für eine Zeile
+	//Zuordnung: feld->Wert
+	$zeile = $tabelle->fetch_assoc();
+	
+	//solange noch eine zeile in der Tabelle
+	while($zeile == true)
+	{
+		//Ausgabe der Zeile
+		print "$zeile[eid] <br/> $zeile[bezeichnung] <br/> $zeile[preis] <br/> <br/>";
+		print("<br/>");
+		
+		//hohle die nächste Zeile
+		$zeile = $tabelle -> fetch_assoc();
+	}
+	
+	//Schließen Verbindung
+	$db->close();
+```
+
+
+
+
 Das PHP Dokument wird als essen.php unter C:\xampp\htdocs\Prog abgespeichert.
 
 ## Ausgabe Browser
 Zur Kontrolle im Browser folgenden link eingeben:
 http://localhost/prog/essen.php
 
-Ausgabe:
+Ausgabe im Browser:
 ```PHP
 Array ( [eid] => 1 [bezeichnung] => Pizza Funghi [preis] => 8.89 )
 Array ( [eid] => 2 [bezeichnung] => Bulette [preis] => 4.99 )
 Array ( [eid] => 3 [bezeichnung] => Gem?sepfanne [preis] => 6.99 )
 Array ( [eid] => 4 [bezeichnung] => Creme brulee [preis] => 5.59 )
+```
+
+Seitenquelltext im Browser:
+```html
+Array
+(
+    [eid] => 1
+    [bezeichnung] => Pizza Funghi
+    [preis] => 8.89
+)
+<br/>Array
+(
+    [eid] => 2
+    [bezeichnung] => Bulette
+    [preis] => 4.99
+)
+<br/>Array
+(
+    [eid] => 3
+    [bezeichnung] => Gem?sepfanne
+    [preis] => 6.99
+)
+<br/>Array
+(
+    [eid] => 4
+    [bezeichnung] => Creme brulee
+    [preis] => 5.59
+)
+<br/>
 ```
