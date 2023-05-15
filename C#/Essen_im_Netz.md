@@ -429,7 +429,8 @@ MainWindow.xaml
     </Grid>
 ```
 
-## Neue Spalte wurde hinzugefügt
+## Erweiterung der bestehenden Anwendung
+
 Der bestehenden Datenbank essen soll eine zusätzliche Spalte 'beschreibung' hinzugefügt werden. Es müssen änderungen in der Datenbank, in dem PHP Script und in der C# Anwendung wie folgt vorgenommen werden.
 
 ### Datenbank
@@ -446,9 +447,9 @@ UPDATE essen SET bemerkung='kann Spuren von Menschen enthalten' WHERE eid = 3;
 ```
 
 ### Anpassung PHP
-+ Anpassung in PHP --> 
++ Anpassung in PHP --> In der PHP datei muss zusätzlich zur Ausgabe der eid und bezeichnung nun auch die bemerkung eingefügt werden. Alternativ zu der anpassung unten würde ebenfalls SELECT * FROM essen; gehen. Allerdings ist aktuell unklar ob in Zukunft alles ausgegeben werden soll. Deshalb:
+
 ```PHP
-	//Erstellen SQL
 	$sql = "select eid, bezeichnung, preis, bemerkung from essen";
 ```
 ### Anpassung C#
