@@ -404,29 +404,44 @@ WPF-App(.NET Framework) --> Name: Wpf_Lieferdienst
 
 MainWindow.xaml
 
+Code 
 ```html
+<Window x:Class="Wpf_Lieferdienst.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Lieferdienst"
+        mc:Ignorable="d"
+        Title="Lieferdienst" Height="450" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <ResourceDictionary Source="Dictionary1.xaml" />
+    </Window.Resources>
     <Grid>
-        <!-- mein Fenster wird in 2 spalten unterteilt -->
+        <!-- mein Fenster wird in 2 Spalten unterteilt -->
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="60*" /> <!-- 60% der Breite des Fensters -->
+            <ColumnDefinition Width="60*" />   <!-- 60% der Breite des Fensters -->
             <ColumnDefinition Width="40*" />
         </Grid.ColumnDefinitions>
-        
-        <!-- in der linken Spalte ist eine Liste | ItemSource - wir haben im Programm eine Liste mit Daten -->
-        <ListView Grid.Column="0" Name ="listView" ItemsSource="{Binding}">
-                  
-
+        <Image Name="img" />
+        <!-- in der linken Spalte ist eine Liste | ItemsSource - wir haben im Programm eine Liste mit Daten -->
+        <ListView  Grid.Column="0" Name="listView" ItemsSource="{Binding}" >
+            <!-- wir legen fest, wie ein objekt angezeigt werden soll -->
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <!-- hier steht, wie ein Objekt angezeigt werdne soll -->
+                    <!-- hier steht, wie ein Objekt angezeigt werden soll -->
                     <StackPanel Orientation="Vertical">
-                        <Label Content="{Binding bezeichnung}" />
-                        <Label Content="{Binding preis}" Foreground="red" FontWeight="Bold" />
+                        <Label Content="{Binding bezeichnung}" Style="{StaticResource style2}" />
+                        <Label Content="{Binding preis}" Style="{StaticResource style1}" ContentStringFormat="{}{0} €"/>
+                        <Label Content="{Binding bemerkung}" FontStyle="Italic" Foreground="DarkGreen" FontFamily="courier new" />
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button Grid.Column="1" Content="Anzeige Essen" Click="Button_Click" />
     </Grid>
+</Window>
+
 ```
 
 ## Erweiterung der bestehenden Anwendung
