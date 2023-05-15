@@ -39,6 +39,7 @@ MariaDB [lieferdienst]> create table essen (
 describe essen;
 ```
 + Screenshoot Ausgabe beschreibung: 
+
 ![Alt text](./img/mysql.PNG)
 
 ### User erstellen
