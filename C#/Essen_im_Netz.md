@@ -46,12 +46,10 @@ describe essen;
 + User Erstellen
 ```SQL
 MariaDB [lieferdienst]> create user ronny@localhost identified by "1234";
-Query OK, 0 rows affected (0.014 sec)
 ```
 + User rechte zuweisen
 ```SQL
 MariaDB [lieferdienst]> grant select on lieferdienst.essen to ronny@localhost;
-Query OK, 0 rows affected (0.006 sec)
 ```
 + kontrollieren 
     + root abmelden: ``` exit; ```
@@ -229,3 +227,152 @@ Array
 	//Schließen Verbindung
 	$db->close();
 ```
+
+#### Ausgabe json im Browser
+Screenshot von: http://localhost/prog/essen.php
+
+![Alt text](./img/json_ausgabe.PNG)
++ Erklärung:  
+
+ein Array/Liste in Eckigen Klammern []  
+
+ein Objekt befindet sich in geschweiften Klammern {}
+
+## HTTP zu JSON
+1. Visual Studio: neue Konsolenanwendung TestHttpJASON.cs im Ordner repos erstellen
+```C#
+static void Main(string[] args)
+        {
+            //Start einer Asynchronen Methode
+            //dieses wird beendet, wenn Main beendet wird
+            //Wait() -- Main() muss warten, bis Methode beendet
+            Method().Wait();
+        }
+
+        //diese Methode soll eine Verbindung zum WebServer herstellen
+        //das Php-Skript ausführen
+        //Ergebnis ausgeben
+        //die Methode wird asynchron (async) ausgeführt -- im Hintergrungn 
+        //Task ist eine Aufgabe, die asynchron ausgeführt wird
+        static async Task Method()
+        {
+            //wir brauchen eine Verbindung zum Server
+            HttpClient client = new HttpClient();
+
+            //wir bauen eine Verbindung zum php.Skript auf
+            //await -- warten auf Ergebnis und speichern in einer Variablen
+            var response = await client.GetAsync("http://localhost/prog/essen.php");
+
+            //wenn Verbindung erfolgreich
+            if (response.IsSuccessStatusCode)
+            {
+                //wir holen uns den Inhalt des Datenpakets
+                string json = await response.Content.ReadAsStringAsync();
+                Console.WriteLine(json);
+            }
+        }
+
+```
+
+2. Wir fügen eine Klasse mit der Bezeichnung Essen hinzu
+
+```C#
+    public class Essen
+    {
+        public int eid { get; set; }
+        public string bezeichnung{ get; set; }
+        public double preis { get; set; }
+
+    }
+```
+
+3. Newtonsoft.Jason installieren 
+
+Using Newton hinzufügen
+```php
+using Newtonsoft.Json
+```
+
+4. Liste erstellen
+```C#
+//wir erstellen eine leere Liste
+                List<Essen> liste = new List<Essen>();
+
+                //deserialisieren - wir wandeln um den json-string in eine liste von objekten
+                //< List<Essen> > --> in den <> den finalen Typ hinschreiben -- was kommt raus
+                //wir müssen schon vor der Deserialisierung mitteilen, was Ergebnis ist.
+                liste = JsonConvert.DeserializeObject<List<Essen>>(json); 
+
+                foreach(Essen e in liste)
+                {
+                    Console.WriteLine(e.eid + "|" + e.bezeichnung + "|" + e.preis);
+                }
+```
+
+Für Später
+
+```C#
+        //diese Methode soll eine Verbindung zum WebServer herstellen
+        //das Php-Skript ausführen
+        //Ergebnis ausgeben
+        //die Methode wird asynchron (async) ausgeführt -- im Hintergrungn 
+        //Task ist eine Aufgabe, die asynchron ausgeführt wird
+        static async Task Method()
+        {
+            //wir brauchen eine Verbindung zum Server
+            HttpClient client = new HttpClient();
+
+            //wir bauen eine Verbindung zum php.Skript auf
+            //await -- warten auf Ergebnis und speichern in einer Variablen
+            var response = await client.GetAsync("http://localhost/prog/essen.php");
+
+            //wenn Verbindung erfolgreich
+            if (response.IsSuccessStatusCode)
+            {
+                //wir holen uns den Inhalt des Datenpakets
+                string json = await response.Content.ReadAsStringAsync();
+             
+                //wir erstellen eine leere Liste
+                List<Essen> liste = new List<Essen>();
+
+                //deserialisieren - wir wandeln um den json-string in eine liste von objekten
+                //< List<Essen> > --> in den <> den finalen Typ hinschreiben -- was kommt raus
+                //wir müssen schon vor der Deserialisierung mitteilen, was Ergebnis ist.
+                liste = JsonConvert.DeserializeObject<List<Essen>>(json); 
+
+                foreach(Essen e in liste)
+                {
+                    Console.WriteLine(e.eid + "|" + e.bezeichnung + "|" + e.preis);
+                }
+            }
+        }
+```
+Klasse für Später
+
+```C#
+namespace TestHttpJSON
+{
+    public class Essen
+    {
+        public int eid { get; set; }
+        public string bezeichnung{ get; set; }
+        public double preis { get; set; }
+
+    }
+}
+```
+
+
+
+
+
+## WPF-Anwendungen für grafische Oberflächen
+-- WPF - Windows Presentation Foundation --
+
+Layout: xaml (extensible application markup Language)  
+Funktion: C#
+
+
+## Neues Projekt
+
+WPF-App(.NET Framework) --> Name: Wpf_Lieferdienst
