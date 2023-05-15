@@ -83,7 +83,7 @@ UPDATE essen SET bemerkung='kann Spuren von Menschen enthalten' WHERE eid = 3;
 ```
 
 + Anpassunng in Essen.cs
-```
+```C#
 public string bemerkung { get; set; }
 ```
 
