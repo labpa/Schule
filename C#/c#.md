@@ -60,3 +60,23 @@ Warum Vererbung?
 ### Bererbung Anwenden
 
 ### Vererbung, Überschreiben von Methoden und Polymorphismus 
+
+## Suche
+
+### Suchen in einer Liste
+|Titel|
+|---|
+|Blumen im Sommerwind|
+|Der rote Luftballon|
+|Und der |
+####  
+Wir suchen "Und der Rabe lacht"
+
+#### binäre Suche
+Voraussetzung: Liste ist aufsteigend sortiert  
+Ziel: wir halbieren die Anzahl der if() für die Suche
+    1. Wir beginnen in der Mitte der Liste  
+    --> wir prüfen, ob "und der Raabe lacht" vor oder nach dem Titel in der Mitte steht
+
+#### LINQ
+
