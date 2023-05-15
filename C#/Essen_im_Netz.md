@@ -27,7 +27,7 @@ mysql -u root
 ```SQL 
 use lieferdienst;
 ```
-+ Tabelle erstellen:
+3. Tabelle erstellen:
 ```SQL
 MariaDB [lieferdienst]> create table essen (
     -> eid int auto_increment primary key,
@@ -54,8 +54,14 @@ MariaDB [lieferdienst]> grant select on lieferdienst.essen to ronny@localhost;
 Query OK, 0 rows affected (0.006 sec)
 ```
 + kontrollieren 
-    + root abmelden: ```SQL exit; ```
-    + ronny anmelden: ```SQL mysql -u ronny -p ```
+    + root abmelden:  
+    ```SQL
+     exit; 
+     ```
+    + ronny anmelden:  
+     ```SQL
+      mysql -u ronny -p 
+      ```
 
 + Ronny versucht etwas in die Tabelle einzufügen
 ```SQL
