@@ -121,15 +121,15 @@ Zweite Variante:
 	//Schließen Verbindung
 	$db->close();
 ```
-
-
-
-
 Das PHP Dokument wird als essen.php unter C:\xampp\htdocs\Prog abgespeichert.
 
 ### Ausgabe Browser
-Zur Kontrolle im Browser folgenden link eingeben:
+Zur Kontrolle im Browser folgenden link eingeben:  
 http://localhost/prog/essen.php
+
+Aufruf phpMyAdmin:  
+http://localhost/phpmyadmin/
+
 
 Ausgabe im Browser:
 ```PHP
