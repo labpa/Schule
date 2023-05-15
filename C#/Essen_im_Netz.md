@@ -48,17 +48,12 @@ MariaDB [lieferdienst]> insert into essen (bezeichnung, preis) values ("Kartoffe
 ERROR 1142 (42000): INSERT command denied to user 'ronny'@'localhost' for table 'essen'
 ```
 
-
 ## Server
 1. Apache starten
 2. Ordner Prog in Verzeichnis: C:\xampp\htdocs erstellen 
 
-
-
-Wir erstellen einen Nutzer, 
-
-
 ## PHP
+In Notepad++ wird ein neues PHP dokument mit folgendem Inhalt erstellt:
 
 ```php
 <?php
@@ -91,3 +86,5 @@ Wir erstellen einen Nutzer,
 	//Schließen Verbindung
 	$db->close();
 ```
+
+##
