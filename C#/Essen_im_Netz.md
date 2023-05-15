@@ -42,6 +42,12 @@ Query OK, 0 rows affected (0.006 sec)
     + root abmelden: ```SQL exit; ```
     + ronny anmelden: ```SQL mysql -u ronny -p ```
 
++ Ronny versucht etwas in die Tabelle einzufügen
+```SQL
+MariaDB [lieferdienst]> insert into essen (bezeichnung, preis) values ("Kartoffelbrei mit zwiebeln", 12.99);
+ERROR 1142 (42000): INSERT command denied to user 'ronny'@'localhost' for table 'essen'
+```
+
 
 ## Server
 1. Apache starten
@@ -50,3 +56,38 @@ Query OK, 0 rows affected (0.006 sec)
 
 
 Wir erstellen einen Nutzer, 
+
+
+## PHP
+
+```php
+<?php
+	//Verbindung zur Datenbank
+	$db = new mysqli("localhost", "ronny", "1234", "lieferdienst");
+	
+	//Erstellen SQL
+	$sql = "select eid, bezeichnung, preis from essen";
+	
+	//wir senden die sql an den DB-Server
+	//wir erhalten Zeiger an Anfang der Tabelle (vor der 1. Zeile)
+	$tabelle = $db->query($sql);
+	
+	//wir holen die 1. Zeile in der Tabelle
+	//fetch_assoc: assoziatives Array für eine Zeile
+	//Zuordnung: feld->Wert
+	$zeile = $tabelle->fetch_assoc();
+	
+	//solange noch eine zeile in der Tabelle
+	while($zeile == true)
+	{
+		//Ausgabe der Zeile
+		print_r($zeile);
+		print("<br/>");
+		
+		//hohle die nächste Zeile
+		$zeile = $tabelle -> fetch_assoc();
+	}
+	
+	//Schließen Verbindung
+	$db->close();
+```
