@@ -370,9 +370,40 @@ namespace TestHttpJSON
 -- WPF - Windows Presentation Foundation --
 
 Layout: xaml (extensible application markup Language)  
+
 Funktion: C#
+
+
+![Alt text](./anwendung.png)
 
 
 ## Neues Projekt
 
 WPF-App(.NET Framework) --> Name: Wpf_Lieferdienst
+
+MainWindow.xaml
+
+```XAML
+    <Grid>
+        <!-- mein Fenster wird in 2 spalten unterteilt -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60*" /> <!-- 60% der Breite des Fensters -->
+            <ColumnDefinition Width="40*" />
+        </Grid.ColumnDefinitions>
+        
+        <!-- in der linken Spalte ist eine Liste | ItemSource - wir haben im Programm eine Liste mit Daten -->
+        <ListView Grid.Column="0" Name ="listView" ItemsSource="{Binding}">
+                  
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <!-- hier steht, wie ein Objekt angezeigt werdne soll -->
+                    <StackPanel Orientation="Vertical">
+                        <Label Content="{Binding bezeichnung}" />
+                        <Label Content="{Binding preis}" Foreground="red" FontWeight="Bold" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+```

@@ -19,6 +19,9 @@
                 <mxCell id="8" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
                     <mxGeometry x="350" y="90" width="200" height="80" as="geometry"/>
                 </mxCell>
+                <mxCell id="9" value="Anwendung" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="40" width="60" height="30" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
