@@ -34,12 +34,11 @@ MariaDB [lieferdienst]> create table essen (
     -> bezeichnung varchar(50),
     -> preis decimal(5,2));
 ```
-+ Screenshoot 
-
++ Tabelle beschreiben lassen:
 ```SQL
 describe essen;
 ```
-
++ Screenshoot Ausgabe beschreibung: 
 ![Alt text](./img/mysql.PNG)
 
 ### User erstellen
