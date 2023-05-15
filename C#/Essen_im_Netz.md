@@ -86,5 +86,6 @@ In Notepad++ wird ein neues PHP dokument mit folgendem Inhalt erstellt:
 	//Schließen Verbindung
 	$db->close();
 ```
+Das PHP Dokument wird als essen.php unter C:\xampp\htdocs\Prog abgespeichert.
 
 ##
