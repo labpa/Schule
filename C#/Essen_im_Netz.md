@@ -1,41 +1,52 @@
 # Essen im Netz
 
 ## Anforderung
-MySQL-Server  
-WebServer mit php-Skript  
+Eine Datenbank soll per MySQL-Server aufgesetzt werden.  
+Der WebServer holt mit Hilfe einem php-Skriptes die Daten für das C# Programm aus der MySQL Datenbank.
 C#-Programm  
 ![Alt text](./img/Projekt_Essen_im_Netz.png)
 ## Ausgabe einer Liste mit Essen vom Server
 
 ## MySql
+Erstellt wird ein MySql-Server der wie folgt aufgebaut ist.  
 
 + MySql-Server:
     + Datenbank:    Lieferdienst
     + Tabelle:      Essen 
 
+Es soll einen Nutzer geben, der nur auf diese Datenbank zugreifen darf, er darf nur lesen und eintragen.
+
 ### Datenbank erstellen
-1. Starten in der Shell:
+XAMPP Control Panel starten. --> MySQL Starten --> Shell
+1. Starten von MySQL in der Shell:
 ```SQL 
 mysql -u root
 ```
-
 2. Datenbank erstellen:
 + Create Datenbank:  
  ```SQL 
- create database
+ create database Essen;
  ```
 + Datenbank benutzen:       
 ```SQL 
 use lieferdienst;
 ```
-3. Tabelle erstellen:
+3. Tabelle erstellen:  
+
+Die Tabelle essen wird mit folgenden eigenschaften erstellt:  
+eid steht für Essen ID. Bekommt einen eigenen einmaligen Wert = auto_increment und wird den Primary Key.  
+
+Die Spalte bezeichnung beinhaltet Text und bekommt den Datentyp varchar mit 50 Zeichen.
+
+Der Preis ist decimal(5,2)
 ```SQL
 MariaDB [lieferdienst]> create table essen (
     -> eid int auto_increment primary key,
     -> bezeichnung varchar(50),
     -> preis decimal(5,2));
 ```
-+ Tabelle beschreiben lassen:
++ Ausgabe Tabellenbeschreibung:
+
 ```SQL
 describe essen;
 ```
@@ -43,14 +54,19 @@ describe essen;
 
 ![Alt text](./img/mysql.PNG)
 
-### User erstellen
-+ User Erstellen
+4. Tabelle mit Inhalt befüllen:
 ```SQL
-MariaDB [lieferdienst]> create user ronny@localhost identified by "1234";
+INSERT INTO essen (bezeichnung, preis,) VALUES ('Dönerteller',10.95,);
+```
+
+### User erstellen
++ User Ronny Erstellen:
+```SQL
+create user ronny@localhost identified by "1234";
 ```
 + User rechte zuweisen
 ```SQL
-MariaDB [lieferdienst]> grant select on lieferdienst.essen to ronny@localhost;
+grant select on lieferdienst.essen to ronny@localhost;
 ```
 + kontrollieren 
     + root abmelden: ``` exit; ```
@@ -61,32 +77,8 @@ MariaDB [lieferdienst]> grant select on lieferdienst.essen to ronny@localhost;
 MariaDB [lieferdienst]> insert into essen (bezeichnung, preis) values ("Kartoffelbrei mit zwiebeln", 12.99);
 ERROR 1142 (42000): INSERT command denied to user 'ronny'@'localhost' for table 'essen'
 ```
-### Neue Spalte nachträglich hinzufügen 
-+ Spalte bemerkung hinzufügen
-```SQL
-ALTER TABLE essen ADD bemerkung VARCHAR(250);
-```
 
-+ Spalte bemerkung befüllen
-```SQL
-UPDATE essen SET bemerkung='kann Spuren von Menschen enthalten' WHERE eid = 3;
-```
 
-+ Anpassung in PHP --> 
-```PHP
-	//Erstellen SQL
-	$sql = "select eid, bezeichnung, preis, bemerkung from essen";
-```
-
-+ Anpassung in der MainWindow.xaml 
-```
-<Label Content="{Binding bemerkung}" Foreground="Green" FontFamily="Verdana" FontSize="14" FontStyle="Italic"/>
-```
-
-+ Anpassunng in Essen.cs
-```C#
-public string bemerkung { get; set; }
-```
 
 
 
@@ -435,4 +427,37 @@ MainWindow.xaml
             </ListView.ItemTemplate>
         </ListView>
     </Grid>
+```
+
+## Neue Spalte wurde hinzugefügt
+Der bestehenden Datenbank essen soll eine zusätzliche Spalte 'beschreibung' hinzugefügt werden. Es müssen änderungen in der Datenbank, in dem PHP Script und in der C# Anwendung wie folgt vorgenommen werden.
+
+### Datenbank
+Angelehnt an die Punkte 1 - 4 im Oberen Abschnitt.
+
+5. Es soll eine Spalte bezeichnung der Tabelle hinzugefügt werden.
++ Spalte bemerkung hinzufügen
+```SQL
+ALTER TABLE essen ADD bemerkung VARCHAR(250);
+```
+6. Die Spalte bemerkung soll ebenfells mit Informationen gefüllt werden.
+```SQL
+UPDATE essen SET bemerkung='kann Spuren von Menschen enthalten' WHERE eid = 3;
+```
+
+### Anpassung PHP
++ Anpassung in PHP --> 
+```PHP
+	//Erstellen SQL
+	$sql = "select eid, bezeichnung, preis, bemerkung from essen";
+```
+### Anpassung C#
++ Anpassung in der MainWindow.xaml 
+```
+<Label Content="{Binding bemerkung}" Foreground="Green" FontFamily="Verdana" FontSize="14" FontStyle="Italic"/>
+```
+
++ Anpassunng in Essen.cs
+```C#
+public string bemerkung { get; set; }
 ```
