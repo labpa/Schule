@@ -127,7 +127,7 @@ Zweite Variante:
 
 Das PHP Dokument wird als essen.php unter C:\xampp\htdocs\Prog abgespeichert.
 
-## Ausgabe Browser
+### Ausgabe Browser
 Zur Kontrolle im Browser folgenden link eingeben:
 http://localhost/prog/essen.php
 
@@ -168,7 +168,7 @@ Array
 <br/>
 ```
 
-## Hinzufügen von json_encode
+### Hinzufügen von json_encode
 
 ```php
 <?php
@@ -212,7 +212,7 @@ Array
 	
 	//wir lassen und den text ausgeben
 	print $text;
-    
+
 	//Schließen Verbindung
 	$db->close();
 ```
