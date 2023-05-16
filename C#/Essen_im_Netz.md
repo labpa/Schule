@@ -525,9 +525,27 @@ Anpassung in der MainWindow.xaml
             </ListView.ItemTemplate>
 ```
 
+## Erweiterung der Anwendung -- Bestellung von Essen --
+
 Aktuell sieht das Menu der Anwendung wie folg aus:
 
 ![Alt text](./img/menu.PNG)
+
+Dem Menu soll ein Ereignis Doub
+
+1. Schritt: Datenbank erweitern
+wir erstellen eine Tabelle bestellung
+```SQL
+create table bestellung(
+    -> bid int auto_increment primary key,
+    -> datum datetime,
+    -> eid int,
+    -> anzahl int unsigned,
+    -> foreign key (eid) references essen (eid));
+```
+Beschreibung der Tabelle bestellung:
+
+![Alt text](./img/bestellung.PNG)
 
 
 
