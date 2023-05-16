@@ -525,6 +525,10 @@ Anpassung in der MainWindow.xaml
             </ListView.ItemTemplate>
 ```
 
+Aktuell sieht das Menu der Anwendung wie folg aus:
+
+![Alt text](./img/menu.PNG)
+
 
 
 
