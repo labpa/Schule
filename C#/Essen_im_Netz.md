@@ -729,12 +729,20 @@ Die zwei Button Bestellen und Abbrechen bekommen Ihre funktion:
         }
 ```
 
+## Programmablauf
+Programm wird gestartet. Menu sieht wie folgt aus:
+
+![Alt text](./img/menuRestaurant.PNG)
+
+Ein Doppelklick auf ein Produkt öffnet folgendes Fenster:
+
+![Alt text](./img/bestellung1312.PNG)
+
+Eine Bestellung von 1312 Pizzen führt nach klicken des Buttons Bestellen zu folgender Ausgabe:
+
+![Alt text](./img/bestellungDanke.PNG)
 
 
+Die aufgegebene Bestellung von 1312 Pizzen wird wie gewünscht in der Tabelle bestellung gespeichert. Siehe:
 
-
-
-
-
-
-
+![Alt text](./img/abfrageBestellung.PNG)
