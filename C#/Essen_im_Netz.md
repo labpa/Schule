@@ -558,6 +558,12 @@ Die Tabelle bestellung Sieht jetzt wie folgt aus:
 
 ![Alt text](./img/allfrombestellung.PNG)
 
+Benutzer Ronny bekommt noch die Rechte für die Tabelle bestellung:
+
+```SQL
+grant select on lieferdienst.bestellung to ronny@localhost;
+```
+
 ### PHP
 Datenübertragung von Programm zu Php-Skript: eid, anzahl
 
