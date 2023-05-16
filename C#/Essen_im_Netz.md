@@ -509,7 +509,7 @@ Die Klasse bild muss hinzugefügt werden:
 
 Anpassung in der MainWindow.xaml
 
-```html
+```C#
 <ListView.ItemTemplate>
                 <DataTemplate>
                     <!-- hier steht, wie ein Objekt angezeigt werdne soll -->
@@ -566,7 +566,7 @@ Variante2: http:localhost/Prog/bestellen.php --> Datenübertragung als Inhalt de
 
 Variante2 wird gewählt. Neues php erstellen und als bestellen.php unter -> C:\xampp\htdocs\Prog abspeichern.
 
-Das Skript sieht wie folgt aus:
+Das Skript sieht wie folgt aus: **Version1**
 ```PHP
 <?php
 	//wir legen die Daten, die eingetragen werden fest
@@ -590,7 +590,6 @@ Das Skript sieht wie folgt aus:
 	
 	//und dann ausführen
 	$insert->execute();
-	
 	print mysqli_affected_rows($db);
 
 	//Datenbank schließen
@@ -598,13 +597,51 @@ Das Skript sieht wie folgt aus:
 ?>
 ```
 
+Das endgültige PHP-Skript sieht wie folgt aus: **Version2**
+```PHP
+<?php
+	//wir holen uns die Daten aus dem Datenpaket
+	$json = file_get_contents('php://input');
+	
+	//wir wandeln den Json in einen Array um
+	$daten = json_decode($json, true);
+	
+	$eid = $daten["eid"];
+	$anzahl = $daten["anzahl"];
+	
+	//Verbindung zum Server aufbauen
+	$db = new mysqli ("localhost", "ronny", "1234", "lieferdienst");
+	
+	//für variable Werte in SQL-Anweisungen Platzhaler ? verwenden
+	//SQL-Injection
+	$sql = "insert into bestellung (datum, eid, anzahl) values (now(), ?, ?)";
+	
+	//wir senden die SQL an den Server und dieser bereitet diese vor
+	$insert = $db->prepare($sql);
+	
+	//wir legen fest, welche Werte bei den Platzhaltern eingetragen werden
+	//dazu gehört auch der Datentyp
+	$insert->bind_param("ii",$eid, $anzahl);
+	
+	//und dann ausführen
+	$insert->execute();
+	print mysqli_affected_rows($db);
+	//Datenbank schließen
+	$db->close();
+?>
+```
++ Daten werden aus dem Datenpaket geholt
++ Wir wanden den Json in einen Array um
+
+### C# 
 In der MainWindow.xaml wird der Doppelklick hinzugefügt
 ```html
         <!-- in der linken Spalte ist eine Liste | ItemSource - wir haben im Programm eine Liste mit Daten -->
         <ListView Grid.Column="0" Name ="listView" ItemsSource="{Binding}" MouseDoubleClick="listView_MouseDoubleClick">
 ```
 
-In die MainWindow.xaml.cs kommt folgendes:
+In die MainWindow.xaml.cs kommt eine Messagebox hinzu sieht aus wie folgendes:
+
 ```C#
         private void listView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
@@ -613,6 +650,84 @@ In die MainWindow.xaml.cs kommt folgendes:
             MessageBox.Show(wahl.bezeichnung);
         }
 ```
+### Ein neues Fenster
+Ein neues Fenster erstellen.  
+Projektmappe --> Rechtsklick --> Fenster hinzufügen --> FensterBestellen.xaml wird erstellt.
+
+Bei einem Doppelklick soll sich dieses Fenster öffnen. Die Daten müssen von der Main Window in die FensterBestelln übertragen werden.
+Einteilen in Zeilen und Spalten 5 Reihen und 2 Spalten 
+
+In der FensterBestellung.xaml.cs Tragen wir folgendes ein:
+```C#
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40*" />
+            <RowDefinition Height="15*" />
+            <RowDefinition Height="15*" />
+            <RowDefinition Height="15*" />
+            <RowDefinition Height="15*" />
+        </Grid.RowDefinitions>
+
+        <Image Source="{Binding bild}" Width="300" Grid.ColumnSpan="2" Grid.Row="0" HorizontalAlignment="Center" />
+        <Label Content="{Binding bezeichnung}" Grid.ColumnSpan="2" Grid.Row="1" HorizontalAlignment="Center" />
+        <Label Content="{Binding preis}" Grid.ColumnSpan="2" Grid.Row="2" HorizontalAlignment="Center" />
+        <Label Content="Anzahl" Grid.Column="0" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <TextBox Name="txtAnzahl" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left" Width="100" VerticalAlignment="Center" />
+        <Button Click="btnCancel_Click" Content="Abbrechen" Name="btnCancel" Grid.Column="0" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150"/>
+        <Button Click="btnOk_Click" Content="Bestellen" Name="btnOk" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150"/>
+    </Grid>
+
+```
+Anschliesend Ist das Fenster Bestellen wir folgt aufgeteilt: 
+
+![Alt text](./img/FensterBestellen.PNG)
+
+Die zwei Button Bestellen und Abbrechen bekommen Ihre funktion:
+
+**Abbrechen**
+```C#
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            //wir senden an das Hauptfenster, dass der Button "Abbrechen" geklickt wurde
+            this.DialogResult = false;
+            this.Close();
+        }
+```
+
+**Bestellung**
+```C#
+        private async void btnOk_Click(object sender, RoutedEventArgs e)
+        {
+            //Bestellung in Datenbank eintragen
+            //wir erstellen ein neues Objekt mit der eid und der anzahl
+            int anzahl = Convert.ToInt32(txtAnzahl.Text);
+            
+            //wir fassen die eid und die Anzahl zusammen (werden zusammen in einem Datanpaket übertragen)
+            var daten = new {wahl.eid, anzahl};
+
+            //wir wandeln um. Das Objekt in einen JSON-String
+            string json = JsonConvert.SerializeObject(daten);
+
+            //wir rufen das php-skript auf
+            HttpClient client = new HttpClient();
+            HttpContent content = new StringContent(json); //StringContent ist Unterklasse von ByteArrayContent
+            await client.PostAsync("http://localhost/prog/bestellen.php", content);
+
+            this.DialogResult = true;
+            this.Close();
+        }
+```
+
+
+
+
+
+
+
 
 
 
