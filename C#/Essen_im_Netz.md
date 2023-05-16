@@ -555,6 +555,7 @@ Bestellung hinzufügen:
 insert into bestellung (datum, eid, anzahl) values (now(), 2, 3);
 ```
 Die Tabelle bestellung Sieht jetzt wie folgt aus:
+
 ![Alt text](./img/allfrombestellung.PNG)
 
 ### PHP
