@@ -533,7 +533,10 @@ Aktuell sieht das Menu der Anwendung wie folg aus:
 
 Dem Menu soll ein Ereignis Doub
 
+### SQL
 1. Schritt: Datenbank erweitern
+![Alt text](./img/erweiterung.png)
+
 wir erstellen eine Tabelle bestellung
 ```SQL
 create table bestellung(
@@ -547,6 +550,69 @@ Beschreibung der Tabelle bestellung:
 
 ![Alt text](./img/bestellung.PNG)
 
+Bestellung hinzufügen:
+```SQL
+insert into bestellung (datum, eid, anzahl) values (now(), 2, 3);
+```
+Die Tabelle bestellung Sieht jetzt wie folgt aus:
+![Alt text](./img/allfrombestellung.PNG)
+
+### PHP
+Datenübertragung von Programm zu Php-Skript: eid, anzahl
+
+Variante1: http://localhost/Prog/bestellen.php?eid=2&anzahl=3 --> Suboptimal, die Daten sind Bestandteil der URL
+
+Variante2: http:localhost/Prog/bestellen.php --> Datenübertragung als Inhalt des Datenpakets
+
+Variante2 wird gewählt. Neues php erstellen und als bestellen.php unter -> C:\xampp\htdocs\Prog abspeichern.
+
+Das Skript sieht wie folgt aus:
+```PHP
+<?php
+	//wir legen die Daten, die eingetragen werden fest
+	//wir müssen später ergänzen
+	$eid = 2;
+	$anzahl = 3;
+	
+	//Verbindung zum Server aufbauen
+	$db = new mysqli ("localhost", "ronny", "1234", "lieferdienst");
+	
+	//für variable Werte in SQL-Anweisungen Platzhaler ? verwenden
+	//SQL-Injection
+	$sql = "insert into bestellung (datum, eid, anzahl) values (now(), ?, ?)";
+	
+	//wir senden die SQL an den Server und dieser bereitet diese vor
+	$insert = $db->prepare($sql);
+	
+	//wir legen fest, welche Werte bei den Platzhaltern eingetragen werden
+	//dazu gehört auch der Datentyp
+	$insert->bind_param("ii",$eid, $anzahl);
+	
+	//und dann ausführen
+	$insert->execute();
+	
+	print mysqli_affected_rows($db);
+
+	//Datenbank schließen
+	$db->close();
+?>
+```
+
+In der MainWindow.xaml wird der Doppelklick hinzugefügt
+```html
+        <!-- in der linken Spalte ist eine Liste | ItemSource - wir haben im Programm eine Liste mit Daten -->
+        <ListView Grid.Column="0" Name ="listView" ItemsSource="{Binding}" MouseDoubleClick="listView_MouseDoubleClick">
+```
+
+In die MainWindow.xaml.cs kommt folgendes:
+```C#
+        private void listView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            //welches Essen wurde ausgewählt?
+            Essen wahl = listView.SelectedValue as Essen;
+            MessageBox.Show(wahl.bezeichnung);
+        }
+```
 
 
 
