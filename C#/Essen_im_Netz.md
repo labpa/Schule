@@ -477,3 +477,54 @@ UPDATE essen SET bemerkung='kann Spuren von Menschen enthalten' WHERE eid = 3;
 ```C#
 public string bemerkung { get; set; }
 ```
+
+# Dienstag 16.05.2023
+Die bestehende Anwendung soll im Bilder ergäntz werden. Jedes Produkt in der Tabelle essen soll ein entsprechendes Bild bekommen.
+## SQL
+Der Tabelle essen eine neue Spalte mit dem Namen Bilder hinzufügen.
+
+Die Bilder in: C:\xampp\htdocs\Bilder Gespeichert.
+
+## PHP
+Anpassungen in PHP Maskierung von einem \ entfernt.
+
+```php
+	//wir wandeln das Array in eine Zeichenkette - formatierung nach JSON - um
+	$text = json_encode($daten, JSON_UNESCAPED_SLASHES);
+```
+
+und in der SQL Abfrage wird um das bild ergänzt.
+```php
+	//Erstellen SQL
+	$sql = "select eid, bezeichnung, preis, bemerkung, bild from essen";
+```
+
+## C#
+### Hinzufügen Klasse bild
+Die Klasse bild muss hinzugefügt werden:
+```C#
+        public string bild { get; set; }
+```
+###
+
+Anpassung in der MainWindow.xaml
+
+```html
+<ListView.ItemTemplate>
+                <DataTemplate>
+                    <!-- hier steht, wie ein Objekt angezeigt werdne soll -->
+                    <StackPanel Orientation="Horizontal"> <!-- Das kommt neu hinzu-->
+                        <Image Source="{Binding bild}" Width="100"/> <!-- auch wo das Bild herkommt-->
+                        <StackPanel Orientation="Vertical">
+                        <Label Content="{Binding bezeichnung}" Style="{StaticResource style2}"/>
+                        <Label Content="{Binding preis}" Style="{StaticResource style1}" ContentStringFormat="{}{0} €" />
+                        <Label Content="{Binding bemerkung}" Foreground="Green" FontFamily="Verdana" FontSize="14" FontStyle="Italic"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+```
+
+
+
+
