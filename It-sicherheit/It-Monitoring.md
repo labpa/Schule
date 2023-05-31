@@ -63,10 +63,18 @@ Daten müssen gesammelt werden um auffälliges Verhalten feststellen zu können.
 Probleme "Standard-Schwellenwerte" 
 ![Alt text](./img/ablauf_Monitoring.png)
 + Speicherauslastung Festplatte
-    + 80% Warnung
-    + 90% Kritisch
-    
 
+## Unterschied Echtzeit und Trend Monitoring
+|Echtzeit-Monitoring|Trend-Monitoring|
+|---|---|
+|**Vorteile**|**Vorteile**|
+|Sofortiges erkennen von Problemen|Identifizierung von Trends und Mustern|
+|Fehler können Zeitnah behoben werden|Proaktives Handeln möglich|
+||Gut für Entscheidungen|
+|**Nachteile**|**Nachteile**|
+|Analyse von Ursachen Schwierig|Langsame Reaktionszeiten bei aktuellen Fehlern|
+|Potentiale Informationsüberflutung|Kein Echtzeithandeln möglich|
+||Kurzfristige Fehler schwer zu erkennen|
 
 
  
