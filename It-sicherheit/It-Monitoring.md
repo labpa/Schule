@@ -54,8 +54,10 @@ Daten müssen gesammelt werden um auffälliges Verhalten feststellen zu können.
  + Schritte für die Anpassung der Schwellenwerte
     + 1 Erschaffen der Referenzwerte (Sammeln der Informationen) 
     + 2 Normale Nutzung der Systeme  
-    + 1 und 2 über einen "längeren" Zeitraum
+    + *1 und 2 über einen "längeren" Zeitraum*
     + 3 Analyse der Daten 
+    + 4 Anpassung der Schwellenwerte
+    + 5 Regelmäßig Nachsteuern
 
 
 
