@@ -71,6 +71,7 @@ Probleme "Standard-Schwellenwerte"
 |Sofortiges erkennen von Problemen|Identifizierung von Trends und Mustern|
 |Fehler können Zeitnah behoben werden|Proaktives Handeln möglich|
 ||Gut für Entscheidungen|
+||Gewährleistung des SLA kann überprüft werden|
 |**Nachteile**|**Nachteile**|
 |Analyse von Ursachen Schwierig|Langsame Reaktionszeiten bei aktuellen Fehlern|
 |Potentiale Informationsüberflutung|Kein Echtzeithandeln möglich|
