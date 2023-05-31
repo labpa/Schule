@@ -19,7 +19,23 @@ Daten müssen gesammelt werden um auffälliges Verhalten feststellen zu können.
 ### Welche Komponenten sollte Ich überwachen?
 + Alle Hard- und Software
 + Auslastung / Speicherkapazität
-+ Anwendungen / Logs / Prozesse auf einem System 
++ Anwendungen / Logs / Prozesse auf einem System
++ Überwachung von Schnittstellen
++ (virtuelle) Netzwerke
+
+### Vor und Nachteile von IT-Monbitoring
++ **Vorteile**
+    + Frühzeitige Fehlererkennung
+    + Erhöhung der Verfügbarkeit / Stabilität
+    + Optimierung der Ressourcen
+    + Zeit und Kostenersparnis
+    + Sichtbarkeiten von Abhängigkeiten / Engpässen 
+    + Bringt permanente Übersichtlichkeit
+
++ **Nachteile**
+    + Initiale Kosten können sehr hoch sein
+    
+
 
 
 ## Werkzeug
