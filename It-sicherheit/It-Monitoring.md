@@ -1,25 +1,26 @@
 # IT-Monitoring-Lösung
 ## Echtzeitüberwachung der IT-Infrastruktur
-+ sehr großer Aufwand
-+ Planung
-    + was will ich überwachen
-    + welche intention
-    + welche Geräte kann Ich überwache
+Eine Echtzeitüberwachung der IT-Infrastruktur ist ein sehr großer Aufwand
 
-<br>
+### Planung
++ was will ich überwachen
++ welche intention
++ welche Geräte kann Ich überwache
 
-+ Daten Sammeln  
+### Daten Sammeln  
 Daten müssen gesammelt werden um auffälliges Verhalten feststellen zu können. Auffälligkeiten können erst erkannt werden, wenn es Vergleichswerte gibt. 
 
-<br>
-
-+ Ziel:  
-    + reibungsloser Betrieb der IT-Infrastruktur
-    + Ursachen Vorbeugen 
-    + Protokollierung / Erfassung von Daten
-    + Viele Daten u. ausgewertete Daten können für Zukünftige Projekte helfen.
+### Ziel:  
++ reibungsloser Betrieb der IT-Infrastruktur
++ Ursachen Vorbeugen 
++ Protokollierung / Erfassung von Daten
++ Viele Daten u. ausgewertete Daten können für Zukünftige Projekte helfen.
 
 ### Welche Komponenten sollte Ich überwachen?
++ Alle Hard- und Software
++ Auslastung / Speicherkapazität
++ Anwendungen / Logs / Prozesse auf einem System 
+
 
 ## Werkzeug
 + CheckMK
