@@ -59,6 +59,14 @@ Daten müssen gesammelt werden um auffälliges Verhalten feststellen zu können.
     + 4 Anpassung der Schwellenwerte
     + 5 Regelmäßig Nachsteuern
 
+## Ablauf des Monitoring-Prozesses
+Probleme "Standard-Schwellenwerte" 
+![Alt text](./img/ablauf_Monitoring.png)
++ Speicherauslastung Festplatte
+    + 80% Warnung
+    + 90% Kritisch
+    
+
 
 
  
