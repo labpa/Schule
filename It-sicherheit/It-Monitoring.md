@@ -16,8 +16,10 @@ Daten müssen gesammelt werden um auffälliges Verhalten feststellen zu können.
 + Ziel:  
     + reibungsloser Betrieb der IT-Infrastruktur
     + Ursachen Vorbeugen 
-    + Protokollierung / Erfassung von Daten 
+    + Protokollierung / Erfassung von Daten
+    + Viele Daten u. ausgewertete Daten können für Zukünftige Projekte helfen.
 
+### Welche Komponenten sollte Ich überwachen?
 
 ## Werkzeug
 + CheckMK
