@@ -1,4 +1,1 @@
-# Betriebliche Anwendungen 
-+ Standardsoftware
-+ Individualsoftware
-+ Branchensoftware
+# Images
