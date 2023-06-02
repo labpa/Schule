@@ -30,3 +30,18 @@ Wichtige Standardschnittstellen und Protokolle
 
 ## Anwendungssoftware - Individualsoftware
 Die für spezielle Aufgaben eines oder mehrerer Unternehmen extra erstellten betrieblichen Anwendungen basieren auf Individualsoft-ware, die ausschließlich für den bekannten Zweck entwickelt und eingesetzt wird.
+
+## Kapitel -3- Komplexe betriebliche Anwendungen
+Enterprise Resource Planning ->  komplexe Softwarelösungen, die die betrieblichen 
+Prozesse in den Bereichen Materialwirtschaft (Beschaffung, Lagerhaltung, Disposition, Bewertung), Produktion, Finanz- und Rechnungswesen, Controlling, Personalwirtschaft, Forschung und Entwicklung, Verkauf und Marketing, Stammdatenverwaltung informell erfassen, planen, steuern und auswerten, verwandt.
++ ERP bedeutet Integration von Anwendungen und Nutzung von Software, die den gesamten Planungs- und Steuerungsprozess eines Unternehmens über alle Wertschöpfungsstufen abbildet.
+
+### Customer Relationship Management – Nutzen
++ Vorteile
+    + Kundendaten werden nur einmal erfasst
+    + Redundante Daten und deren Bereinigung werden vermieden
+    + Daten werden automatisch abgegelichen
+    + Medienbrüche werden vermieden
+    + Mitarbeiter kennen Kunden besser
+    + Kunden werden kompetenter und effezienter bedient
+    
