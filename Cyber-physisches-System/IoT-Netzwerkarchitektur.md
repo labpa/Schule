@@ -37,3 +37,28 @@ Eine Entsprechende Schicht fehlt im OSI Modell (1. Schicht)
 6. Interpretation von Daten mit Softwareanwendungen. Überwachen, Berichte erzeugen. Datenanalyse findet hier statt. 
 
 7. Eigene Daten werden mir Vergleichswerten Verbunden. Verscheidene Buisseness intelegent Lösungen teilen Daten aus und fügen dieße Werte zusammen.
+
+### Schicht 1: Dinge: Sensoren und Aktoren Schicht
+Es gibt unzählige Möglichkeiten, intelligente Objekte zu klassifizieren. Eine architektonische Klassifizierung könnte sein:
++ Batteriebetrieb oder Netzbetrieb
++ Mobil oder stationär -> klärt mögliche Energiequelle
++ Niedrige oder hohe Meldefrequent -> Höhere Frequenzen bedingen einen höheren Energieverbrauch
++ Einfache oder umfangreiche Daten
++ Report-Reichweite
++ Objektdichte pro Zelle
+
+
+Beispiele:
++ **Energiequelle:**  batteriebetriebe, netzbetrieben, Solar betrieben, kinetisch betrieben
++ **Mobilität:** stationär, mobil, tragbar
++ **Sensorik:** Temperatur, Luftfeuchtigkeit, Bewegung, Licht, Beschleunigung, Druck, Lautstärke, CO2-Gehalt, Luftqualität
++ **Datenkomplexität:** einfache Daten (z.B. Temperatur), komplexe Daten (z.B. maschinelles Lernen)
++ **Drahtlose Kommunikation:** WLAn, Bluetooth, NFC, Mobilfunk, LoRaWAN
++ **Verbindungstyp:** Punkt-zu-Punkt, Mesh, Stern
++ **Report-Reichweite:** kurz, mittel, lang
++ **Objektdichte pro Zelle:** gering, mittel, hoch
++ **Verwendungszweck:** Heimautomation, industrielle Automatisierung, Smart-City, Gesundheitswesen, Landwirtschaft
++ **Echtzeit-Anforderungen:** Echtzeit-Verarbeitung, zeitlich unempfindlich
+
+### Schicht 2: Kommunikationsschicht
+Anbinden von Dingen an das Netzwerk
