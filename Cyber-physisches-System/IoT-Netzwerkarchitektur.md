@@ -98,4 +98,38 @@ Analytik ist ein allgemeiner Begriff, der die Verarbeitung von Informationen bes
 
 
 #### Erklärung Datenarten
+
+## Datenanalyse
+### Descriptive Analytics / beschreibende Datenanalyse
+Daten aus der Vergangenheit helfen dabei Fragen, wie z.B. "Was ist passiert?" zu beantworten. Descriptive Analytics wertet Rohdaten aus mehreren Datenquellen aus. Es gibt aber nur Richtig oder Falsch als Output. Eine Erklärung oder ein Ansatz, dass Probelm  zu lösen findet nicht statt.
+
++ Was ist passiert?
+
+
+### Diagnostic Analytics / diagnostischen Analyse
+Historische Daten können mit anderen Daten verglichen werden. Die Frage "Warum ist es passiert?" lässt sich daruch klären. Ursachen und Aus- sowie Wechselwirkung zu klären. Muster zu identifizieren. Tiefere Einblicke in ein bestimmtes Problem zu bekommen.
+
++ Warum ist etwas passiert?
++ Untersucht Ursachen und Zusammenhänge von Ereignissen
+
+### Predictive Analytics / Vorhersageanalyse
+Predictive Analytics möchte in die Zukunft zu blicken, und versucht das Folgende herauszufinden: Was könnte bzw. wird in Zukunft passieren? Diese Methode der Datenanalyse ermöglicht es, basierend auf den Ergebnissen von deskriptiven und diagnostischen Analysen, Tendenzen zu ermitteln, Abweichungen von Normwerten frühzeitig zu erkennen und zukünftige Trends möglichst genau vorherzusagen. Die Predictive Analytics verwendet ausgefeilte Algorithmen und moderne Technologien, um zukünftige Prognosen zu erstellen. **Die Prognosen sich nur Schätzungen!**
+
++ Was wird passieren?
++ Prognostiziert zukünftige Ereignisse oder Trends
++ Zum Beispiel die Schätzung der verbleibenden Lebensdauer von Motrorenkomponenten basierend auf historischen Temperaturwerten
+
+### Prescriptive Analytics / verordnende Analyse
++ Was sollen wir tun?
++ Bietet Lösungsvorschläge für anstehende Probleme
++ Zum Beispiel die Berechnung verscheidener Wartungsoptionen basierend auf Temperaturdaten, um die kosteneffizienteste Lösung zu finden.
+
+
+## Herausforderungen bei der IoT-Datenanalyse
+### Skalierungsprobleme
+
+### Unbeständigkeit der Daten
+
+
+## Erinnerung
 ![Alt text](./img/overview.png)
