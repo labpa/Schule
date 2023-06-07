@@ -90,7 +90,12 @@ Mehrere Anwendungen können dazu beitragen, die Effizienz eines IoT-Netzwerks zu
 Analytik ist ein allgemeiner Begriff, der die Verarbeitung von Informationen beschreibt, um aus dem gesammelten Daten einen Sinn zu machen. In der Welt des IoT ist eine mögliche Klassifizierung der Analysefunktion wie folgt:
 
 + Datenanalytik
+    + Verarbeitet die von Intelligenten Objekten gesammelten Daten und kombiniert sie, um eine intelligente Ansicht in Bezug auf das IoT-System bereitzustellen
+    + Dashboard kann auf sehr einfacher Ebene einen Alarm anzeigen.
 
-* Netzwerk-Analytik
++ Netzwerk-Analytik
+    + Die meisten IoT-Systeme bestehen aus intelligenten Objekten, die mit dem Netzwerk verbunden sind. Ein Verlust oder eine Verschlechterung der Konnektivität hat warscheinlich Auswirkungen auf die Effizienz des Systems.
 
-#### Erklärung DAtenarten
+
+#### Erklärung Datenarten
+![Alt text](./img/overview.png)
