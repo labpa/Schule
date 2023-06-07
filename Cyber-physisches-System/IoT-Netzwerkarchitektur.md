@@ -62,3 +62,35 @@ Beispiele:
 
 ### Schicht 2: Kommunikationsschicht
 Anbinden von Dingen an das Netzwerk
+
++ **Kommunikationsnetzwerk-Schicht:** Schicht zwei wird in vier weitere Teilschichten aufgeteilt.
+    + Zugangsnetzwerk-Sublayer
+    + Gateways und Backhaul-Netzwerk-Teilschicht
+    + Netzwerk-Transport-Teilschicht
+    + Iot-Netzwerkmanagement-Teilschicht
+
+#### Einteilung nach Reichweiten (Entfernungsklassen im IoT)
++ PAN (Personal Area Network)
++ HAN (Home Area Network)
++ NAN (neighborhood area network)
++ FAN (field area network)
++ LAN (Local Area Network)
+
+### Schicht 3: Anwendungs und Analyseschicht
+
+#### Analyse- versus Steuerungsanwendung
+Mehrere Anwendungen können dazu beitragen, die Effizienz eines IoT-Netzwerks zu steigern. Jede Anwendung sammelt Daten und bietet eine Reihe von Funktionen, die auf der Analyse der gesammelten Daten basiert. Es kann schwierig sein, die angebotenen Funktionen zu vergleichen.
++ Analyse Anwendung:
+    + sammelt Daten von meheren intelligenten Objekten, verarbeitet die gesammelten Daten und zeigt Informationen an, die sich aus den verarbeiteten Daten ergeben.
+
++ Steuerungsanwendung
+    + Steuert das Verhalten des Smart-Objekts ider das Verhalten eines mit dem Smart-Objekt verbundenen Objekts. Zum Beispiel kann ein Drucksensor mit einer Pumpe verbunden sein.
+
+#### Daten- versus Netzwerkanalyse
+Analytik ist ein allgemeiner Begriff, der die Verarbeitung von Informationen beschreibt, um aus dem gesammelten Daten einen Sinn zu machen. In der Welt des IoT ist eine mögliche Klassifizierung der Analysefunktion wie folgt:
+
++ Datenanalytik
+
+* Netzwerk-Analytik
+
+#### Erklärung DAtenarten
