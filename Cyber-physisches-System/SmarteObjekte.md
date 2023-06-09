@@ -21,3 +21,4 @@ Eingebettete Systeme sind fpr bestimmte Funktionen innerhalb eines größeren ko
 **Beispiel:**  
 Haussicherheitsgeräte
 
+ 
