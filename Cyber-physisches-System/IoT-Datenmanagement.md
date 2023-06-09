@@ -49,6 +49,10 @@ DAS-Datenträger sind dem Server physisch angefügt
 # IoT Datenspeicher und Datenverarbeitungskonzepte
 
 ## Edge Computing
+Edge Computing bezeichnet eine dezentralisierte Cloud-Computing-Architektur. Generierte DAten (z.B. von lokalen Rechnern oder IoT-Geräten), werden unmittelbar selbst oder in der Nähe, am Rand (Edge) einer IT-Infrastruktur verarbeitet. Dies entlastet die Netzbandbreite zu einem Rechenzentrum (Cloud)  
+
+Edge Computing nutzt die zunehmende geräteinterne Rechenleistung, um nahezu in Echtzeit detaillierte Einblicke und vorausschauende Analyse zu ermöglichen.
++ 
 
 ## Fog Computing
 
