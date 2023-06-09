@@ -1,5 +1,5 @@
 # IoT- Datenmanagement
-![Alt text](./img/overview.png)
+![Alt text](./img/datamanagement.png)
 
 ## Traditionelles IT-Cloud-Computing-Modell
 
