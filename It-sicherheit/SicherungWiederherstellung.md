@@ -203,3 +203,23 @@ Allgemein Verwalten von Daten
 |||Eingeschränkte Kontrolle|
 |**geeignet für**|**geeignet für**|**geeignet für**|
 |kleine Struckturen|Große Infrastrukturen. Sehr hohe Leistungsanforderungen|Theoretisch Alle|
+
+
+## Vollsicherung / Voll Backup
++ Sicherung aller Daten 
+
+|Vorteile|Nachteile|
+|---|---|
+|alle Daten in der neusten Version|Zeitlich - Es dauert sehr lange|
+|einfache Wiederherstellung|großer Ressourcenaufwand|
+|Unabhängigkeit von anderen Sicherungen||
+|einfacher Redundanzen zu bilden||
+
+## Inkrementelles Backup
+Eine Vollsicherung wird erstellt.
+|Backup 01||
+|---|---|
+|Backup 01||
+## Differentielles Backup
+
+
