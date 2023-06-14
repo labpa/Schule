@@ -107,7 +107,7 @@ Allgemein Verwalten von Daten
 - Flexibel/transportabel
 
 ### USB-Speicher
-- Geeignet für DAtentransport
+- Geeignet für Datentransport
 - Kapazität: 32MB - 1TB
 - Kosten: ab 5Euro aufwärts
 - Lebensdauer: je nach Anzahl der Schreibzyklen bis zu 10 Jahre
@@ -149,11 +149,57 @@ Allgemein Verwalten von Daten
 - Verliert ihrgendwann die Magnetisierung. Ablösung der Schichten des Bandes (Haltbarkeit)
 - nicht Flexibel/transportabel
 
+### NAS
+|Vorteile|Nachteile|
+|---|---|
+|Übertragungsgeschwindigkeit|Übertragungsgeschwindigkeit ist sehr anfällig|
+|Speichergröße|Sicherheitsproblem|
+|RAID möglichkeit||
+
+### Cloud
+|Vorteile|Nachteile|
+|---|---|
+|große Haltbarkeit|IT-Experte notwendig|
+|Anbieter kümmert sich um die Sicherheit|Kosten können im Worst-Case Hoch sein |
+|Speichergröße am besten|Sicherheitsprobleme, da Daten übermittelt werden|
+|Übertragungsrate|Internetverbindung muss immer da sein|
+|Einfache Backup-Regeln einzuhalten||
+
 ### Cloud - Hybrid - NAS -Storage
-- Risiken: Angreifbar während der Datenübertragung. SErver Ausfall. Abhängig vom Anbieter.
+- Risiken: Angreifbar während der Datenübertragung. Server Ausfall. Abhängig vom Anbieter.
 - Voraussetzungen: Zugung zu Internet/Netzwerk
 - Daten lagern auf fremden Server
 - Kosten, Datensicherheit und mögliche Offline-Zugriffe sind abhängig vom Anbieter/Lösung
 - Sehr flexiebel, da weder orts noch gerätgebunden.
 
 
+### automatisches Backup
+
+|automatisch|manuell|
+|---|---|
+|**Voreile**|**Vorteile**|
+|Zuverlässigkeit|Bessere Kontrolle|
+|Konsistenz|Flexibilität|
+|Sicherheit|Unabhängigkeit|
+|Zeitersparnis||
+|**Nachteile**|**Nachteile**|
+|Erhöhter Kontrollaufwand|Unzuverlässigkeit|
+|Abhängigkeit der Technik|Menschliches Versagen|
+|Ressourcenverbrauch||
+
+### NAS-Backup SAN-Backup Cloud-Services-Backup
+
+|NAS-Backup|SAN-Backup|Cloud-Services-Backup|
+|---|---|---|
+|**Vorteile**|**Vorteile**|**Vorteile**|
+|Einfache Integration|hohe Performance|Unbegrenzte Skalierbarkeit|
+|geringe Kosten|gute Redundanz|Sehr gute Redundanz|
+|schneller Zugriff|Zentralisiert Verwaltbar|einfachere Automatisierung|
+||Zentralisiert Skalierbar||
+|**Nachteile**|**Nachteile**|**Nachteile**|
+|Abhängigkeit von Infrastruktur|hohe Kosten|Benötigt Internetzugang|
+|Einzelner Speicherort|Komplexität|Datenschutz und Sicherheit|
+|Sicherheitsrisiko|Potenziell Single point of failure|Langzeitkosten|
+|||Eingeschränkte Kontrolle|
+|**geeignet für**|**geeignet für**|**geeignet für**|
+|kleine Struckturen|Große Infrastrukturen. Sehr hohe Leistungsanforderungen|Theoretisch Alle|

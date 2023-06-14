@@ -68,3 +68,14 @@ Bei der Addition kann es zum Überlauf kommen, falls für das Ergebnis ein begre
 Der Prozessor merkt sich sieses Ereignis durch Setzen eines speziellen Status-Bits ("Carry Flag"). Dieses Bit kann im weiteren Programmverkauf abgefragt werden, falls auf den Überlauf reagiert werden muss.  
 
 
+## Binärprefix
+|||
+|---|---|
+|1024 Byte = 1 Ki Byte|1000 Byte = 1 KByte|
+|1024 KiByte = 1 MiByte|1000 KByte = 1 MByte|
+|1024 MyByte = 1 GiByte|1000 MByte = |
+|1024 GiByte = 1 TiByte||
+|1024 TiByte = 1 PiByte||
+|1024 PiByte = 1 EiByte||
+|||
+
