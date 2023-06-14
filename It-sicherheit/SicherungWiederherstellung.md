@@ -189,7 +189,7 @@ Allgemein Verwalten von Daten
 
 ### NAS-Backup SAN-Backup Cloud-Services-Backup
 
-|NAS-Backup|SAN-Backup|Cloud-Services-Backup|
+|**NAS-Backup**|**SAN-Backup**|**Cloud-Services-Backup**|
 |---|---|---|
 |**Vorteile**|**Vorteile**|**Vorteile**|
 |Einfache Integration|hohe Performance|Unbegrenzte Skalierbarkeit|
@@ -216,10 +216,25 @@ Allgemein Verwalten von Daten
 |einfacher Redundanzen zu bilden||
 
 ## Inkrementelles Backup
+|Vorteile|Nachteile|
+|---|---|
+|reduzierter Speicherbedarf|aufwendig und komplexer bei Wiederherstellung|
+|schnelles Backup|Abhängigkeit des Vorherigen Backup|
+|effizientere Speichernutzung||
+
 Eine Vollsicherung wird erstellt.
 |Backup 01||
 |---|---|
 |Backup 01||
 ## Differentielles Backup
+
+|Vorteile|Nachteile|
+|---|---|
+|einfache Widerherstellung|Potentieller Speicherzuwachs|
+|||
+|||
+|||
+
+
 
 
