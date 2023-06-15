@@ -165,7 +165,7 @@ Allgemein Verwalten von Daten
 |Übertragungsrate|Internetverbindung muss immer da sein|
 |Einfache Backup-Regeln einzuhalten||
 
-### Cloud - Hybrid - NAS -Storage
+### Cloud - Hybrid - NAS -Storage 
 - Risiken: Angreifbar während der Datenübertragung. Server Ausfall. Abhängig vom Anbieter.
 - Voraussetzungen: Zugung zu Internet/Netzwerk
 - Daten lagern auf fremden Server
@@ -231,10 +231,12 @@ Eine Vollsicherung wird erstellt.
 |Vorteile|Nachteile|
 |---|---|
 |einfache Widerherstellung|Potentieller Speicherzuwachs|
-|||
-|||
-|||
 
+
+## Backupstrategien
++ Großvater - Vater - Sohn 
++ Turm von Hanoi
++ 3-2-1 Backup-Regel
 
 
 
