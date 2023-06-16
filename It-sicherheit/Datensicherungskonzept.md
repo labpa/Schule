@@ -30,3 +30,40 @@ Die Wiederherstellungszeit (Recovery Time Objective, RTO) bezieht sich häufig a
 
 + RPO - Wiederherstellungspunktziele  
 Das Recovery Point Objective bezieht sich auf die Berechnung der Menge an Datenverlusten, die ein Unternehmen innerhalb eines für sein Geschäft relevanten Zeitraums erleiden kann, bevor ein signifikanter Schaden entsteht, und zwar vom Zeitpunkt eines Störungsereignisses bis zur letzten Datensicherung. Mit Hilfe des RPO wird ermittelt, wie viele Daten ein Unternehmen bei einem unvorhergesehenen Ereignis verlieren kann.
+
+![Alt text](./img/RTO-RPO.svg)
+
+## Kriterien for die Auswahl 
+### Eines geeigneten Sicherungsmediums
++ Kapazität
++ Geschwindigkeit
++ Zuverlässigkeit
++ Ggf. Portabilität
++ Skalierbarkeit
++ Kosten (sind wichtig für Wirtschaftlichkeit)
++ Sicherheit
++ Kompatibilität
+
+### Einer geeigneten Backup-Software
++ Kompatibilität
++ Kosten (Lizenz)
++ Zuverlässigkeit / Wiederherstellungszeit
++ Benutzerfreundlichkeit
++ Skalierbarkeit
++ Support
++ Funktionsumfang 
++ Datensicherheit u. Datenschutz
++ Wiederherstellungszeit / Zuverlässigkeit
++ Zentrale Verwaltung
++ Schnittstellen
+
+## Datenträger sicher aufbewahren
++ Datenträger vor Physischen Schäden schützen
+    + Feuchtigkeit
+    + Staub
+    + Licht / Wärme
+    + magnetische Felder
++ Daten auf dem Medium verschlüsseln
++ Lebensdauer der Datenträger beachten
++ Faktoren des einzelnen DAtenträger beachten welche zu einer verkürzten Lebensdauer führen
+
