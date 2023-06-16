@@ -67,3 +67,33 @@ Das Recovery Point Objective bezieht sich auf die Berechnung der Menge an Datenv
 + Lebensdauer der Datenträger beachten
 + Faktoren des einzelnen DAtenträger beachten welche zu einer verkürzten Lebensdauer führen
 
+## Verantwortlichkeiten und Zuständigkeiten
++ klare Rollen - Aufgabenbeschreibung
+    + Im Backup und Resrore-Prozess
++ Verantwortung an Endbenutzer ist ungünstig
+    + allgemein Automatisierung nach Standardisierung ist der Optimalfall - ausschließen des Fakto Mensch wo es geht
++ Richtlinien so festlegen, dass sie überprüftbar nach Verantwortlichen bzw. allgemein überpfüfbar sind.
++ Wer ist Zuständig / Verantwortlich für Test und überprüfung des Konzepts
++ Schulen und Bewusst machen
+
+## Notfallmaßnahmen für Datensicherungskonzept
++ Was für Risiken / Szenarien können eintreten?
+    + Prozess, Faktoren, Verantwortlichkeiten, ... kennen und abwägen
++ Risikoanalyse - Anschliesend werden Maßnahmen festgelegt
++ GGF. Notfallteam das in soch einem Fall Aktiv wird
++ Wer muss Informiert werden
++ Welche Maßnahmen werden wann, wie und duch wen realisiert.
++ Maßnahmen die RTO und RPO sicherstellen
+
+
+## Testen des Datensicherheitskonzepts
++ Überprüfung der IT-Sicherheitsziele
+    + CIS-Prinzip
+    + Besonders sind meine Daten korrekt
++ BAckup und restore-Prozess testen
++ ggf. simulieren eines Datenverlustes
++ Testen der Sicherheitsziele / Strategien
++ Überprüfen RTO und RPO
++ wird der Datenschutz berücksichtigt
++ Tests entsprechend dokumentieren
+    + ggf. Maßnahmen ableiten z.B. Schulung und Sensibilisierung
