@@ -101,4 +101,7 @@ Haussicherheitsgeräte
     + Präzisionsmessungen, Prozesssteuerung
 
 
-## Sensorik
+## Sensornetzwerke (SANET)
+
+### Aufbau von Sensornetzwerken
+![Alt text](./img/Sensornetzwerke.png)
