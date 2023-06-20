@@ -179,7 +179,35 @@ Da es sich bei vielen IoT-Implementierungen überwiegend um Sensoren handelt, we
 |Sicherheitsmaßnahmen|Verschlüsselung, Authentifizierung und andere Sicherheitsprotokolle zum Schutz der Daten und des Netzwerks|
 
 ### Drahtlose Sensornetze
++ Sensoren ermöglichen das Sammeln von Daten über Personen, Orte und Geräte.
+    + Aber nicht alle MEssungen sind relevant
++ Durch die lokale Verarbeitung der Daten kann die Menge der zu übertragenden Daten reduziert werden.
+    + Z.B. kann ein Schwellenwert definiert werden. Ein Wert unterhalb oder oberhalb dieser Schwelle kann interessant sein
++ Alternativ kann der Wert von zwei oder mehr Nachbarsensoren verglichen werden, und das Maximum oder Minimum davon kann übertragen werden.
++ Eine drahtlose Kommunikation vereinfacht die Bereitstellung.
 
+#### Vorteile
++ Drahtlose Sensoren können an Stellen plaziert werden, die für drahtgebundene Geräte nicht zugänglich sind.
++ schnellere und einfachere Installation und Wartung
++ Installation erfordert keine Unterbrechung des normalen Betriebs
++ Plazierung von Sensoren lässt sich leicht modifizieren und optimieren
++ Geringere Implementierungskosten
+
+#### Herausforderungen
++ Kommunikation ist unzuverlässig, langsam und energieaufwendig
++ Begrenzte Lebensdauer bei Batteriebetrieb
++ Begrenzte Rechen und Kommunikationsressourcen 
++ Geringe Speicherkapazität
++ Möglicherweise keine Unterstützung komplexer Software
++ Anfällig für Angriffe
++ Begrenzte Kommunikationsbandbreite erlaubt keine Implementierung von hochentwickelten Sicherheitsprotokollen
+
+### Kommunikationsprotokolle für drahtlose Sensornetzwerke
++ Tausende verschiedene Arten von Sensoren und Aktoren
++ WSNs werden heterogener und weisen komplexe Interaktionen auf
++ Entwicklung von homogenen zu heterogenen Netzwerken mit verschiedenen Sensortypen
++ Einzweck-Netzwerke entwickeln sich zu flexibleren Mehrzweck-Netzwerken
++ Skalierbarkeit und Anpassungsfähigkeit an spezifischen Anwendungsanforderungen
 
 
 
