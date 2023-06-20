@@ -144,4 +144,22 @@ Da es sich bei vielen IoT-Implementierungen überwiegend um Sensoren handelt, we
     + Kommunikationsprotokolle und Technologien variieren je nach Netzwerktyp
 
 ### Bestandteile eines Sensornetzwerks
+|Bestandteil|Beschreibung|
+|---|---|
+|Sensoren|Erfassen physikalischer Größen wie Temperaturen, Druck, Bewegung usw.|
+|Aktoren|Führen Aktionen basierend auf den von den Sensoren erfassten Daten aus|
+|Gateway / Hub|Zentraler Knotenpunkt, der die Kommunikation zwischen Sensoren, Aktoren und anderen Komponenten ermöglicht.|
+|Kommunikationsprotokoll|Definiert die Standards und Regeln für die Kommunikation zwischen den Sensoren und dem Gateway/Hub |
+|Drahtlose Kommunikation|Funktechnologien wie WLAN, Bluetooth, Zigbee usw., die für die drahtlose Übertragung von Daten im Netzwerk verwendet werden|
+|Verkabelte Kommunikation|Verkabelte Verbindungen wie Ethernet, RS-485 usw., für die Datenübertragung über Kabel verwendet werden|
+|Energiequelle|Batterien, Netzteile oder Energieerzeugung aus der Umgebung (z.B. Solar, kinetische Energie)|
+|Datenverarbeitung|Mikrocontroller oder Prozessoren zur Verarbeitung der von den Sensoren erfassten Daten|
+|Datenspeicherung|Speichermedien wie Festplatten, Flash-Speicher oder Cloud-Services zur Aufbewahrung der erfassten Daten|
+|Datenanalyse|Algorithmen und Software zur Auswertung und Interpretation der erfassten Daten|
+|Sicherheitsmaßnahmen|Verschlüsselung, Authentifizierung und andere Sicherheitsprotokolle zum Schutz der Daten und des Netzwerks|
+
+### Drahtlose Sensornetze
+
+
+
 
