@@ -11,15 +11,37 @@
 Smart Home, Industries 4.0, Gesundheitswesen, Logistik, Verkehr, etc.
 
 ## Eingeschränkte Geräte
-+ Intelligente Sensoren
-+ Eingebettete Geräte
-+ Prototyping 
+Das IoT besteht aus eingeschränkten Geräten, die in der Regel nur über sehr begrenzte Leistung, Speicher und Verarbeitungszyklen verfügen. Die Kommunikationsmöglichkeiten sind begrenzt und es ist unwarscheinlich, dass Verschlüsselung implementiert ist (eine der OWASP-Schwachstellen).
+
++ **Eingeschränkte Geräte:**
+    + Intelligente Sensoren
+        + Zentrum der IoT-Geräte. Sie sind in der Lage, durch einen Mikroprozessor mit einem Überwachungssystem zu kommunizieren und haben die Fähigkeit ein Problem selbst zu Diagnostizieren.
+    + Eingebettete Geräte
+        + Ernhalten ein Computersystem, das für einen speziellen Zweck entwickelt wurde, in der Regel für eine einzige Anwendung. Die Produkte können mit dem Internet verbunden werden und gelten als smart oder intelligent.
+    + Prototyping
+        + Raspberry Pi und Arduino sind Prototyping-Geräte für eingebettete Systeme. Der Raspberry Pi benötigt zum Betrieb ein vollständiges Betriebssystem. Der Arduino ist ein Einplatinen-Mikrocontroller, der durch das schreiben von Programmcode konfiguriert werden kann, um ihn mit verschiedenen Funktionen zu beauftragen. Das Programm wird dann kompiliert und an den nichtflüchtigen Flash-Speicher des Arduino gesendet.
 
 ## Eingebettete Systeme
-Eingebettete Systeme sind fpr bestimmte Funktionen innerhalb eines größeren konzipiert.
+Eingebettete Systeme sind für bestimmte Funktionen innerhalb eines größeren  Systems konzipiert.
++ Beispiel: Haussicherheitsgeräte
+    + Alle Vorgänge werden von einem speziell für diesen Zweck entwickelten Mikrocontroller gesteuert.
+    + Der Mikrocontroller kann für die spezifischen Sensoren der Anlage programmiert werden.
+        + Zu den Sensoren können Rauch, Bewegungs, Gas und Temperatursensoren gehören, die Daten an den Mikrocontroller liefern, der dann einen Alarm auslöst, wenn for den jeweiligen Sensor festgelegten Schwellenwerte überschritten werden.
+### Eingebettete Systeme - Merkmale
++ Rechner (HW + SW) meist unsichtbar in System integriert
++ Systemumfeld bestimmt Anforderungen an das eingebettete System
++ Echtzeitanforderungen
++ Ausfallsicherheit
++ Batteriebetrieb
++ Begrenzte Ressourcen
++ Eingebettete Betriebssysteme
 
-**Beispiel:**  
-Haussicherheitsgeräte
+![Alt text](./img/EingebettetesSystem.png)
+
+
+
+
+
 
 ## Definition
 + Funktionalität und Aufgaben:
@@ -41,8 +63,6 @@ Haussicherheitsgeräte
 + Kontextsensivität
     + Erfassung und Nutzung von Umgebungsinformationen
     + Anpassung von Funktionen oder Aktionen basieren auf Standortdaten, Umgebungstemperatur oder Benutzerpräferenzen
-
-## Eingebettete Systeme
 
 ## Cyber-physische Systeme (CPS)
 
