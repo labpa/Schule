@@ -104,4 +104,11 @@ Haussicherheitsgeräte
 ## Sensornetzwerke (SANET)
 
 ### Aufbau von Sensornetzwerken
++ Große Anzahl an Sensorknoten welche die Datenaufnahme realisieren
++ Gateway welches die Verbindung zwischen Sensorknoten und dem Internet / Netzwerk ermöglicht
++ Nutzer als Abnehmer der Informationen (kann auch ein Informationssystem sein)
+
 ![Alt text](./img/Sensornetzwerke.png)
+
+Im Rahmen von engmaschigen Sensornetzwerken sind Sensorknoten nur selten direkt mit dem Internet verbunden. Häufig übernimmt ein Gateway die Verbindung zwischen Sensornetzwerk und dem Internet. Ein Funkstandard zu diesem Zweck ist LoRaWAN.
+
