@@ -112,3 +112,36 @@ Haussicherheitsgeräte
 
 Im Rahmen von engmaschigen Sensornetzwerken sind Sensorknoten nur selten direkt mit dem Internet verbunden. Häufig übernimmt ein Gateway die Verbindung zwischen Sensornetzwerk und dem Internet. Ein Funkstandard zu diesem Zweck ist LoRaWAN.
 
+### Sensornetzwerke mit Aktoren
++ Sensor- und Aktorennetzwerk oder drahtloses Sensor-Aktor-Netzwerk
+    + Im Englischen: Wireless Sensor and Actor Network (WSAN)
+
++ drahtlose SANETs üblicherweise aks drahtlos Sensor- und Aktorennetzwerke (**WSANs**) bezeichnet
+
+Da es sich bei vielen IoT-Implementierungen überwiegend um Sensoren handelt, werden WSANs häufig als drahtlose Semsorennetzwerke (**WSNs**) beueichnet.
+
+## Sensor-Netzwerk vs. Drahtloses Sensor-Netzwerk
++ **Sensornetzwerk:**
+    + Sensoren sind miteinander Verbunden
+    + Daten werden über eine kabelgebundene Infrastruktur übertragen
+    + Kommunikationsprotokolle: Ethernet, serielle Verbindungen
+    + Beispiel für Technologien: RS-485, Modbus
+
++ **Drahtloses Sensor-Netzwerk:**
+    + Sensoren sind drahtlos verbunden
+    + Daten werden über drahtlose Kommunikationstechnologien übertragen
+    + Kommunikationsprotokolle: WLAN, Bluetooth, Zigbee, LoRaWAN
+    + Biespiele für Technologien: Zigbee, IEEE 802.15.4, Bluetooth Low Energy
+
++ **Gemeinsamkeiten:**
+    + Beide erfassen Daten über ihre Umgebung
+    + Daten können an eine zentrale Verarbeitungseinheit gesendet werden
+    + Energieeffizienz und Batterielaufzeit sind wichtige Überlegungen
+
++ **Unterschiede:**
+    + Sensor-Netzwerk verwendet kabelgebundene Kommunikation
+    + Drahtlose Sensor-Netzwerk nutzt drahtlose Kommunikationstechnologien
+    + Kommunikationsprotokolle und Technologien variieren je nach Netzwerktyp
+
+### Bestandteile eines Sensornetzwerks
+
