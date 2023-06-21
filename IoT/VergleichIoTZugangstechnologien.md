@@ -16,8 +16,8 @@ zur physikalischen Schicht und den drahtgebundenen oder drahtlosen Verfahren
     + Baumstruktur
 
 + Übertragungsreichweite
-    + Außenbereich: maximal 100m
-    + Innenbreich. maximal 30m
+    + Außenbereich: maximal 100 m
+    + Innenbreich. maximal 30 m
 
 + Datenrate (brutto)
     + Europa: 20 kBit/s
@@ -34,15 +34,31 @@ zur physikalischen Schicht und den drahtgebundenen oder drahtlosen Verfahren
     + Die Schlüssel werden durch die darüberliegende Schicht festgelegt und anschließend durch den MAC-Layer verwaltet. Die Verschlüsselung wird für jeden Kommunikationspartner separat festgelegt und automatisch vom MAC-Layer angewendet. War ein empfangenes Paket verschlüsselt, zeigt dies ein Parameter in der Indication-Primitive an.
 
 ### Zigbee
+ZigBee sieht zwei Geräteklassen vor:  
++ Full Function Device (FFD): Ein FFD beherrscht den kompletten Protokollstack und kann mit RFDs und anderen FFDs kommunizieren.
++ Reduced Function Device (RFD): Ein RFD ist einfacher implementiert und kann nur mit einem FFD kommunizieren.
+
 + Netzwerkarchitektur
-    + PAN-Koordinator
-    + Full Function Deviced (FFD)
-    + Reduced Function Device (RFD)
+    + Stern
+    + Cluster-Tree
+    + Mesh-Netz
+
 + Übertragungsreichweite
+    + ca. 10 m
+
 + Datenrate
+    + 250 kBits/s
+
 + Energieeffizienz
+    + sehr sparsam
+
 + Skalierbarkeit
+
 + Sicherheitsfunktion
++ 1. Stufe: "keine Sicherheitsvorkehrung". 
++ 2. Stufe: einfache Zugangskontrolle
++ 3. Symmetrischen Verschlüsselung mit AES und einer Schlüssellänge von 128 Bit.
+
 
 ### 1901.2a
 + Netzwerkarchitektur
@@ -68,10 +84,21 @@ zur physikalischen Schicht und den drahtgebundenen oder drahtlosen Verfahren
 + Skalierbarkeit
 + Sicherheitsfunktion
 
-### NB-IoT
+### NB-IoT NarrowBand IoT
+Bei NarrowBand IoT handelt es sich um einen Funkstandard, der speziell für das Internet der Dinge (IoT, Internet of Things) vorgesehen ist. Er setzt auf vorhandene Mobilfunknetze auf und ermöglicht die Vernetzung von Geräten und Maschinen bei hoher Funkabdeckung und geringem Energiebedarf.
+
 + Netzwerkarchitektur
+
 + Übertragungsreichweite
+    + Signalreichweite bis zu >10 km
 + Datenrate
+    + Up- und Downloadrate liegt bei ca. 250 kbit/s
+
 + Energieeffizienz
+    + sehr geringer Energieverbrauch
+    + Versorgung durch Batterien
+
 + Skalierbarkeit
+
 + Sicherheitsfunktion
+    + gegenseitiges Authentifizieren
