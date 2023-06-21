@@ -136,8 +136,34 @@ Predictive Analytics möchte in die Zukunft zu blicken, und versucht das Folgend
 
 ## Links
 https://www.computerweekly.com/de/definition/Die-sechs-Vs-von-Big-Data
-
+## Kriterien für IoT Zugangstechnologien
++ **Komplexes IoT-Ökosystem**
+    + Das IoT umfasst eine Vielzahl von Geräten, Protokollen und Anwendungen
+    + Eine Diskussion über Kriterien ermöglicht eine ganzheitliche Betrachtung des Ökosystems und der Berücksichtigung der unterscheidlichen Anforderungen
++ **Vielfalt der IoT-Geräte**
+    + IoT-Geräte varriieren in ihren Funktionen, Kommunikationsfähigkeiten und Ressourcen
+    + Die Kriteriendiskussion hilft bei der Auswahl von Zugangstechnologien, die mit verscheidenen Geräteklassen kompatibel sind.
++ **Ressourcenbeschränkungen der IoT-Geräte**
+    + IoT-Geräte haben begrenzte Ressourcen wie Energie, Rechenleistung und Speicherplatz
+    + Die Berücksichtigung von Kriterien ermöglicht eine effiziente Nutzung der Ressourcen und verlängert die Lebensdauer der Geräte
++ **Unterschiedliche Kommunikationsanforderungen**
+    + IoT-Anwendungsszenarien erfordern unterscheidliche Arten von Kommunikation (Echtzeit, periodisch, energiegesteuert)
+    + Die Diskussion über Kriterien ermöglicht die Auswahl von Zugangstechnologien, die den spezifischen Anforderungen gerecht werden.
+    
 ## Funkstandards
-
 ### Reichweite
+Die Reichweite bezieht sich auf die maximale Entfernung oder den Aktionsradium´s, üder den eine IoT-Zugangstechnologi Daten senden oder empfangen kann. Die Reichweite spielt eine entscheidende Rolle bei der Wahl der geeigneten Zugangstechnologie, da die die räumliche Abdeckung und Konnektivität der IoT-Geräte beeinflusst. Eine ausreichende Reichweite ist erfoderlich, um Geräte in verschiedenen Entfernungen effektiv zu verbinden und eine nahtlose Kommunikation zu ermöglichen.
++ Kategorisierung der Zugangstechnologien basierend auf Reichweite:
+    + **kurze Reichweite:** Bis zu einigen Metern
+        + Bluetooth
+        + NFC
+        + Zigbee
+    + **Mittlerer Bereich:** Reichweite von einigen zehn, bis hundert Metern.
+        + Wi-Fi (802.11)
+        + Z-Wave
+    + **Große Reichweite:** Kann mehrere Kilometer abdecken
+        + LoRaWAN
+        + NB-IoT
+        + Sigfox
+
 ![Alt text](./img/FunkstandardsReichweite.png)
