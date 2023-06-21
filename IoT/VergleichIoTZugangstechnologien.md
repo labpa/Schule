@@ -70,10 +70,23 @@ ZigBee sieht zwei Geräteklassen vor:
 
 ### 802.11ah
 + Netzwerkarchitektur
+    + Sterntopologie
+    + Baumtopologie
+
 + Übertragungsreichweite
+    + Es handelt sich um ein Low-Power-WLAN
+    + Reichweiten bis zu 1 km möglich
+
 + Datenrate
+    + 230 MBit/s
+    + Frequenzband um 900 MHz   
+
 + Energieeffizienz
+    + Energieeffizient
+
 + Skalierbarkeit
+    + hohe Skalierbarkeit
+
 + Sicherheitsfunktion
 
 ### LoRaWAN Long Range Wide Area Network
@@ -84,7 +97,7 @@ ZigBee sieht zwei Geräteklassen vor:
     + bis zu 15 km
 + Datenrate
     + 0,3 kbps bis zu 50 kbps
-    
+
 + Energieeffizienz
     + sehr energieeffizient
     + Batterielaufzeit bis zu 10 Jahren
