@@ -134,8 +134,10 @@ Predictive Analytics möchte in die Zukunft zu blicken, und versucht das Folgend
 ## Erinnerung
 ![Alt text](./img/overview.png)
 
-
-
 ## Links
-
 https://www.computerweekly.com/de/definition/Die-sechs-Vs-von-Big-Data
+
+## Funkstandards
+
+### Reichweite
+![Alt text](./img/FunkstandardsReichweite.png)
