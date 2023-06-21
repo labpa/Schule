@@ -149,7 +149,7 @@ https://www.computerweekly.com/de/definition/Die-sechs-Vs-von-Big-Data
 + **Unterschiedliche Kommunikationsanforderungen**
     + IoT-Anwendungsszenarien erfordern unterscheidliche Arten von Kommunikation (Echtzeit, periodisch, energiegesteuert)
     + Die Diskussion über Kriterien ermöglicht die Auswahl von Zugangstechnologien, die den spezifischen Anforderungen gerecht werden.
-    
+
 ## Funkstandards
 ### Reichweite
 Die Reichweite bezieht sich auf die maximale Entfernung oder den Aktionsradium´s, üder den eine IoT-Zugangstechnologi Daten senden oder empfangen kann. Die Reichweite spielt eine entscheidende Rolle bei der Wahl der geeigneten Zugangstechnologie, da die die räumliche Abdeckung und Konnektivität der IoT-Geräte beeinflusst. Eine ausreichende Reichweite ist erfoderlich, um Geräte in verschiedenen Entfernungen effektiv zu verbinden und eine nahtlose Kommunikation zu ermöglichen.
@@ -167,3 +167,69 @@ Die Reichweite bezieht sich auf die maximale Entfernung oder den Aktionsradium´
         + Sigfox
 
 ![Alt text](./img/FunkstandardsReichweite.png)
+
+### Frequenzbänder
+Funkspektrum wird von Ländern und/oder Organisationen reguliert, wie z.B. der Internationale Telecommunication Union (ITU) und der Federal Communications Commission (FCC). Auf der ganzen Welt wird das Spektrum für verscheidene Kommunikationszwecke oft als kritische Ressource betrachtet. Frequenzbänder, die von der drahtlosen Kommunikation genutzt werden, sind in **lizenzierte** und **nicht lizenzierte Bänder** aufgeteilt.
+
+Die ITU hat auch nicht lizenzierte Frequenzen für die industriellen, wissenschaftlichen und medizinischen (ISM) Teile der Funkbänder definiert:
++ 2,4-GHz-Band wie von IEEE 802.11b/g/n Wi-Fi verwendet
++ IEEE 802.15.1 Bluetooth
++ IEEE 802.15.4 WPAN
+
+Unterscheidliche Frequenzbänder eignen sich für unterscheidliche Anwendungsszenarien und Umgebungen.
+
++ **Lizenzfreie Frequenzbänder:**
+    + Diese Bänder erfordern keine spezielle Lizenzierung und stehen für allgemeine Nutzung zur verfügung.
+        + 2,4 GHz (Wi-Fi, Bluetooth)
+        + 868 MHz (Zigbee)
+        + 915 MHz (LoRa)
++ **Lizenzierte Frequenzbänder:**
+    + Diese Bänder erfordern eine spezielle Genehmigung oder Lizenzierung von Behörden
+        + 900 MHz
+        + 1800 MHz
+        + 2.6 GHz 
+        + -> Mobilfunknetze
+
+## Stromverbrauch
++ Ein Stromversorgter Knoten hat eine direkte Verbindung zu einer Stromquelle, und die Kommunikation wird normalerweise nicht durch Kriterien des Stromverbrauchs eingeschränkt
++ Die einfache Bereitstellung von stromversorgten Knoten wird jedoch durch die Verfügbarkeit einer Stromquelle eingeschränkt, was die Mobilität komplexer macht
++ Batteriebetriebene Knoten bringen viel mehr Flexibilität in IoT-Geräte. Diese Knoten werden oft nach der erforderlichen Lebensdauer ihrer Batterie klassifiziert.
++ Die drahtlosen IoT-Zugangstechnologien müssen die Anforderungen an einen geringen Stromverbrauch und Konnektivität für batteriebetriebene Knoten erfüllen. Dies hat zur Entwicklung einer neuen drahtlosen Umgebung geführt, die als **Low-Power Wide-Area (LPWA)** bekannt ist.
+
+
+|Stromverbrauchskategorie|Beschreibung|Beispieltechnologien|Ungefährer Stromverbrauch|
+|---|---|---|---|
+|Niedrig|Geringer Stromverbrauch, batteriebetrieben|Bluetooth Low Energy (BLE)|Weniger als 1 mA|
+|Moderat|Mäßiger Stromverbrauch, längere Akkulaufzeit|Zigbee, Z-Wave|1-10 mA|
+|Hoch|Hoher Stromverbrauch, Netzstrom oder kabelgebunden|Wi-Fi, Cellular (4G/5G)|Mehr als 10 mA|
+
+## Topologien 
+### Star Topologie
+![Alt text](./img/StarTopologie.png)
+**Beschreibung:**  
+Zentrales Gerät (Hub oder Gateway) ist mit allen IoT-geräten verbunden
+
+**Beispiele:**  
+Zigbee, Z-Wave, Wi-Fi
+
+### Peer-to-Peer Topologie
+![Alt text](./img/PtPTopologie.png)
+**Beschreibung:**  
+Jedes Gerät kommuniziert direkt mit einem anderen Gerät
+
+**Beispiele:**  
+Bluetooth, Wi-Fi
+
+### Mesh Topologie
+![Alt text](./img/MeshTopologie.png)
+**Beschreibung:**  
+Jedes GErät ist mit mehreren anderen Geräten verbunden, um ein Netzwerk zu bilden
+
+**Beispiele:**  
+WirelessHART, Thread
+
+### Andere
+|Topologie|Beschreibung|Beispiele|
+|---|---|---|
+|Baum-Topologien|Geräte sind hierarchisch in einem Baumstruktur-Netzwerk angeordnet, mit einem zentralen Gerät|EnOcean, LoraWAN|
+|Hybrid-Topologie|Kombination verschiedener Topologien, um die Vorteile mehrer Ansätze zu nutzen|Hybridnetzwerke mit Wi-Fi|
