@@ -14,15 +14,20 @@ zur physikalischen Schicht und den drahtgebundenen oder drahtlosen Verfahren
     + Stern
     + Peer-to-Peer
     + Baumstruktur
+
 + Übertragungsreichweite
     + Außenbereich: maximal 100m
     + Innenbreich. maximal 30m
+
 + Datenrate (brutto)
     + Europa: 20 kBit/s
     + USA: 40 kBits/s
     + Weltweit: 250 kBits/s
+
 + Energieeffizienz
+
 + Skalierbarkeit
+
 + Sicherheitsfunktion
     + Sicherheitsmaßnahmen auf MAC-Ebene durch Message-Integrity-Check und symmetrische Verschlüsselung. 
     + Es kann zwischen mehreren Verfahren gewählt werden, die auf CCM und AES basieren. 
