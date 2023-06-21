@@ -76,13 +76,26 @@ ZigBee sieht zwei Geräteklassen vor:
 + Skalierbarkeit
 + Sicherheitsfunktion
 
-### LoRaWAN
+### LoRaWAN Long Range Wide Area Network
 + Netzwerkarchitektur
+    + Sterntopologie
+
 + Übertragungsreichweite
+    + bis zu 15 km
 + Datenrate
+    + 0,3 kbps bis zu 50 kbps
+    
 + Energieeffizienz
+    + sehr energieeffizient
+    + Batterielaufzeit bis zu 10 Jahren
+
 + Skalierbarkeit
++ sehr hohe skalierbarkeit
+
 + Sicherheitsfunktion
++ Sicherheit auf Netzwerkebene und eindeutiger Netzwerkschlüssel (EUI64)
++ Ein einzigartiger Application Key (EUI64) sorgt für die Sicherheit auf der    Applikationsebene
++ Gerätespezifischer Schlüssel (EUI128)
 
 ### NB-IoT NarrowBand IoT
 Bei NarrowBand IoT handelt es sich um einen Funkstandard, der speziell für das Internet der Dinge (IoT, Internet of Things) vorgesehen ist. Er setzt auf vorhandene Mobilfunknetze auf und ermöglicht die Vernetzung von Geräten und Maschinen bei hoher Funkabdeckung und geringem Energiebedarf.
@@ -99,6 +112,8 @@ Bei NarrowBand IoT handelt es sich um einen Funkstandard, der speziell für das 
     + Versorgung durch Batterien
 
 + Skalierbarkeit
+    + hohe skalierbarkeit
 
 + Sicherheitsfunktion
     + gegenseitiges Authentifizieren
+    + weißt alle Sicherheits und Datenschutzmerkmale von Mobilfunknetzten auf
