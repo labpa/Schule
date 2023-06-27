@@ -14,3 +14,67 @@
 + weniger Kosten für Ausfallsicherheit
 
 ## Cloud und Cloudcomputing
+
+
+## Virtualisierung und Cloud Computing
+### Einführung
++ Es gibt verschiedene Technologien, Produkte und Geschäftsmodelle für unterschiedliche Anwendungsszenarien.
+    + Klassische Servervirtualisierung
+    + Infrastrukturen für virtuelle Arbeitsplätze
+    + Anwendungsvirtualisierung
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Sammlung
+Hyper V  
+
+Citrix Hypervisor
